@@ -1658,3 +1658,20 @@
 2025-10-29T21:33:12: Health check available at http://localhost:8080/health
 2025-10-29T21:33:12: FHIR API available at http://localhost:8080/api/fhir
 2025-10-29T21:33:12: Database API available at http://localhost:8080/api/db
+2025-10-29T21:34:21: Server running on port 8080
+2025-10-29T21:34:21: Health check available at http://localhost:8080/health
+2025-10-29T21:34:21: FHIR API available at http://localhost:8080/api/fhir
+2025-10-29T21:34:21: Database API available at http://localhost:8080/api/db
+2025-10-30T02:21:00: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-10-30T00:21:00.197Z"}
+2025-10-30T02:21:00: [32minfo[39m: Database connection pool initialized for 'nursing_home_db' {"service":"nursing-home-backend","timestamp":"2025-10-30T00:21:00.206Z"}
+2025-10-30T02:21:00: [32minfo[39m: Retrieved 3 patients {"service":"nursing-home-backend","timestamp":"2025-10-30T00:21:00.320Z"}
+2025-10-30T02:21:00: ::1 - - [30/Oct/2025:00:21:00 +0000] "GET /api/patients HTTP/1.1" 200 3619 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-10-30T02:21:00: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-10-30T00:21:00.346Z"}
+2025-10-30T02:21:00: [32minfo[39m: Retrieved 3 patients {"service":"nursing-home-backend","timestamp":"2025-10-30T00:21:00.353Z"}
+2025-10-30T02:21:00: ::1 - - [30/Oct/2025:00:21:00 +0000] "GET /api/patients HTTP/1.1" 200 3619 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-10-30T02:21:03: [32minfo[39m: Fetching patient with ID: a1f1cfdd-93c5-405b-82ea-58ba86fd4f25 {"service":"nursing-home-backend","timestamp":"2025-10-30T00:21:03.605Z"}
+2025-10-30T02:21:03: [32minfo[39m: Retrieved patient: Aino Korhonen {"service":"nursing-home-backend","timestamp":"2025-10-30T00:21:03.614Z"}
+2025-10-30T02:21:03: ::1 - - [30/Oct/2025:00:21:03 +0000] "GET /api/patients/a1f1cfdd-93c5-405b-82ea-58ba86fd4f25 HTTP/1.1" 200 1410 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-10-30T02:21:03: [32minfo[39m: Fetching patient with ID: a1f1cfdd-93c5-405b-82ea-58ba86fd4f25 {"service":"nursing-home-backend","timestamp":"2025-10-30T00:21:03.625Z"}
+2025-10-30T02:21:03: [32minfo[39m: Retrieved patient: Aino Korhonen {"service":"nursing-home-backend","timestamp":"2025-10-30T00:21:03.630Z"}
+2025-10-30T02:21:03: ::1 - - [30/Oct/2025:00:21:03 +0000] "GET /api/patients/a1f1cfdd-93c5-405b-82ea-58ba86fd4f25 HTTP/1.1" 200 1410 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"

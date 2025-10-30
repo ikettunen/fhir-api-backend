@@ -1,4 +1,3 @@
-require('dotenv').config();
 const { v4: uuidv4 } = require('uuid');
 const bcrypt = require('bcryptjs');
 const database = require('../config/database');
@@ -63,28 +62,123 @@ const sampleAllergies = [
   'Penicillin', 'Peanuts', 'Shellfish', 'Latex', 'Sulfa drugs'
 ];
 
+const sampleStaff = [
+  {
+    id: 'S0001',
+    first_name: 'Anna',
+    last_name: 'Virtanen',
+    role: 'Nurse',
+    department: 'Nursing',
+    email: 'anna.virtanen@nursinghome.com',
+    phone: '+358-40-123-4567',
+    hire_date: '2020-01-15',
+    status: 'active'
+  },
+  {
+    id: 'S0002',
+    first_name: 'Mikko',
+    last_name: 'Korhonen',
+    role: 'Doctor',
+    department: 'Medical',
+    email: 'mikko.korhonen@nursinghome.com',
+    phone: '+358-40-234-5678',
+    hire_date: '2019-03-10',
+    status: 'active'
+  },
+  {
+    id: 'S0003',
+    first_name: 'Liisa',
+    last_name: 'Mäkinen',
+    role: 'Physical Therapist',
+    department: 'Therapy',
+    email: 'liisa.makinen@nursinghome.com',
+    phone: '+358-40-345-6789',
+    hire_date: '2021-06-01',
+    status: 'active'
+  },
+  {
+    id: 'S0098',
+    first_name: 'Zachariah',
+    last_name: 'Kiehn',
+    role: 'Administrator',
+    department: 'Administration',
+    email: 'zachariah.kiehn36@nursinghome.com',
+    phone: '872-220-3587',
+    hire_date: '2018-01-01',
+    status: 'active'
+  }
+];
+
 async function seedDatabase() {
   try {
     logger.info('Starting database seeding...');
-    
+
+    // Close any existing connection first
+    await database.close();
+
+    // Initialize connection pool
     await database.initialize();
-    
+
+    // Explicitly select the database
+    const dbName = process.env.DB_NAME || 'nursing_home_db';
+    await database.query(`USE \`${dbName}\``);
+    logger.info(`Using database: ${dbName}`);
+
+    // Verify required tables exist before seeding
+    logger.info('Verifying required tables exist...');
+    const tables = await database.query('SHOW TABLES');
+    let tableNames = [];
+    if (tables && tables.length > 0) {
+      const firstKey = Object.keys(tables[0])[0];
+      tableNames = tables.map(row => row[firstKey]);
+    }
+
+    if (tableNames.length === 0) {
+      throw new Error('No tables found in database. Please run migrations first.');
+    }
+
+    logger.info(`Found ${tableNames.length} tables: ${tableNames.join(', ')}`);
+
     // Clear existing data (in reverse order of dependencies)
-    await database.query('DELETE FROM visit_photos');
-    await database.query('DELETE FROM vital_signs');
-    await database.query('DELETE FROM visit_tasks');
-    await database.query('DELETE FROM visits');
-    await database.query('DELETE FROM patient_allergies');
-    await database.query('DELETE FROM emergency_contacts');
-    await database.query('DELETE FROM medications');
-    await database.query('DELETE FROM medical_conditions');
-    await database.query('DELETE FROM patient_identifiers');
-    await database.query('DELETE FROM patients');
-    await database.query('DELETE FROM fhir_resources');
-    await database.query('DELETE FROM fhir_audit_log');
-    
+    // Use TRUNCATE for better performance, but fall back to DELETE if table doesn't exist
+    const tablesToClear = [
+      'visit_photos',
+      'vital_signs',
+      'visit_tasks',
+      'visits',
+      'patient_allergies',
+      'emergency_contacts',
+      'medications',
+      'medical_conditions',
+      'patient_identifiers',
+      'patients',
+      'fhir_resources',
+      'fhir_audit_log'
+    ];
+
+    for (const tableName of tablesToClear) {
+      if (tableNames.includes(tableName)) {
+        try {
+          // Try TRUNCATE first (faster), fall back to DELETE if foreign key constraints prevent it
+          await database.query(`TRUNCATE TABLE \`${tableName}\``);
+          logger.info(`Cleared table: ${tableName}`);
+        } catch (truncateError) {
+          // If TRUNCATE fails (e.g., due to foreign keys), use DELETE
+          if (truncateError.code === 'ER_TRUNCATE_ILLEGAL_FK' ||
+            truncateError.message.includes('foreign key')) {
+            await database.query(`DELETE FROM \`${tableName}\``);
+            logger.info(`Cleared table: ${tableName} (using DELETE)`);
+          } else {
+            throw truncateError;
+          }
+        }
+      } else {
+        logger.warn(`Table '${tableName}' not found, skipping clear operation`);
+      }
+    }
+
     logger.info('Cleared existing data');
-    
+
     // Insert sample patients
     for (const patient of samplePatients) {
       await database.query(`
@@ -95,13 +189,13 @@ async function seedDatabase() {
         patient.date_of_birth, patient.gender, patient.room, patient.admission_date,
         patient.status, patient.blood_type, patient.active
       ]);
-      
+
       // Add Finnish identifier
       await database.query(`
-        INSERT INTO patient_identifiers (patient_id, system, value, use_type)
+        INSERT INTO patient_identifiers (patient_id, \`system\`, value, use_type)
         VALUES (?, ?, ?, ?)
       `, [patient.id, 'urn:oid:1.2.246.21', patient.hetu, 'official']);
-      
+
       // Add some medical conditions
       const numConditions = Math.floor(Math.random() * 3) + 1;
       for (let i = 0; i < numConditions; i++) {
@@ -115,7 +209,7 @@ async function seedDatabase() {
           condition.severity, true
         ]);
       }
-      
+
       // Add some medications
       const numMedications = Math.floor(Math.random() * 3) + 1;
       for (let i = 0; i < numMedications; i++) {
@@ -130,7 +224,7 @@ async function seedDatabase() {
           true
         ]);
       }
-      
+
       // Add some allergies
       const numAllergies = Math.floor(Math.random() * 3);
       for (let i = 0; i < numAllergies; i++) {
@@ -140,7 +234,7 @@ async function seedDatabase() {
           VALUES (?, ?, ?, ?)
         `, [patient.id, allergy, 'moderate', true]);
       }
-      
+
       // Add emergency contact
       await database.query(`
         INSERT INTO emergency_contacts (patient_id, name, relationship, phone, email, priority, active)
@@ -150,14 +244,14 @@ async function seedDatabase() {
         '+358-40-123-4567', `contact.${patient.first_name.toLowerCase()}@example.com`,
         1, true
       ]);
-      
+
       // Add some visits
       const numVisits = Math.floor(Math.random() * 5) + 2;
       for (let i = 0; i < numVisits; i++) {
         const visitId = uuidv4();
         const scheduledTime = new Date(Date.now() + (i - 2) * 24 * 60 * 60 * 1000);
         const status = i < 2 ? 'finished' : (i === 2 ? 'in-progress' : 'planned');
-        
+
         await database.query(`
           INSERT INTO visits (id, patient_id, patient_name, nurse_id, nurse_name, scheduled_time, status, location)
           VALUES (?, ?, ?, ?, ?, ?, ?, ?)
@@ -165,7 +259,7 @@ async function seedDatabase() {
           visitId, patient.id, `${patient.first_name} ${patient.last_name}`,
           'staff-001', 'Anna Virtanen', scheduledTime, status, patient.room
         ]);
-        
+
         // Add some vital signs for completed visits
         if (status === 'finished') {
           const vitalSigns = [
@@ -174,7 +268,7 @@ async function seedDatabase() {
             { type: 'blood_pressure_systolic', loinc: '8480-6', value: 120 + Math.random() * 40, unit: 'mmHg' },
             { type: 'blood_pressure_diastolic', loinc: '8462-4', value: 70 + Math.random() * 20, unit: 'mmHg' }
           ];
-          
+
           for (const vital of vitalSigns) {
             await database.query(`
               INSERT INTO vital_signs (visit_id, patient_id, observation_type, loinc_code, value, unit, status, observed_at)
@@ -187,27 +281,35 @@ async function seedDatabase() {
         }
       }
     }
-    
-    // Update staff passwords with proper hashes
-    const hashedPassword = await bcrypt.hash('nursing123', 10);
-    await database.query(`
-      UPDATE staff SET password_hash = ? WHERE password_hash = '$2b$10$example_hash_here'
-    `, [hashedPassword]);
-    
+
+    // Insert sample staff
+    for (const staff of sampleStaff) {
+      await database.query(`
+        INSERT INTO staff (id, first_name, last_name, role, department, email, phone, hire_date, status, password_hash)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+      `, [
+        staff.id, staff.first_name, staff.last_name, staff.role,
+        staff.department, staff.email, staff.phone, staff.hire_date,
+        staff.status, await bcrypt.hash('nursing123', 10)
+      ]);
+    }
+
     logger.info('Database seeding completed successfully');
-    
+
     // Show summary
     const patientCount = await database.query('SELECT COUNT(*) as count FROM patients');
     const visitCount = await database.query('SELECT COUNT(*) as count FROM visits');
     const medicationCount = await database.query('SELECT COUNT(*) as count FROM medications');
     const vitalSignsCount = await database.query('SELECT COUNT(*) as count FROM vital_signs');
-    
+    const staffCount = await database.query('SELECT COUNT(*) as count FROM staff');
+
     logger.info(`Seeded database with:
       - ${patientCount[0].count} patients
       - ${visitCount[0].count} visits
       - ${medicationCount[0].count} medications
-      - ${vitalSignsCount[0].count} vital signs records`);
-    
+      - ${vitalSignsCount[0].count} vital signs records
+      - ${staffCount[0].count} staff members`);
+
   } catch (error) {
     logger.error('Database seeding failed:', error);
     throw error;

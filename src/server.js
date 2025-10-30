@@ -7,6 +7,8 @@ require('dotenv').config();
 
 // Import routes
 const fhirRoutes = require('./routes/fhir');
+const dbRoutes = require('./routes/db');
+const patientsRoutes = require('./routes/patients');
 
 // Import middleware
 const errorHandler = require('./middleware/errorHandler');
@@ -17,8 +19,10 @@ const PORT = process.env.PORT || 8080;
 // Security middleware
 app.use(helmet());
 app.use(cors({
-  origin: process.env.FRONTEND_URL || 'http://localhost:3000',
-  credentials: true
+  origin: true, // Allow all origins for development
+  credentials: true,
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With']
 }));
 
 // Rate limiting
@@ -46,6 +50,8 @@ app.get('/health', (req, res) => {
 
 // API routes
 app.use('/api/fhir', fhirRoutes);
+app.use('/api/db', dbRoutes);
+app.use('/api/patients', patientsRoutes);
 
 // Error handling middleware (must be last)
 app.use(errorHandler);
@@ -64,6 +70,7 @@ app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
   console.log(`Health check available at http://localhost:${PORT}/health`);
   console.log(`FHIR API available at http://localhost:${PORT}/api/fhir`);
+  console.log(`Database API available at http://localhost:${PORT}/api/db`);
 });
 
 module.exports = app;

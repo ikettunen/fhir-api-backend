@@ -1937,3 +1937,11 @@
 2025-11-16T13:37:04: Health check available at http://localhost:8080/health
 2025-11-16T13:37:04: FHIR API available at http://localhost:8080/api/fhir
 2025-11-16T13:37:04: Database API available at http://localhost:8080/api/db
+2025-11-16T13:38:43: Server running on port 8080
+2025-11-16T13:38:43: Health check available at http://localhost:8080/health
+2025-11-16T13:38:43: FHIR API available at http://localhost:8080/api/fhir
+2025-11-16T13:38:43: Database API available at http://localhost:8080/api/db
+2025-11-16T14:49:38: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-16T12:49:38.024Z"}
+2025-11-16T14:49:38: [32minfo[39m: Database connection pool initialized for 'nursing_home_db' {"service":"nursing-home-backend","timestamp":"2025-11-16T12:49:38.028Z"}
+2025-11-16T14:49:38: [32minfo[39m: Retrieved 12 patients {"service":"nursing-home-backend","timestamp":"2025-11-16T12:49:38.098Z"}
+2025-11-16T14:49:38: ::1 - - [16/Nov/2025:12:49:38 +0000] "GET /api/patients HTTP/1.1" 200 13326 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"

@@ -42,6 +42,123 @@ const samplePatients = [
     status: 'Stable',
     blood_type: 'B+',
     active: true
+  },
+  {
+    id: uuidv4(),
+    hetu: '120545-789A',
+    first_name: 'Helmi',
+    last_name: 'Nieminen',
+    date_of_birth: '1945-05-12',
+    gender: 'female',
+    room: '104',
+    admission_date: '2023-03-20',
+    status: 'Stable',
+    blood_type: 'AB+',
+    active: true
+  },
+  {
+    id: uuidv4(),
+    hetu: '250838-234B',
+    first_name: 'Veikko',
+    last_name: 'Lahtinen',
+    date_of_birth: '1938-08-25',
+    gender: 'male',
+    room: '105',
+    admission_date: '2023-07-05',
+    status: 'Critical',
+    blood_type: 'O-',
+    active: true
+  },
+  {
+    id: uuidv4(),
+    hetu: '180952-567C',
+    first_name: 'Sirkka',
+    last_name: 'Rantanen',
+    date_of_birth: '1952-09-18',
+    gender: 'female',
+    room: '106',
+    admission_date: '2023-02-14',
+    status: 'Improving',
+    blood_type: 'A-',
+    active: true
+  },
+  {
+    id: uuidv4(),
+    hetu: '051143-890D',
+    first_name: 'Kalevi',
+    last_name: 'Salo',
+    date_of_birth: '1943-11-05',
+    gender: 'male',
+    room: '107',
+    admission_date: '2023-08-12',
+    status: 'Stable',
+    blood_type: 'B-',
+    active: true
+  },
+  {
+    id: uuidv4(),
+    hetu: '220648-123E',
+    first_name: 'Liisa',
+    last_name: 'Heikkinen',
+    date_of_birth: '1948-06-22',
+    gender: 'female',
+    room: '108',
+    admission_date: '2023-01-30',
+    status: 'Stable',
+    blood_type: 'O+',
+    active: true
+  },
+  {
+    id: uuidv4(),
+    hetu: '140735-456F',
+    first_name: 'Pentti',
+    last_name: 'Koskinen',
+    date_of_birth: '1935-07-14',
+    gender: 'male',
+    room: '109',
+    admission_date: '2023-09-01',
+    status: 'Improving',
+    blood_type: 'A+',
+    active: true
+  },
+  {
+    id: uuidv4(),
+    hetu: '300941-789G',
+    first_name: 'Marjatta',
+    last_name: 'Laine',
+    date_of_birth: '1941-09-30',
+    gender: 'female',
+    room: '110',
+    admission_date: '2023-05-25',
+    status: 'Stable',
+    blood_type: 'B+',
+    active: true
+  },
+  {
+    id: uuidv4(),
+    hetu: '080550-234H',
+    first_name: 'Tapio',
+    last_name: 'Järvinen',
+    date_of_birth: '1950-05-08',
+    gender: 'male',
+    room: '111',
+    admission_date: '2023-06-18',
+    status: 'Critical',
+    blood_type: 'AB-',
+    active: true
+  },
+  {
+    id: uuidv4(),
+    hetu: '271246-567I',
+    first_name: 'Ritva',
+    last_name: 'Lehtonen',
+    date_of_birth: '1946-12-27',
+    gender: 'female',
+    room: '112',
+    admission_date: '2023-04-08',
+    status: 'Improving',
+    blood_type: 'O+',
+    active: true
   }
 ];
 
@@ -61,6 +178,21 @@ const sampleMedications = [
 const sampleAllergies = [
   'Penicillin', 'Peanuts', 'Shellfish', 'Latex', 'Sulfa drugs'
 ];
+
+const sampleTaskTemplates = [
+  { name: 'Medication Administration', description: 'Administer prescribed medications', category: 'medical', estimated_duration: 15 },
+  { name: 'Vital Signs Check', description: 'Measure and record vital signs', category: 'assessment', estimated_duration: 10 },
+  { name: 'Wound Care', description: 'Clean and dress wounds', category: 'medical', estimated_duration: 20 },
+  { name: 'Blood Glucose Test', description: 'Test blood glucose levels', category: 'assessment', estimated_duration: 5 },
+  { name: 'Physical Therapy', description: 'Assist with physical therapy exercises', category: 'therapy', estimated_duration: 30 },
+  { name: 'Bathing Assistance', description: 'Help patient with bathing', category: 'care', estimated_duration: 25 },
+  { name: 'Meal Assistance', description: 'Help patient with eating', category: 'care', estimated_duration: 20 },
+  { name: 'Mobility Assistance', description: 'Help patient move around', category: 'care', estimated_duration: 15 },
+  { name: 'Oxygen Therapy', description: 'Administer oxygen therapy', category: 'therapy', estimated_duration: 10 },
+  { name: 'Documentation', description: 'Update patient records', category: 'assessment', estimated_duration: 10 }
+];
+
+const taskStatuses = ['pending', 'in-progress', 'completed', 'cancelled'];
 
 const sampleStaff = [
   {
@@ -142,9 +274,7 @@ async function seedDatabase() {
     // Clear existing data (in reverse order of dependencies)
     // Use TRUNCATE for better performance, but fall back to DELETE if table doesn't exist
     const tablesToClear = [
-      'visit_photos',
       'vital_signs',
-      'visit_tasks',
       'visits',
       'patient_allergies',
       'emergency_contacts',
@@ -152,6 +282,7 @@ async function seedDatabase() {
       'medical_conditions',
       'patient_identifiers',
       'patients',
+      'staff',
       'fhir_resources',
       'fhir_audit_log'
     ];
@@ -245,28 +376,50 @@ async function seedDatabase() {
         1, true
       ]);
 
-      // Add some visits
-      const numVisits = Math.floor(Math.random() * 5) + 2;
+      // Add 10-15 visits per patient
+      const numVisits = Math.floor(Math.random() * 6) + 10; // 10-15 visits
       for (let i = 0; i < numVisits; i++) {
         const visitId = uuidv4();
-        const scheduledTime = new Date(Date.now() + (i - 2) * 24 * 60 * 60 * 1000);
-        const status = i < 2 ? 'finished' : (i === 2 ? 'in-progress' : 'planned');
+        // Spread visits over past 30 days and next 7 days
+        const daysOffset = i - Math.floor(numVisits * 0.7); // Most visits in the past
+        const scheduledTime = new Date(Date.now() + daysOffset * 24 * 60 * 60 * 1000);
+        
+        // Determine status based on time
+        let status;
+        if (daysOffset < -1) {
+          status = 'finished';
+        } else if (daysOffset === -1 || daysOffset === 0) {
+          status = Math.random() > 0.5 ? 'in-progress' : 'finished';
+        } else {
+          status = 'planned';
+        }
+
+        // Randomly assign nurse
+        const nurses = [
+          { id: 'S0001', name: 'Anna Virtanen' },
+          { id: 'S0003', name: 'Liisa Mäkinen' }
+        ];
+        const nurse = nurses[Math.floor(Math.random() * nurses.length)];
 
         await database.query(`
           INSERT INTO visits (id, patient_id, patient_name, nurse_id, nurse_name, scheduled_time, status, location)
           VALUES (?, ?, ?, ?, ?, ?, ?, ?)
         `, [
           visitId, patient.id, `${patient.first_name} ${patient.last_name}`,
-          'staff-001', 'Anna Virtanen', scheduledTime, status, patient.room
+          nurse.id, nurse.name, scheduledTime, status, patient.room
         ]);
 
-        // Add some vital signs for completed visits
+        // Tasks are now managed in MongoDB, not MySQL
+
+        // Add vital signs for completed visits
         if (status === 'finished') {
           const vitalSigns = [
             { type: 'temperature', loinc: '8310-5', value: 36.5 + Math.random() * 2, unit: '°C' },
             { type: 'heart_rate', loinc: '8867-4', value: 60 + Math.random() * 40, unit: 'bpm' },
             { type: 'blood_pressure_systolic', loinc: '8480-6', value: 120 + Math.random() * 40, unit: 'mmHg' },
-            { type: 'blood_pressure_diastolic', loinc: '8462-4', value: 70 + Math.random() * 20, unit: 'mmHg' }
+            { type: 'blood_pressure_diastolic', loinc: '8462-4', value: 70 + Math.random() * 20, unit: 'mmHg' },
+            { type: 'oxygen_saturation', loinc: '2708-6', value: 92 + Math.random() * 8, unit: '%' },
+            { type: 'respiratory_rate', loinc: '9279-1', value: 12 + Math.random() * 8, unit: '/min' }
           ];
 
           for (const vital of vitalSigns) {
@@ -305,10 +458,11 @@ async function seedDatabase() {
 
     logger.info(`Seeded database with:
       - ${patientCount[0].count} patients
-      - ${visitCount[0].count} visits
+      - ${visitCount[0].count} visits (medical encounters)
       - ${medicationCount[0].count} medications
       - ${vitalSignsCount[0].count} vital signs records
-      - ${staffCount[0].count} staff members`);
+      - ${staffCount[0].count} staff members
+      Note: Care tasks are managed in MongoDB`);
 
   } catch (error) {
     logger.error('Database seeding failed:', error);

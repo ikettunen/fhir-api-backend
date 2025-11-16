@@ -1369,3 +1369,571 @@
 2025-10-30T02:21:03: [32minfo[39m: Fetching patient with ID: a1f1cfdd-93c5-405b-82ea-58ba86fd4f25 {"service":"nursing-home-backend","timestamp":"2025-10-30T00:21:03.625Z"}
 2025-10-30T02:21:03: [32minfo[39m: Retrieved patient: Aino Korhonen {"service":"nursing-home-backend","timestamp":"2025-10-30T00:21:03.630Z"}
 2025-10-30T02:21:03: ::1 - - [30/Oct/2025:00:21:03 +0000] "GET /api/patients/a1f1cfdd-93c5-405b-82ea-58ba86fd4f25 HTTP/1.1" 200 1410 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-07T17:22:58: Server running on port 8080
+2025-11-07T17:22:58: Health check available at http://localhost:8080/health
+2025-11-07T17:22:58: FHIR API available at http://localhost:8080/api/fhir
+2025-11-07T17:22:58: Database API available at http://localhost:8080/api/db
+2025-11-07T17:36:22: Server running on port 8080
+2025-11-07T17:36:22: Health check available at http://localhost:8080/health
+2025-11-07T17:36:22: FHIR API available at http://localhost:8080/api/fhir
+2025-11-07T17:36:22: Database API available at http://localhost:8080/api/db
+2025-11-07T17:36:43: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-07T15:36:43.602Z"}
+2025-11-07T17:36:43: [32minfo[39m: Database connection pool initialized for 'nursing_home_db' {"service":"nursing-home-backend","timestamp":"2025-11-07T15:36:43.607Z"}
+2025-11-07T17:36:43: [32minfo[39m: Retrieved 3 patients {"service":"nursing-home-backend","timestamp":"2025-11-07T15:36:43.711Z"}
+2025-11-07T17:36:43: ::1 - - [07/Nov/2025:15:36:43 +0000] "GET /api/patients HTTP/1.1" 200 3619 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-07T17:36:44: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-07T15:36:44.035Z"}
+2025-11-07T17:36:44: [32minfo[39m: Retrieved 3 patients {"service":"nursing-home-backend","timestamp":"2025-11-07T15:36:44.041Z"}
+2025-11-07T17:36:44: ::1 - - [07/Nov/2025:15:36:44 +0000] "GET /api/patients HTTP/1.1" 200 3619 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-07T17:36:48: [32minfo[39m: Fetching patient with ID: a1f1cfdd-93c5-405b-82ea-58ba86fd4f25 {"service":"nursing-home-backend","timestamp":"2025-11-07T15:36:48.040Z"}
+2025-11-07T17:36:48: [32minfo[39m: Retrieved patient: Aino Korhonen {"service":"nursing-home-backend","timestamp":"2025-11-07T15:36:48.054Z"}
+2025-11-07T17:36:48: ::1 - - [07/Nov/2025:15:36:48 +0000] "GET /api/patients/a1f1cfdd-93c5-405b-82ea-58ba86fd4f25 HTTP/1.1" 200 1410 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-07T17:36:48: [32minfo[39m: Fetching patient with ID: a1f1cfdd-93c5-405b-82ea-58ba86fd4f25 {"service":"nursing-home-backend","timestamp":"2025-11-07T15:36:48.350Z"}
+2025-11-07T17:36:48: [32minfo[39m: Retrieved patient: Aino Korhonen {"service":"nursing-home-backend","timestamp":"2025-11-07T15:36:48.358Z"}
+2025-11-07T17:36:48: ::1 - - [07/Nov/2025:15:36:48 +0000] "GET /api/patients/a1f1cfdd-93c5-405b-82ea-58ba86fd4f25 HTTP/1.1" 200 1410 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-07T17:40:10: Server running on port 8080
+2025-11-07T17:40:10: Health check available at http://localhost:8080/health
+2025-11-07T17:40:10: FHIR API available at http://localhost:8080/api/fhir
+2025-11-07T17:40:10: Database API available at http://localhost:8080/api/db
+2025-11-07T17:40:34: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-07T15:40:34.912Z"}
+2025-11-07T17:40:34: [32minfo[39m: Database connection pool initialized for 'nursing_home_db' {"service":"nursing-home-backend","timestamp":"2025-11-07T15:40:34.915Z"}
+2025-11-07T17:40:34: [32minfo[39m: Retrieved 3 patients {"service":"nursing-home-backend","timestamp":"2025-11-07T15:40:34.979Z"}
+2025-11-07T17:40:34: ::1 - - [07/Nov/2025:15:40:34 +0000] "GET /api/patients HTTP/1.1" 200 3619 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-07T17:40:35: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-07T15:40:35.192Z"}
+2025-11-07T17:40:35: [32minfo[39m: Retrieved 3 patients {"service":"nursing-home-backend","timestamp":"2025-11-07T15:40:35.205Z"}
+2025-11-07T17:40:35: ::1 - - [07/Nov/2025:15:40:35 +0000] "GET /api/patients HTTP/1.1" 200 3619 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-07T17:41:09: ::1 - - [07/Nov/2025:15:41:09 +0000] "GET /health HTTP/1.1" 200 77 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-07T17:52:04: Server running on port 8080
+2025-11-07T17:52:04: Health check available at http://localhost:8080/health
+2025-11-07T17:52:04: FHIR API available at http://localhost:8080/api/fhir
+2025-11-07T17:52:04: Database API available at http://localhost:8080/api/db
+2025-11-07T17:52:35: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-07T15:52:35.113Z"}
+2025-11-07T17:52:35: [32minfo[39m: Database connection pool initialized for 'nursing_home_db' {"service":"nursing-home-backend","timestamp":"2025-11-07T15:52:35.116Z"}
+2025-11-07T17:52:35: [32minfo[39m: Retrieved 3 patients {"service":"nursing-home-backend","timestamp":"2025-11-07T15:52:35.187Z"}
+2025-11-07T17:52:35: ::1 - - [07/Nov/2025:15:52:35 +0000] "GET /api/patients HTTP/1.1" 200 3619 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-07T17:52:35: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-07T15:52:35.215Z"}
+2025-11-07T17:52:35: [32minfo[39m: Retrieved 3 patients {"service":"nursing-home-backend","timestamp":"2025-11-07T15:52:35.227Z"}
+2025-11-07T17:52:35: ::1 - - [07/Nov/2025:15:52:35 +0000] "GET /api/patients HTTP/1.1" 200 3619 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T11:00:13: Server running on port 8080
+2025-11-14T11:00:13: Health check available at http://localhost:8080/health
+2025-11-14T11:00:13: FHIR API available at http://localhost:8080/api/fhir
+2025-11-14T11:00:13: Database API available at http://localhost:8080/api/db
+2025-11-14T11:01:37: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T09:01:37.312Z"}
+2025-11-14T11:01:37: [32minfo[39m: Database connection pool initialized for 'nursing_home_db' {"service":"nursing-home-backend","timestamp":"2025-11-14T09:01:37.317Z"}
+2025-11-14T11:01:37: [32minfo[39m: Retrieved 3 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T09:01:37.458Z"}
+2025-11-14T11:01:37: ::1 - - [14/Nov/2025:09:01:37 +0000] "GET /api/patients HTTP/1.1" 200 3619 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T11:01:37: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T09:01:37.774Z"}
+2025-11-14T11:01:37: [32minfo[39m: Retrieved 3 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T09:01:37.780Z"}
+2025-11-14T11:01:37: ::1 - - [14/Nov/2025:09:01:37 +0000] "GET /api/patients HTTP/1.1" 200 3619 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T11:01:41: [32minfo[39m: Fetching patient with ID: a1f1cfdd-93c5-405b-82ea-58ba86fd4f25 {"service":"nursing-home-backend","timestamp":"2025-11-14T09:01:41.287Z"}
+2025-11-14T11:01:41: [32minfo[39m: Retrieved patient: Aino Korhonen {"service":"nursing-home-backend","timestamp":"2025-11-14T09:01:41.297Z"}
+2025-11-14T11:01:41: ::1 - - [14/Nov/2025:09:01:41 +0000] "GET /api/patients/a1f1cfdd-93c5-405b-82ea-58ba86fd4f25 HTTP/1.1" 200 1410 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T11:01:41: [32minfo[39m: Fetching patient with ID: a1f1cfdd-93c5-405b-82ea-58ba86fd4f25 {"service":"nursing-home-backend","timestamp":"2025-11-14T09:01:41.590Z"}
+2025-11-14T11:01:41: [32minfo[39m: Retrieved patient: Aino Korhonen {"service":"nursing-home-backend","timestamp":"2025-11-14T09:01:41.596Z"}
+2025-11-14T11:01:41: ::1 - - [14/Nov/2025:09:01:41 +0000] "GET /api/patients/a1f1cfdd-93c5-405b-82ea-58ba86fd4f25 HTTP/1.1" 200 1410 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T11:03:27: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T09:03:27.173Z"}
+2025-11-14T11:03:27: [32minfo[39m: Retrieved 3 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T09:03:27.183Z"}
+2025-11-14T11:03:27: ::1 - - [14/Nov/2025:09:03:27 +0000] "GET /api/patients HTTP/1.1" 200 3619 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T11:03:27: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T09:03:27.191Z"}
+2025-11-14T11:03:27: [32minfo[39m: Retrieved 3 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T09:03:27.195Z"}
+2025-11-14T11:03:27: ::1 - - [14/Nov/2025:09:03:27 +0000] "GET /api/patients HTTP/1.1" 200 3619 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T11:05:20: ::1 - - [14/Nov/2025:09:05:20 +0000] "GET /health HTTP/1.1" 200 77 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T11:05:32: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T09:05:32.534Z"}
+2025-11-14T11:05:32: [32minfo[39m: Retrieved 3 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T09:05:32.538Z"}
+2025-11-14T11:05:32: ::1 - - [14/Nov/2025:09:05:32 +0000] "GET /api/patients HTTP/1.1" 200 3619 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T11:15:57: Server running on port 8080
+2025-11-14T11:15:57: Health check available at http://localhost:8080/health
+2025-11-14T11:15:57: FHIR API available at http://localhost:8080/api/fhir
+2025-11-14T11:15:57: Database API available at http://localhost:8080/api/db
+2025-11-14T11:17:37: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T09:17:37.886Z"}
+2025-11-14T11:17:37: [32minfo[39m: Database connection pool initialized for 'nursing_home_db' {"service":"nursing-home-backend","timestamp":"2025-11-14T09:17:37.895Z"}
+2025-11-14T11:17:38: [32minfo[39m: Retrieved 3 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T09:17:38.019Z"}
+2025-11-14T11:17:38: ::1 - - [14/Nov/2025:09:17:38 +0000] "GET /api/patients HTTP/1.1" 200 3619 "http://localhost:59467/" "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Mobile Safari/537.36"
+2025-11-14T17:07:17: Server running on port 8080
+2025-11-14T17:07:17: Health check available at http://localhost:8080/health
+2025-11-14T17:07:17: FHIR API available at http://localhost:8080/api/fhir
+2025-11-14T17:07:17: Database API available at http://localhost:8080/api/db
+2025-11-14T17:38:06: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T15:38:06.028Z"}
+2025-11-14T17:38:06: [32minfo[39m: Database connection pool initialized for 'nursing_home_db' {"service":"nursing-home-backend","timestamp":"2025-11-14T15:38:06.032Z"}
+2025-11-14T17:38:06: [32minfo[39m: Retrieved 3 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T15:38:06.112Z"}
+2025-11-14T17:38:06: ::1 - - [14/Nov/2025:15:38:06 +0000] "GET /api/patients HTTP/1.1" 200 3619 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T17:38:06: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T15:38:06.128Z"}
+2025-11-14T17:38:06: [32minfo[39m: Retrieved 3 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T15:38:06.135Z"}
+2025-11-14T17:38:06: ::1 - - [14/Nov/2025:15:38:06 +0000] "GET /api/patients HTTP/1.1" 200 3619 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T17:40:00: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T15:40:00.851Z"}
+2025-11-14T17:40:00: [32minfo[39m: Retrieved 3 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T15:40:00.855Z"}
+2025-11-14T17:40:00: ::1 - - [14/Nov/2025:15:40:00 +0000] "GET /api/patients HTTP/1.1" 200 3619 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T17:40:00: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T15:40:00.866Z"}
+2025-11-14T17:40:00: [32minfo[39m: Retrieved 3 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T15:40:00.869Z"}
+2025-11-14T17:40:00: ::1 - - [14/Nov/2025:15:40:00 +0000] "GET /api/patients HTTP/1.1" 200 3619 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T17:45:41: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T15:45:41.216Z"}
+2025-11-14T17:45:41: [32minfo[39m: Retrieved 3 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T15:45:41.235Z"}
+2025-11-14T17:45:41: ::1 - - [14/Nov/2025:15:45:41 +0000] "GET /api/patients HTTP/1.1" 200 3619 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T17:45:41: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T15:45:41.244Z"}
+2025-11-14T17:45:41: [32minfo[39m: Retrieved 3 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T15:45:41.248Z"}
+2025-11-14T17:45:41: ::1 - - [14/Nov/2025:15:45:41 +0000] "GET /api/patients HTTP/1.1" 200 3619 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T17:45:45: [32minfo[39m: Fetching patient with ID: a1f1cfdd-93c5-405b-82ea-58ba86fd4f25 {"service":"nursing-home-backend","timestamp":"2025-11-14T15:45:45.158Z"}
+2025-11-14T17:45:45: [32minfo[39m: Retrieved patient: Aino Korhonen {"service":"nursing-home-backend","timestamp":"2025-11-14T15:45:45.171Z"}
+2025-11-14T17:45:45: ::1 - - [14/Nov/2025:15:45:45 +0000] "GET /api/patients/a1f1cfdd-93c5-405b-82ea-58ba86fd4f25 HTTP/1.1" 200 1410 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T17:45:45: [32minfo[39m: Fetching patient with ID: a1f1cfdd-93c5-405b-82ea-58ba86fd4f25 {"service":"nursing-home-backend","timestamp":"2025-11-14T15:45:45.492Z"}
+2025-11-14T17:45:45: [32minfo[39m: Retrieved patient: Aino Korhonen {"service":"nursing-home-backend","timestamp":"2025-11-14T15:45:45.498Z"}
+2025-11-14T17:45:45: ::1 - - [14/Nov/2025:15:45:45 +0000] "GET /api/patients/a1f1cfdd-93c5-405b-82ea-58ba86fd4f25 HTTP/1.1" 200 1410 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T17:52:06: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T15:52:06.174Z"}
+2025-11-14T17:52:06: [32minfo[39m: Retrieved 3 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T15:52:06.180Z"}
+2025-11-14T17:52:06: ::1 - - [14/Nov/2025:15:52:06 +0000] "GET /api/patients HTTP/1.1" 200 3619 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T17:52:06: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T15:52:06.501Z"}
+2025-11-14T17:52:06: [32minfo[39m: Retrieved 3 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T15:52:06.506Z"}
+2025-11-14T17:52:06: ::1 - - [14/Nov/2025:15:52:06 +0000] "GET /api/patients HTTP/1.1" 200 3619 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T18:05:45: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T16:05:45.188Z"}
+2025-11-14T18:05:45: [32minfo[39m: Retrieved 3 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T16:05:45.192Z"}
+2025-11-14T18:05:45: ::1 - - [14/Nov/2025:16:05:45 +0000] "GET /api/patients HTTP/1.1" 200 3619 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T18:05:45: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T16:05:45.199Z"}
+2025-11-14T18:05:45: [32minfo[39m: Retrieved 3 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T16:05:45.216Z"}
+2025-11-14T18:05:45: ::1 - - [14/Nov/2025:16:05:45 +0000] "GET /api/patients HTTP/1.1" 200 3619 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T18:10:50: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T16:10:50.072Z"}
+2025-11-14T18:10:50: [32minfo[39m: Retrieved 3 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T16:10:50.082Z"}
+2025-11-14T18:10:50: ::1 - - [14/Nov/2025:16:10:50 +0000] "GET /api/patients HTTP/1.1" 200 3619 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T18:10:50: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T16:10:50.397Z"}
+2025-11-14T18:10:50: [32minfo[39m: Retrieved 3 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T16:10:50.403Z"}
+2025-11-14T18:10:50: ::1 - - [14/Nov/2025:16:10:50 +0000] "GET /api/patients HTTP/1.1" 200 3619 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T18:10:52: [32minfo[39m: Fetching patient with ID: a1f1cfdd-93c5-405b-82ea-58ba86fd4f25 {"service":"nursing-home-backend","timestamp":"2025-11-14T16:10:52.469Z"}
+2025-11-14T18:10:52: [32minfo[39m: Retrieved patient: Aino Korhonen {"service":"nursing-home-backend","timestamp":"2025-11-14T16:10:52.476Z"}
+2025-11-14T18:10:52: ::1 - - [14/Nov/2025:16:10:52 +0000] "GET /api/patients/a1f1cfdd-93c5-405b-82ea-58ba86fd4f25 HTTP/1.1" 200 1410 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T18:10:52: [32minfo[39m: Fetching patient with ID: a1f1cfdd-93c5-405b-82ea-58ba86fd4f25 {"service":"nursing-home-backend","timestamp":"2025-11-14T16:10:52.801Z"}
+2025-11-14T18:10:52: [32minfo[39m: Retrieved patient: Aino Korhonen {"service":"nursing-home-backend","timestamp":"2025-11-14T16:10:52.805Z"}
+2025-11-14T18:10:52: ::1 - - [14/Nov/2025:16:10:52 +0000] "GET /api/patients/a1f1cfdd-93c5-405b-82ea-58ba86fd4f25 HTTP/1.1" 200 1410 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T18:36:15: [32minfo[39m: Fetching patient with ID: a1f1cfdd-93c5-405b-82ea-58ba86fd4f25 {"service":"nursing-home-backend","timestamp":"2025-11-14T16:36:15.641Z"}
+2025-11-14T18:36:15: [32minfo[39m: Retrieved patient: Aino Korhonen {"service":"nursing-home-backend","timestamp":"2025-11-14T16:36:15.658Z"}
+2025-11-14T18:36:15: ::1 - - [14/Nov/2025:16:36:15 +0000] "GET /api/patients/a1f1cfdd-93c5-405b-82ea-58ba86fd4f25 HTTP/1.1" 200 1410 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T18:36:15: [32minfo[39m: Fetching patient with ID: a1f1cfdd-93c5-405b-82ea-58ba86fd4f25 {"service":"nursing-home-backend","timestamp":"2025-11-14T16:36:15.675Z"}
+2025-11-14T18:36:15: [32minfo[39m: Retrieved patient: Aino Korhonen {"service":"nursing-home-backend","timestamp":"2025-11-14T16:36:15.684Z"}
+2025-11-14T18:36:15: ::1 - - [14/Nov/2025:16:36:15 +0000] "GET /api/patients/a1f1cfdd-93c5-405b-82ea-58ba86fd4f25 HTTP/1.1" 200 1410 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T18:39:43: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T16:39:43.269Z"}
+2025-11-14T18:39:43: [32minfo[39m: Retrieved 3 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T16:39:43.278Z"}
+2025-11-14T18:39:43: ::1 - - [14/Nov/2025:16:39:43 +0000] "GET /api/patients HTTP/1.1" 200 3619 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T18:39:43: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T16:39:43.290Z"}
+2025-11-14T18:39:43: [32minfo[39m: Retrieved 3 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T16:39:43.296Z"}
+2025-11-14T18:39:43: ::1 - - [14/Nov/2025:16:39:43 +0000] "GET /api/patients HTTP/1.1" 200 3619 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T18:39:47: [32minfo[39m: Fetching patient with ID: a1f1cfdd-93c5-405b-82ea-58ba86fd4f25 {"service":"nursing-home-backend","timestamp":"2025-11-14T16:39:47.942Z"}
+2025-11-14T18:39:47: [32minfo[39m: Retrieved patient: Aino Korhonen {"service":"nursing-home-backend","timestamp":"2025-11-14T16:39:47.945Z"}
+2025-11-14T18:39:47: ::1 - - [14/Nov/2025:16:39:47 +0000] "GET /api/patients/a1f1cfdd-93c5-405b-82ea-58ba86fd4f25 HTTP/1.1" 200 1410 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T18:39:47: [32minfo[39m: Fetching patient with ID: a1f1cfdd-93c5-405b-82ea-58ba86fd4f25 {"service":"nursing-home-backend","timestamp":"2025-11-14T16:39:47.964Z"}
+2025-11-14T18:39:47: [32minfo[39m: Retrieved patient: Aino Korhonen {"service":"nursing-home-backend","timestamp":"2025-11-14T16:39:47.971Z"}
+2025-11-14T18:39:47: ::1 - - [14/Nov/2025:16:39:47 +0000] "GET /api/patients/a1f1cfdd-93c5-405b-82ea-58ba86fd4f25 HTTP/1.1" 200 1410 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T18:47:52: Server running on port 8080
+2025-11-14T18:47:52: Health check available at http://localhost:8080/health
+2025-11-14T18:47:52: FHIR API available at http://localhost:8080/api/fhir
+2025-11-14T18:47:52: Database API available at http://localhost:8080/api/db
+2025-11-14T18:48:04: Server running on port 8080
+2025-11-14T18:48:04: Health check available at http://localhost:8080/health
+2025-11-14T18:48:04: FHIR API available at http://localhost:8080/api/fhir
+2025-11-14T18:48:04: Database API available at http://localhost:8080/api/db
+2025-11-14T18:48:29: Server running on port 8080
+2025-11-14T18:48:29: Health check available at http://localhost:8080/health
+2025-11-14T18:48:29: FHIR API available at http://localhost:8080/api/fhir
+2025-11-14T18:48:29: Database API available at http://localhost:8080/api/db
+2025-11-14T18:48:39: Server running on port 8080
+2025-11-14T18:48:39: Health check available at http://localhost:8080/health
+2025-11-14T18:48:39: FHIR API available at http://localhost:8080/api/fhir
+2025-11-14T18:48:39: Database API available at http://localhost:8080/api/db
+2025-11-14T18:53:15: [32minfo[39m: Database seeding request received {"service":"nursing-home-backend","timestamp":"2025-11-14T16:53:15.038Z"}
+2025-11-14T18:53:15: [32minfo[39m: Database connection pool initialized for 'nursing_home_db' {"service":"nursing-home-backend","timestamp":"2025-11-14T16:53:15.041Z"}
+2025-11-14T18:53:15: [32minfo[39m: Starting database seeding... {"service":"nursing-home-backend","timestamp":"2025-11-14T16:53:15.131Z"}
+2025-11-14T18:53:15: [32minfo[39m: Database connection pool closed {"service":"nursing-home-backend","timestamp":"2025-11-14T16:53:15.132Z"}
+2025-11-14T18:53:15: [32minfo[39m: Database connection pool initialized for 'nursing_home_db' {"service":"nursing-home-backend","timestamp":"2025-11-14T16:53:15.132Z"}
+2025-11-14T18:53:15: [32minfo[39m: Using database: nursing_home_db {"service":"nursing-home-backend","timestamp":"2025-11-14T16:53:15.139Z"}
+2025-11-14T18:53:15: [32minfo[39m: Verifying required tables exist... {"service":"nursing-home-backend","timestamp":"2025-11-14T16:53:15.139Z"}
+2025-11-14T18:53:15: [32minfo[39m: Found 13 tables: emergency_contacts, fhir_audit_log, fhir_resources, medical_conditions, medications, patient_allergies, patient_identifiers, patients, staff, visit_photos, visit_tasks, visits, vital_signs {"service":"nursing-home-backend","timestamp":"2025-11-14T16:53:15.144Z"}
+2025-11-14T18:53:15: [32minfo[39m: Cleared table: visit_photos {"service":"nursing-home-backend","timestamp":"2025-11-14T16:53:15.256Z"}
+2025-11-14T18:53:15: [32minfo[39m: Cleared table: vital_signs {"service":"nursing-home-backend","timestamp":"2025-11-14T16:53:15.344Z"}
+2025-11-14T18:53:15: [32minfo[39m: Cleared table: visit_tasks {"service":"nursing-home-backend","timestamp":"2025-11-14T16:53:15.403Z"}
+2025-11-14T18:53:15: [31merror[39m: Database query failed: {"error":"Cannot truncate a table referenced in a foreign key constraint (`nursing_home_db`.`vital_signs`, CONSTRAINT `vital_signs_ibfk_1`)","service":"nursing-home-backend","sql":"TRUNCATE TABLE `visits`","timestamp":"2025-11-14T16:53:15.407Z"}
+2025-11-14T18:53:15: [32minfo[39m: Cleared table: visits (using DELETE) {"service":"nursing-home-backend","timestamp":"2025-11-14T16:53:15.423Z"}
+2025-11-14T18:53:15: [32minfo[39m: Cleared table: patient_allergies {"service":"nursing-home-backend","timestamp":"2025-11-14T16:53:15.484Z"}
+2025-11-14T18:53:15: [32minfo[39m: Cleared table: emergency_contacts {"service":"nursing-home-backend","timestamp":"2025-11-14T16:53:15.538Z"}
+2025-11-14T18:53:15: [32minfo[39m: Cleared table: medications {"service":"nursing-home-backend","timestamp":"2025-11-14T16:53:15.590Z"}
+2025-11-14T18:53:15: [32minfo[39m: Cleared table: medical_conditions {"service":"nursing-home-backend","timestamp":"2025-11-14T16:53:15.643Z"}
+2025-11-14T18:53:15: [32minfo[39m: Cleared table: patient_identifiers {"service":"nursing-home-backend","timestamp":"2025-11-14T16:53:15.713Z"}
+2025-11-14T18:53:15: [31merror[39m: Database query failed: {"error":"Cannot truncate a table referenced in a foreign key constraint (`nursing_home_db`.`medical_conditions`, CONSTRAINT `medical_conditions_ibfk_1`)","service":"nursing-home-backend","sql":"TRUNCATE TABLE `patients`","timestamp":"2025-11-14T16:53:15.716Z"}
+2025-11-14T18:53:15: [32minfo[39m: Cleared table: patients (using DELETE) {"service":"nursing-home-backend","timestamp":"2025-11-14T16:53:15.740Z"}
+2025-11-14T18:53:15: [32minfo[39m: Cleared table: fhir_resources {"service":"nursing-home-backend","timestamp":"2025-11-14T16:53:15.796Z"}
+2025-11-14T18:53:15: [32minfo[39m: Cleared table: fhir_audit_log {"service":"nursing-home-backend","timestamp":"2025-11-14T16:53:15.869Z"}
+2025-11-14T18:53:15: [32minfo[39m: Cleared existing data {"service":"nursing-home-backend","timestamp":"2025-11-14T16:53:15.870Z"}
+2025-11-14T18:53:15: [31merror[39m: Database query failed: {"error":"Unknown column 'task_name' in 'field list'","service":"nursing-home-backend","sql":"\n            INSERT INTO visit_tasks (id, visit_id, task_name, description, category, status, estima...","timestamp":"2025-11-14T16:53:15.914Z"}
+2025-11-14T18:53:15: [31merror[39m: Database seeding failed: Unknown column 'task_name' in 'field list' {"code":"ER_BAD_FIELD_ERROR","errno":1054,"service":"nursing-home-backend","sql":"\n            INSERT INTO visit_tasks (id, visit_id, task_name, description, category, status, estimated_duration, completed_at, completed_by)\n            VALUES ('d64d3b74-f00e-4970-8de8-a8f7fd0fb50c', 'd6a84ef2-b9f1-4b57-8c5a-75dce751e4ec', 'Wound Care', 'Clean and dress wounds', 'treatment', 'completed', 20, '2025-11-05 18:53:15.908', 'S0001')\n          ","sqlMessage":"Unknown column 'task_name' in 'field list'","sqlState":"42S22","stack":"Error: Unknown column 'task_name' in 'field list'\n    at PromisePool.query (C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\node_modules\\mysql2\\lib\\promise\\pool.js:36:22)\n    at Database.query (C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\config\\database.js:100:41)\n    at seedDatabase (C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\db\\seed.js:433:26)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\routes\\db.js:95:5","timestamp":"2025-11-14T16:53:15.914Z"}
+2025-11-14T18:53:15: [32minfo[39m: Database connection pool closed {"service":"nursing-home-backend","timestamp":"2025-11-14T16:53:15.915Z"}
+2025-11-14T18:53:15: [31merror[39m: Seeding failed: {"service":"nursing-home-backend","timestamp":"2025-11-14T16:53:15.915Z"}
+2025-11-14T18:53:15: [31merror[39m: Stack trace: {"service":"nursing-home-backend","timestamp":"2025-11-14T16:53:15.915Z"}
+2025-11-14T18:53:15: ::1 - - [14/Nov/2025:16:53:15 +0000] "POST /api/db/seed HTTP/1.1" 500 109 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T18:54:19: Server running on port 8080
+2025-11-14T18:54:19: Health check available at http://localhost:8080/health
+2025-11-14T18:54:19: FHIR API available at http://localhost:8080/api/fhir
+2025-11-14T18:54:19: Database API available at http://localhost:8080/api/db
+2025-11-14T18:56:02: [32minfo[39m: Database seeding request received {"service":"nursing-home-backend","timestamp":"2025-11-14T16:56:02.347Z"}
+2025-11-14T18:56:02: [32minfo[39m: Database connection pool initialized for 'nursing_home_db' {"service":"nursing-home-backend","timestamp":"2025-11-14T16:56:02.350Z"}
+2025-11-14T18:56:02: [32minfo[39m: Starting database seeding... {"service":"nursing-home-backend","timestamp":"2025-11-14T16:56:02.408Z"}
+2025-11-14T18:56:02: [32minfo[39m: Database connection pool closed {"service":"nursing-home-backend","timestamp":"2025-11-14T16:56:02.409Z"}
+2025-11-14T18:56:02: [32minfo[39m: Database connection pool initialized for 'nursing_home_db' {"service":"nursing-home-backend","timestamp":"2025-11-14T16:56:02.410Z"}
+2025-11-14T18:56:02: [32minfo[39m: Using database: nursing_home_db {"service":"nursing-home-backend","timestamp":"2025-11-14T16:56:02.417Z"}
+2025-11-14T18:56:02: [32minfo[39m: Verifying required tables exist... {"service":"nursing-home-backend","timestamp":"2025-11-14T16:56:02.417Z"}
+2025-11-14T18:56:02: [32minfo[39m: Found 13 tables: emergency_contacts, fhir_audit_log, fhir_resources, medical_conditions, medications, patient_allergies, patient_identifiers, patients, staff, visit_photos, visit_tasks, visits, vital_signs {"service":"nursing-home-backend","timestamp":"2025-11-14T16:56:02.421Z"}
+2025-11-14T18:56:02: [32minfo[39m: Cleared table: visit_photos {"service":"nursing-home-backend","timestamp":"2025-11-14T16:56:02.476Z"}
+2025-11-14T18:56:02: [32minfo[39m: Cleared table: vital_signs {"service":"nursing-home-backend","timestamp":"2025-11-14T16:56:02.539Z"}
+2025-11-14T18:56:02: [32minfo[39m: Cleared table: visit_tasks {"service":"nursing-home-backend","timestamp":"2025-11-14T16:56:02.590Z"}
+2025-11-14T18:56:02: [31merror[39m: Database query failed: {"error":"Cannot truncate a table referenced in a foreign key constraint (`nursing_home_db`.`vital_signs`, CONSTRAINT `vital_signs_ibfk_1`)","service":"nursing-home-backend","sql":"TRUNCATE TABLE `visits`","timestamp":"2025-11-14T16:56:02.591Z"}
+2025-11-14T18:56:02: [32minfo[39m: Cleared table: visits (using DELETE) {"service":"nursing-home-backend","timestamp":"2025-11-14T16:56:02.599Z"}
+2025-11-14T18:56:02: [32minfo[39m: Cleared table: patient_allergies {"service":"nursing-home-backend","timestamp":"2025-11-14T16:56:02.674Z"}
+2025-11-14T18:56:02: [32minfo[39m: Cleared table: emergency_contacts {"service":"nursing-home-backend","timestamp":"2025-11-14T16:56:02.744Z"}
+2025-11-14T18:56:02: [32minfo[39m: Cleared table: medications {"service":"nursing-home-backend","timestamp":"2025-11-14T16:56:02.794Z"}
+2025-11-14T18:56:02: [32minfo[39m: Cleared table: medical_conditions {"service":"nursing-home-backend","timestamp":"2025-11-14T16:56:02.846Z"}
+2025-11-14T18:56:02: [32minfo[39m: Cleared table: patient_identifiers {"service":"nursing-home-backend","timestamp":"2025-11-14T16:56:02.895Z"}
+2025-11-14T18:56:02: [31merror[39m: Database query failed: {"error":"Cannot truncate a table referenced in a foreign key constraint (`nursing_home_db`.`medical_conditions`, CONSTRAINT `medical_conditions_ibfk_1`)","service":"nursing-home-backend","sql":"TRUNCATE TABLE `patients`","timestamp":"2025-11-14T16:56:02.897Z"}
+2025-11-14T18:56:02: [32minfo[39m: Cleared table: patients (using DELETE) {"service":"nursing-home-backend","timestamp":"2025-11-14T16:56:02.907Z"}
+2025-11-14T18:56:02: [32minfo[39m: Cleared table: fhir_resources {"service":"nursing-home-backend","timestamp":"2025-11-14T16:56:02.962Z"}
+2025-11-14T18:56:03: [32minfo[39m: Cleared table: fhir_audit_log {"service":"nursing-home-backend","timestamp":"2025-11-14T16:56:03.007Z"}
+2025-11-14T18:56:03: [32minfo[39m: Cleared existing data {"service":"nursing-home-backend","timestamp":"2025-11-14T16:56:03.007Z"}
+2025-11-14T18:56:09: [31merror[39m: Database query failed: {"error":"Duplicate entry 'S0001' for key 'staff.PRIMARY'","service":"nursing-home-backend","sql":"\n        INSERT INTO staff (id, first_name, last_name, role, department, email, phone, hire_date, st...","timestamp":"2025-11-14T16:56:09.566Z"}
+2025-11-14T18:56:09: [31merror[39m: Database seeding failed: Duplicate entry 'S0001' for key 'staff.PRIMARY' {"code":"ER_DUP_ENTRY","errno":1062,"service":"nursing-home-backend","sql":"\n        INSERT INTO staff (id, first_name, last_name, role, department, email, phone, hire_date, status, password_hash)\n        VALUES ('S0001', 'Anna', 'Virtanen', 'Nurse', 'Nursing', 'anna.virtanen@nursinghome.com', '+358-40-123-4567', '2020-01-15', 'active', '$2a$10$KONQXEphDPEcdLZgbzeVe.7VZRTg693T9m9yLiwRbqCyjP1gymk.a')\n      ","sqlMessage":"Duplicate entry 'S0001' for key 'staff.PRIMARY'","sqlState":"23000","stack":"Error: Duplicate entry 'S0001' for key 'staff.PRIMARY'\n    at PromisePool.query (C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\node_modules\\mysql2\\lib\\promise\\pool.js:36:22)\n    at Database.query (C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\config\\database.js:100:41)\n    at seedDatabase (C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\db\\seed.js:467:22)\n    at async C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\routes\\db.js:95:5","timestamp":"2025-11-14T16:56:09.566Z"}
+2025-11-14T18:56:09: [32minfo[39m: Database connection pool closed {"service":"nursing-home-backend","timestamp":"2025-11-14T16:56:09.567Z"}
+2025-11-14T18:56:09: [31merror[39m: Seeding failed: {"service":"nursing-home-backend","timestamp":"2025-11-14T16:56:09.567Z"}
+2025-11-14T18:56:09: [31merror[39m: Stack trace: {"service":"nursing-home-backend","timestamp":"2025-11-14T16:56:09.567Z"}
+2025-11-14T18:56:09: ::1 - - [14/Nov/2025:16:56:09 +0000] "POST /api/db/seed HTTP/1.1" 500 114 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T18:56:51: Server running on port 8080
+2025-11-14T18:56:51: Health check available at http://localhost:8080/health
+2025-11-14T18:56:51: FHIR API available at http://localhost:8080/api/fhir
+2025-11-14T18:56:51: Database API available at http://localhost:8080/api/db
+2025-11-14T18:57:34: [32minfo[39m: Database seeding request received {"service":"nursing-home-backend","timestamp":"2025-11-14T16:57:34.296Z"}
+2025-11-14T18:57:34: [32minfo[39m: Database connection pool initialized for 'nursing_home_db' {"service":"nursing-home-backend","timestamp":"2025-11-14T16:57:34.299Z"}
+2025-11-14T18:57:34: [32minfo[39m: Starting database seeding... {"service":"nursing-home-backend","timestamp":"2025-11-14T16:57:34.362Z"}
+2025-11-14T18:57:34: [32minfo[39m: Database connection pool closed {"service":"nursing-home-backend","timestamp":"2025-11-14T16:57:34.363Z"}
+2025-11-14T18:57:34: [32minfo[39m: Database connection pool initialized for 'nursing_home_db' {"service":"nursing-home-backend","timestamp":"2025-11-14T16:57:34.363Z"}
+2025-11-14T18:57:34: [32minfo[39m: Using database: nursing_home_db {"service":"nursing-home-backend","timestamp":"2025-11-14T16:57:34.371Z"}
+2025-11-14T18:57:34: [32minfo[39m: Verifying required tables exist... {"service":"nursing-home-backend","timestamp":"2025-11-14T16:57:34.371Z"}
+2025-11-14T18:57:34: [32minfo[39m: Found 13 tables: emergency_contacts, fhir_audit_log, fhir_resources, medical_conditions, medications, patient_allergies, patient_identifiers, patients, staff, visit_photos, visit_tasks, visits, vital_signs {"service":"nursing-home-backend","timestamp":"2025-11-14T16:57:34.376Z"}
+2025-11-14T18:57:34: [32minfo[39m: Cleared table: visit_photos {"service":"nursing-home-backend","timestamp":"2025-11-14T16:57:34.435Z"}
+2025-11-14T18:57:34: [32minfo[39m: Cleared table: vital_signs {"service":"nursing-home-backend","timestamp":"2025-11-14T16:57:34.493Z"}
+2025-11-14T18:57:34: [32minfo[39m: Cleared table: visit_tasks {"service":"nursing-home-backend","timestamp":"2025-11-14T16:57:34.554Z"}
+2025-11-14T18:57:34: [31merror[39m: Database query failed: {"error":"Cannot truncate a table referenced in a foreign key constraint (`nursing_home_db`.`vital_signs`, CONSTRAINT `vital_signs_ibfk_1`)","service":"nursing-home-backend","sql":"TRUNCATE TABLE `visits`","timestamp":"2025-11-14T16:57:34.556Z"}
+2025-11-14T18:57:34: [32minfo[39m: Cleared table: visits (using DELETE) {"service":"nursing-home-backend","timestamp":"2025-11-14T16:57:34.574Z"}
+2025-11-14T18:57:34: [32minfo[39m: Cleared table: patient_allergies {"service":"nursing-home-backend","timestamp":"2025-11-14T16:57:34.628Z"}
+2025-11-14T18:57:34: [32minfo[39m: Cleared table: emergency_contacts {"service":"nursing-home-backend","timestamp":"2025-11-14T16:57:34.684Z"}
+2025-11-14T18:57:34: [32minfo[39m: Cleared table: medications {"service":"nursing-home-backend","timestamp":"2025-11-14T16:57:34.741Z"}
+2025-11-14T18:57:34: [32minfo[39m: Cleared table: medical_conditions {"service":"nursing-home-backend","timestamp":"2025-11-14T16:57:34.800Z"}
+2025-11-14T18:57:34: [32minfo[39m: Cleared table: patient_identifiers {"service":"nursing-home-backend","timestamp":"2025-11-14T16:57:34.852Z"}
+2025-11-14T18:57:34: [31merror[39m: Database query failed: {"error":"Cannot truncate a table referenced in a foreign key constraint (`nursing_home_db`.`medical_conditions`, CONSTRAINT `medical_conditions_ibfk_1`)","service":"nursing-home-backend","sql":"TRUNCATE TABLE `patients`","timestamp":"2025-11-14T16:57:34.855Z"}
+2025-11-14T18:57:34: [32minfo[39m: Cleared table: patients (using DELETE) {"service":"nursing-home-backend","timestamp":"2025-11-14T16:57:34.868Z"}
+2025-11-14T18:57:34: [32minfo[39m: Cleared table: staff {"service":"nursing-home-backend","timestamp":"2025-11-14T16:57:34.941Z"}
+2025-11-14T18:57:35: [32minfo[39m: Cleared table: fhir_resources {"service":"nursing-home-backend","timestamp":"2025-11-14T16:57:35.000Z"}
+2025-11-14T18:57:35: [32minfo[39m: Cleared table: fhir_audit_log {"service":"nursing-home-backend","timestamp":"2025-11-14T16:57:35.051Z"}
+2025-11-14T18:57:35: [32minfo[39m: Cleared existing data {"service":"nursing-home-backend","timestamp":"2025-11-14T16:57:35.052Z"}
+2025-11-14T18:57:42: [32minfo[39m: Database seeding completed successfully {"service":"nursing-home-backend","timestamp":"2025-11-14T16:57:42.271Z"}
+2025-11-14T18:57:42: [32minfo[39m: Seeded database with:
+2025-11-14T18:57:42:       - 12 patients
+2025-11-14T18:57:42:       - 157 visits
+2025-11-14T18:57:42:       - 778 tasks
+2025-11-14T18:57:42:       - 25 medications
+2025-11-14T18:57:42:       - 612 vital signs records
+2025-11-14T18:57:42:       - 4 staff members {"service":"nursing-home-backend","timestamp":"2025-11-14T16:57:42.284Z"}
+2025-11-14T18:57:42: [32minfo[39m: Database connection pool closed {"service":"nursing-home-backend","timestamp":"2025-11-14T16:57:42.285Z"}
+2025-11-14T18:57:42: [32minfo[39m: Database connection pool initialized for 'nursing_home_db' {"service":"nursing-home-backend","timestamp":"2025-11-14T16:57:42.286Z"}
+2025-11-14T18:57:42: ::1 - - [14/Nov/2025:16:57:42 +0000] "POST /api/db/seed HTTP/1.1" 200 150 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T18:57:57: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T16:57:57.699Z"}
+2025-11-14T18:57:57: [32minfo[39m: Retrieved 12 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T16:57:57.717Z"}
+2025-11-14T18:57:57: ::1 - - [14/Nov/2025:16:57:57 +0000] "GET /api/patients HTTP/1.1" 200 13326 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T18:57:57: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T16:57:57.988Z"}
+2025-11-14T18:57:57: [32minfo[39m: Retrieved 12 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T16:57:57.993Z"}
+2025-11-14T18:57:57: ::1 - - [14/Nov/2025:16:57:57 +0000] "GET /api/patients HTTP/1.1" 200 13326 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T19:08:11: [32minfo[39m: Fetching patient with ID: 6e96c87e-ed8a-4e75-a043-1df4811f0195 {"service":"nursing-home-backend","timestamp":"2025-11-14T17:08:11.713Z"}
+2025-11-14T19:08:11: [32minfo[39m: Retrieved patient: Kalevi Salo {"service":"nursing-home-backend","timestamp":"2025-11-14T17:08:11.725Z"}
+2025-11-14T19:08:11: ::1 - - [14/Nov/2025:17:08:11 +0000] "GET /api/patients/6e96c87e-ed8a-4e75-a043-1df4811f0195 HTTP/1.1" 200 1132 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T19:08:12: [32minfo[39m: Fetching patient with ID: 6e96c87e-ed8a-4e75-a043-1df4811f0195 {"service":"nursing-home-backend","timestamp":"2025-11-14T17:08:12.013Z"}
+2025-11-14T19:08:12: [32minfo[39m: Retrieved patient: Kalevi Salo {"service":"nursing-home-backend","timestamp":"2025-11-14T17:08:12.018Z"}
+2025-11-14T19:08:12: ::1 - - [14/Nov/2025:17:08:12 +0000] "GET /api/patients/6e96c87e-ed8a-4e75-a043-1df4811f0195 HTTP/1.1" 200 1132 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T19:11:34: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T17:11:34.113Z"}
+2025-11-14T19:11:34: [32minfo[39m: Retrieved 12 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T17:11:34.124Z"}
+2025-11-14T19:11:34: ::1 - - [14/Nov/2025:17:11:34 +0000] "GET /api/patients HTTP/1.1" 200 13326 "http://localhost:56832/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Mobile Safari/537.36"
+2025-11-14T19:11:45: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T17:11:45.163Z"}
+2025-11-14T19:11:45: [32minfo[39m: Retrieved 12 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T17:11:45.172Z"}
+2025-11-14T19:11:45: ::1 - - [14/Nov/2025:17:11:45 +0000] "GET /api/patients HTTP/1.1" 200 13326 "http://localhost:56832/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Mobile Safari/537.36"
+2025-11-14T19:35:55: Server running on port 8080
+2025-11-14T19:35:55: Health check available at http://localhost:8080/health
+2025-11-14T19:35:55: FHIR API available at http://localhost:8080/api/fhir
+2025-11-14T19:35:55: Database API available at http://localhost:8080/api/db
+2025-11-14T19:36:06: Server running on port 8080
+2025-11-14T19:36:06: Health check available at http://localhost:8080/health
+2025-11-14T19:36:06: FHIR API available at http://localhost:8080/api/fhir
+2025-11-14T19:36:06: Database API available at http://localhost:8080/api/db
+2025-11-14T19:36:28: Server running on port 8080
+2025-11-14T19:36:28: Health check available at http://localhost:8080/health
+2025-11-14T19:36:28: FHIR API available at http://localhost:8080/api/fhir
+2025-11-14T19:36:28: Database API available at http://localhost:8080/api/db
+2025-11-14T19:36:39: Server running on port 8080
+2025-11-14T19:36:39: Health check available at http://localhost:8080/health
+2025-11-14T19:36:39: FHIR API available at http://localhost:8080/api/fhir
+2025-11-14T19:36:39: Database API available at http://localhost:8080/api/db
+2025-11-14T19:37:16: [32minfo[39m: Migration request received {"service":"nursing-home-backend","timestamp":"2025-11-14T17:37:16.455Z"}
+2025-11-14T19:37:16: [32minfo[39m: Starting database migration... {"service":"nursing-home-backend","timestamp":"2025-11-14T17:37:16.457Z"}
+2025-11-14T19:37:16: [32minfo[39m: Database 'nursing_home_db' created or already exists {"service":"nursing-home-backend","timestamp":"2025-11-14T17:37:16.509Z"}
+2025-11-14T19:37:16: [32minfo[39m: Database user creation skipped (using existing user) {"service":"nursing-home-backend","timestamp":"2025-11-14T17:37:16.509Z"}
+2025-11-14T19:37:16: [32minfo[39m: Database connection pool initialized for 'nursing_home_db' {"service":"nursing-home-backend","timestamp":"2025-11-14T17:37:16.510Z"}
+2025-11-14T19:37:16: [32minfo[39m: Using database: nursing_home_db {"service":"nursing-home-backend","timestamp":"2025-11-14T17:37:16.516Z"}
+2025-11-14T19:37:16: [32minfo[39m: Current database: nursing_home_db {"service":"nursing-home-backend","timestamp":"2025-11-14T17:37:16.519Z"}
+2025-11-14T19:37:16: [32minfo[39m: Schema file read successfully, length: 7038 characters {"service":"nursing-home-backend","timestamp":"2025-11-14T17:37:16.521Z"}
+2025-11-14T19:37:16: [32minfo[39m: Parsed 11 valid SQL statements to execute (out of 11 total) {"service":"nursing-home-backend","timestamp":"2025-11-14T17:37:16.522Z"}
+2025-11-14T19:37:16: [32minfo[39m: First statement preview: CREATE TABLE IF NOT EXISTS patients ( id VARCHAR(50) PRIMARY KEY, hetu VARCHAR(20) UNIQUE, first_... {"service":"nursing-home-backend","timestamp":"2025-11-14T17:37:16.522Z"}
+2025-11-14T19:37:16: [32minfo[39m: ✓ Statement 1/11: Created table 'patients' {"service":"nursing-home-backend","timestamp":"2025-11-14T17:37:16.537Z"}
+2025-11-14T19:37:16: [32minfo[39m: ✓ Statement 2/11: Created table 'patient_identifiers' {"service":"nursing-home-backend","timestamp":"2025-11-14T17:37:16.543Z"}
+2025-11-14T19:37:16: [32minfo[39m: ✓ Statement 3/11: Created table 'medical_conditions' {"service":"nursing-home-backend","timestamp":"2025-11-14T17:37:16.547Z"}
+2025-11-14T19:37:16: [32minfo[39m: ✓ Statement 4/11: Created table 'medications' {"service":"nursing-home-backend","timestamp":"2025-11-14T17:37:16.550Z"}
+2025-11-14T19:37:16: [32minfo[39m: ✓ Statement 5/11: Created table 'patient_allergies' {"service":"nursing-home-backend","timestamp":"2025-11-14T17:37:16.552Z"}
+2025-11-14T19:37:16: [32minfo[39m: ✓ Statement 6/11: Created table 'emergency_contacts' {"service":"nursing-home-backend","timestamp":"2025-11-14T17:37:16.555Z"}
+2025-11-14T19:37:16: [32minfo[39m: ✓ Statement 7/11: Created table 'staff' {"service":"nursing-home-backend","timestamp":"2025-11-14T17:37:16.560Z"}
+2025-11-14T19:37:16: [32minfo[39m: ✓ Statement 8/11: Created table 'visits' {"service":"nursing-home-backend","timestamp":"2025-11-14T17:37:16.563Z"}
+2025-11-14T19:37:16: [32minfo[39m: ✓ Statement 9/11: Created table 'vital_signs' {"service":"nursing-home-backend","timestamp":"2025-11-14T17:37:16.566Z"}
+2025-11-14T19:37:16: [32minfo[39m: ✓ Statement 10/11: Created table 'fhir_resources' {"service":"nursing-home-backend","timestamp":"2025-11-14T17:37:16.594Z"}
+2025-11-14T19:37:16: [32minfo[39m: ✓ Statement 11/11: Created table 'fhir_audit_log' {"service":"nursing-home-backend","timestamp":"2025-11-14T17:37:16.599Z"}
+2025-11-14T19:37:16: [32minfo[39m: Migration complete: 11 statements succeeded, 0 failed {"service":"nursing-home-backend","timestamp":"2025-11-14T17:37:16.600Z"}
+2025-11-14T19:37:16: [32minfo[39m: Verifying tables were created... {"service":"nursing-home-backend","timestamp":"2025-11-14T17:37:16.600Z"}
+2025-11-14T19:37:16: [32minfo[39m: Tables in database: 13 tables found {"service":"nursing-home-backend","timestamp":"2025-11-14T17:37:16.618Z"}
+2025-11-14T19:37:16: [32minfo[39m: Table names: emergency_contacts, fhir_audit_log, fhir_resources, medical_conditions, medications, patient_allergies, patient_identifiers, patients, staff, visit_photos, visit_tasks, visits, vital_signs {"service":"nursing-home-backend","timestamp":"2025-11-14T17:37:16.618Z"}
+2025-11-14T19:37:16: [32minfo[39m: Database migration completed successfully {"service":"nursing-home-backend","timestamp":"2025-11-14T17:37:16.618Z"}
+2025-11-14T19:37:16: [32minfo[39m: Database test query successful. Patients table has 12 records. {"service":"nursing-home-backend","timestamp":"2025-11-14T17:37:16.619Z"}
+2025-11-14T19:37:16: [32minfo[39m: Database connection pool closed {"service":"nursing-home-backend","timestamp":"2025-11-14T17:37:16.620Z"}
+2025-11-14T19:37:16: [32minfo[39m: Database connection pool initialized for 'nursing_home_db' {"service":"nursing-home-backend","timestamp":"2025-11-14T17:37:16.620Z"}
+2025-11-14T19:37:16: ::1 - - [14/Nov/2025:17:37:16 +0000] "POST /api/db/migrate HTTP/1.1" 200 360 "-" "curl/8.16.0"
+2025-11-14T19:38:16: Server running on port 8080
+2025-11-14T19:38:16: Health check available at http://localhost:8080/health
+2025-11-14T19:38:16: FHIR API available at http://localhost:8080/api/fhir
+2025-11-14T19:38:16: Database API available at http://localhost:8080/api/db
+2025-11-14T19:38:30: Server running on port 8080
+2025-11-14T19:38:30: Health check available at http://localhost:8080/health
+2025-11-14T19:38:30: FHIR API available at http://localhost:8080/api/fhir
+2025-11-14T19:38:30: Database API available at http://localhost:8080/api/db
+2025-11-14T19:38:52: [32minfo[39m: Database cleanup request received {"service":"nursing-home-backend","timestamp":"2025-11-14T17:38:52.378Z"}
+2025-11-14T19:38:52: [32minfo[39m: Database connection pool initialized for 'nursing_home_db' {"service":"nursing-home-backend","timestamp":"2025-11-14T17:38:52.382Z"}
+2025-11-14T19:38:52: [32minfo[39m: Dropped visit_tasks and visit_photos tables {"service":"nursing-home-backend","timestamp":"2025-11-14T17:38:52.512Z"}
+2025-11-14T19:38:52: ::1 - - [14/Nov/2025:17:38:52 +0000] "POST /api/db/cleanup HTTP/1.1" 200 140 "-" "curl/8.16.0"
+2025-11-14T19:39:13: [32minfo[39m: Migration request received {"service":"nursing-home-backend","timestamp":"2025-11-14T17:39:13.054Z"}
+2025-11-14T19:39:13: [32minfo[39m: Starting database migration... {"service":"nursing-home-backend","timestamp":"2025-11-14T17:39:13.055Z"}
+2025-11-14T19:39:13: [32minfo[39m: Database 'nursing_home_db' created or already exists {"service":"nursing-home-backend","timestamp":"2025-11-14T17:39:13.067Z"}
+2025-11-14T19:39:13: [32minfo[39m: Database user creation skipped (using existing user) {"service":"nursing-home-backend","timestamp":"2025-11-14T17:39:13.067Z"}
+2025-11-14T19:39:13: [32minfo[39m: Database connection pool closed {"service":"nursing-home-backend","timestamp":"2025-11-14T17:39:13.068Z"}
+2025-11-14T19:39:13: [32minfo[39m: Database connection pool initialized for 'nursing_home_db' {"service":"nursing-home-backend","timestamp":"2025-11-14T17:39:13.068Z"}
+2025-11-14T19:39:13: [32minfo[39m: Using database: nursing_home_db {"service":"nursing-home-backend","timestamp":"2025-11-14T17:39:13.075Z"}
+2025-11-14T19:39:13: [32minfo[39m: Current database: nursing_home_db {"service":"nursing-home-backend","timestamp":"2025-11-14T17:39:13.078Z"}
+2025-11-14T19:39:13: [32minfo[39m: Schema file read successfully, length: 7038 characters {"service":"nursing-home-backend","timestamp":"2025-11-14T17:39:13.079Z"}
+2025-11-14T19:39:13: [32minfo[39m: Parsed 11 valid SQL statements to execute (out of 11 total) {"service":"nursing-home-backend","timestamp":"2025-11-14T17:39:13.080Z"}
+2025-11-14T19:39:13: [32minfo[39m: First statement preview: CREATE TABLE IF NOT EXISTS patients ( id VARCHAR(50) PRIMARY KEY, hetu VARCHAR(20) UNIQUE, first_... {"service":"nursing-home-backend","timestamp":"2025-11-14T17:39:13.080Z"}
+2025-11-14T19:39:13: [32minfo[39m: ✓ Statement 1/11: Created table 'patients' {"service":"nursing-home-backend","timestamp":"2025-11-14T17:39:13.087Z"}
+2025-11-14T19:39:13: [32minfo[39m: ✓ Statement 2/11: Created table 'patient_identifiers' {"service":"nursing-home-backend","timestamp":"2025-11-14T17:39:13.090Z"}
+2025-11-14T19:39:13: [32minfo[39m: ✓ Statement 3/11: Created table 'medical_conditions' {"service":"nursing-home-backend","timestamp":"2025-11-14T17:39:13.093Z"}
+2025-11-14T19:39:13: [32minfo[39m: ✓ Statement 4/11: Created table 'medications' {"service":"nursing-home-backend","timestamp":"2025-11-14T17:39:13.095Z"}
+2025-11-14T19:39:13: [32minfo[39m: ✓ Statement 5/11: Created table 'patient_allergies' {"service":"nursing-home-backend","timestamp":"2025-11-14T17:39:13.099Z"}
+2025-11-14T19:39:13: [32minfo[39m: ✓ Statement 6/11: Created table 'emergency_contacts' {"service":"nursing-home-backend","timestamp":"2025-11-14T17:39:13.102Z"}
+2025-11-14T19:39:13: [32minfo[39m: ✓ Statement 7/11: Created table 'staff' {"service":"nursing-home-backend","timestamp":"2025-11-14T17:39:13.104Z"}
+2025-11-14T19:39:13: [32minfo[39m: ✓ Statement 8/11: Created table 'visits' {"service":"nursing-home-backend","timestamp":"2025-11-14T17:39:13.109Z"}
+2025-11-14T19:39:13: [32minfo[39m: ✓ Statement 9/11: Created table 'vital_signs' {"service":"nursing-home-backend","timestamp":"2025-11-14T17:39:13.111Z"}
+2025-11-14T19:39:13: [32minfo[39m: ✓ Statement 10/11: Created table 'fhir_resources' {"service":"nursing-home-backend","timestamp":"2025-11-14T17:39:13.116Z"}
+2025-11-14T19:39:13: [32minfo[39m: ✓ Statement 11/11: Created table 'fhir_audit_log' {"service":"nursing-home-backend","timestamp":"2025-11-14T17:39:13.119Z"}
+2025-11-14T19:39:13: [32minfo[39m: Migration complete: 11 statements succeeded, 0 failed {"service":"nursing-home-backend","timestamp":"2025-11-14T17:39:13.119Z"}
+2025-11-14T19:39:13: [32minfo[39m: Verifying tables were created... {"service":"nursing-home-backend","timestamp":"2025-11-14T17:39:13.120Z"}
+2025-11-14T19:39:13: [32minfo[39m: Tables in database: 11 tables found {"service":"nursing-home-backend","timestamp":"2025-11-14T17:39:13.123Z"}
+2025-11-14T19:39:13: [32minfo[39m: Table names: emergency_contacts, fhir_audit_log, fhir_resources, medical_conditions, medications, patient_allergies, patient_identifiers, patients, staff, visits, vital_signs {"service":"nursing-home-backend","timestamp":"2025-11-14T17:39:13.123Z"}
+2025-11-14T19:39:13: [32minfo[39m: Database migration completed successfully {"service":"nursing-home-backend","timestamp":"2025-11-14T17:39:13.123Z"}
+2025-11-14T19:39:13: [32minfo[39m: Database test query successful. Patients table has 12 records. {"service":"nursing-home-backend","timestamp":"2025-11-14T17:39:13.124Z"}
+2025-11-14T19:39:13: [32minfo[39m: Database connection pool closed {"service":"nursing-home-backend","timestamp":"2025-11-14T17:39:13.124Z"}
+2025-11-14T19:39:13: [32minfo[39m: Database connection pool initialized for 'nursing_home_db' {"service":"nursing-home-backend","timestamp":"2025-11-14T17:39:13.125Z"}
+2025-11-14T19:39:13: ::1 - - [14/Nov/2025:17:39:13 +0000] "POST /api/db/migrate HTTP/1.1" 200 331 "-" "curl/8.16.0"
+2025-11-14T19:59:41: Server running on port 8080
+2025-11-14T19:59:41: Health check available at http://localhost:8080/health
+2025-11-14T19:59:41: FHIR API available at http://localhost:8080/api/fhir
+2025-11-14T19:59:41: Database API available at http://localhost:8080/api/db
+2025-11-14T20:26:32: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T18:26:32.534Z"}
+2025-11-14T20:26:32: [32minfo[39m: Database connection pool initialized for 'nursing_home_db' {"service":"nursing-home-backend","timestamp":"2025-11-14T18:26:32.540Z"}
+2025-11-14T20:26:32: [32minfo[39m: Retrieved 12 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T18:26:32.694Z"}
+2025-11-14T20:26:32: ::1 - - [14/Nov/2025:18:26:32 +0000] "GET /api/patients HTTP/1.1" 200 13326 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T20:26:32: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T18:26:32.728Z"}
+2025-11-14T20:26:32: [32minfo[39m: Retrieved 12 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T18:26:32.738Z"}
+2025-11-14T20:26:32: ::1 - - [14/Nov/2025:18:26:32 +0000] "GET /api/patients HTTP/1.1" 200 13326 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T20:33:58: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T18:33:58.210Z"}
+2025-11-14T20:33:58: [32minfo[39m: Retrieved 12 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T18:33:58.218Z"}
+2025-11-14T20:33:58: ::1 - - [14/Nov/2025:18:33:58 +0000] "GET /api/patients HTTP/1.1" 200 13326 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T20:33:58: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T18:33:58.229Z"}
+2025-11-14T20:33:58: [32minfo[39m: Retrieved 12 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T18:33:58.237Z"}
+2025-11-14T20:33:58: ::1 - - [14/Nov/2025:18:33:58 +0000] "GET /api/patients HTTP/1.1" 200 13326 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T21:42:25: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T19:42:25.343Z"}
+2025-11-14T21:42:25: [32minfo[39m: Retrieved 12 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T19:42:25.444Z"}
+2025-11-14T21:42:25: ::1 - - [14/Nov/2025:19:42:25 +0000] "GET /api/patients HTTP/1.1" 200 13326 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T21:42:25: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T19:42:25.471Z"}
+2025-11-14T21:42:25: [32minfo[39m: Retrieved 12 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T19:42:25.482Z"}
+2025-11-14T21:42:25: ::1 - - [14/Nov/2025:19:42:25 +0000] "GET /api/patients HTTP/1.1" 200 13326 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T21:42:28: [32minfo[39m: Fetching patient with ID: 4bffdfef-3c38-4293-a4c0-7ed679721d04 {"service":"nursing-home-backend","timestamp":"2025-11-14T19:42:28.442Z"}
+2025-11-14T21:42:28: [32minfo[39m: Retrieved patient: Ritva Lehtonen {"service":"nursing-home-backend","timestamp":"2025-11-14T19:42:28.463Z"}
+2025-11-14T21:42:28: ::1 - - [14/Nov/2025:19:42:28 +0000] "GET /api/patients/4bffdfef-3c38-4293-a4c0-7ed679721d04 HTTP/1.1" 200 945 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T21:42:28: [32minfo[39m: Fetching patient with ID: 4bffdfef-3c38-4293-a4c0-7ed679721d04 {"service":"nursing-home-backend","timestamp":"2025-11-14T19:42:28.776Z"}
+2025-11-14T21:42:28: [32minfo[39m: Retrieved patient: Ritva Lehtonen {"service":"nursing-home-backend","timestamp":"2025-11-14T19:42:28.782Z"}
+2025-11-14T21:42:28: ::1 - - [14/Nov/2025:19:42:28 +0000] "GET /api/patients/4bffdfef-3c38-4293-a4c0-7ed679721d04 HTTP/1.1" 200 945 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T21:45:32: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T19:45:32.719Z"}
+2025-11-14T21:45:32: [32minfo[39m: Retrieved 12 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T19:45:32.727Z"}
+2025-11-14T21:45:32: ::1 - - [14/Nov/2025:19:45:32 +0000] "GET /api/patients HTTP/1.1" 200 13326 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T21:45:32: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T19:45:32.736Z"}
+2025-11-14T21:45:32: [32minfo[39m: Retrieved 12 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T19:45:32.743Z"}
+2025-11-14T21:45:32: ::1 - - [14/Nov/2025:19:45:32 +0000] "GET /api/patients HTTP/1.1" 200 13326 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T21:49:00: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T19:49:00.019Z"}
+2025-11-14T21:49:00: [32minfo[39m: Retrieved 12 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T19:49:00.024Z"}
+2025-11-14T21:49:00: ::1 - - [14/Nov/2025:19:49:00 +0000] "GET /api/patients HTTP/1.1" 200 13326 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T21:49:00: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T19:49:00.035Z"}
+2025-11-14T21:49:00: [32minfo[39m: Retrieved 12 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T19:49:00.040Z"}
+2025-11-14T21:49:00: ::1 - - [14/Nov/2025:19:49:00 +0000] "GET /api/patients HTTP/1.1" 200 13326 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T21:57:28: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T19:57:28.220Z"}
+2025-11-14T21:57:28: [32minfo[39m: Retrieved 12 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T19:57:28.236Z"}
+2025-11-14T21:57:28: ::1 - - [14/Nov/2025:19:57:28 +0000] "GET /api/patients HTTP/1.1" 200 13326 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T21:57:28: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T19:57:28.259Z"}
+2025-11-14T21:57:28: [32minfo[39m: Retrieved 12 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T19:57:28.272Z"}
+2025-11-14T21:57:28: ::1 - - [14/Nov/2025:19:57:28 +0000] "GET /api/patients HTTP/1.1" 200 13326 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T21:57:45: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T19:57:45.880Z"}
+2025-11-14T21:57:45: [32minfo[39m: Retrieved 12 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T19:57:45.887Z"}
+2025-11-14T21:57:45: ::1 - - [14/Nov/2025:19:57:45 +0000] "GET /api/patients HTTP/1.1" 200 13326 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T21:57:46: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T19:57:46.191Z"}
+2025-11-14T21:57:46: [32minfo[39m: Retrieved 12 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T19:57:46.201Z"}
+2025-11-14T21:57:46: ::1 - - [14/Nov/2025:19:57:46 +0000] "GET /api/patients HTTP/1.1" 200 13326 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T21:58:01: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T19:58:01.880Z"}
+2025-11-14T21:58:01: [32minfo[39m: Retrieved 12 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T19:58:01.890Z"}
+2025-11-14T21:58:01: ::1 - - [14/Nov/2025:19:58:01 +0000] "GET /api/patients HTTP/1.1" 200 13326 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T21:58:01: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T19:58:01.901Z"}
+2025-11-14T21:58:01: [32minfo[39m: Retrieved 12 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T19:58:01.909Z"}
+2025-11-14T21:58:01: ::1 - - [14/Nov/2025:19:58:01 +0000] "GET /api/patients HTTP/1.1" 200 13326 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T22:02:20: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T20:02:20.969Z"}
+2025-11-14T22:02:20: [32minfo[39m: Retrieved 12 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T20:02:20.976Z"}
+2025-11-14T22:02:20: ::1 - - [14/Nov/2025:20:02:20 +0000] "GET /api/patients HTTP/1.1" 200 13326 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T22:02:20: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T20:02:20.986Z"}
+2025-11-14T22:02:20: [32minfo[39m: Retrieved 12 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T20:02:20.994Z"}
+2025-11-14T22:02:20: ::1 - - [14/Nov/2025:20:02:20 +0000] "GET /api/patients HTTP/1.1" 200 13326 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T22:03:42: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T20:03:42.179Z"}
+2025-11-14T22:03:42: [32minfo[39m: Retrieved 12 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T20:03:42.187Z"}
+2025-11-14T22:03:42: ::1 - - [14/Nov/2025:20:03:42 +0000] "GET /api/patients HTTP/1.1" 200 13326 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T22:03:42: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T20:03:42.201Z"}
+2025-11-14T22:03:42: [32minfo[39m: Retrieved 12 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T20:03:42.213Z"}
+2025-11-14T22:03:42: ::1 - - [14/Nov/2025:20:03:42 +0000] "GET /api/patients HTTP/1.1" 200 13326 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T22:04:32: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T20:04:32.677Z"}
+2025-11-14T22:04:32: [32minfo[39m: Retrieved 12 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T20:04:32.687Z"}
+2025-11-14T22:04:32: ::1 - - [14/Nov/2025:20:04:32 +0000] "GET /api/patients HTTP/1.1" 200 13326 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T22:04:32: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T20:04:32.973Z"}
+2025-11-14T22:04:32: [32minfo[39m: Retrieved 12 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T20:04:32.978Z"}
+2025-11-14T22:04:32: ::1 - - [14/Nov/2025:20:04:32 +0000] "GET /api/patients HTTP/1.1" 200 13326 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T22:07:12: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T20:07:12.006Z"}
+2025-11-14T22:07:12: [32minfo[39m: Retrieved 12 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T20:07:12.015Z"}
+2025-11-14T22:07:12: ::1 - - [14/Nov/2025:20:07:12 +0000] "GET /api/patients HTTP/1.1" 200 13326 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T22:07:12: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T20:07:12.333Z"}
+2025-11-14T22:07:12: [32minfo[39m: Retrieved 12 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T20:07:12.337Z"}
+2025-11-14T22:07:12: ::1 - - [14/Nov/2025:20:07:12 +0000] "GET /api/patients HTTP/1.1" 200 13326 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T22:09:36: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T20:09:36.076Z"}
+2025-11-14T22:09:36: [32minfo[39m: Retrieved 12 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T20:09:36.082Z"}
+2025-11-14T22:09:36: ::1 - - [14/Nov/2025:20:09:36 +0000] "GET /api/patients HTTP/1.1" 200 13326 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T22:09:36: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T20:09:36.093Z"}
+2025-11-14T22:09:36: [32minfo[39m: Retrieved 12 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T20:09:36.098Z"}
+2025-11-14T22:09:36: ::1 - - [14/Nov/2025:20:09:36 +0000] "GET /api/patients HTTP/1.1" 200 13326 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T22:09:39: [32minfo[39m: Fetching patient with ID: 1123943b-1f59-44ea-a0b1-98714567896e {"service":"nursing-home-backend","timestamp":"2025-11-14T20:09:39.440Z"}
+2025-11-14T22:09:39: [32minfo[39m: Retrieved patient: Liisa Heikkinen {"service":"nursing-home-backend","timestamp":"2025-11-14T20:09:39.454Z"}
+2025-11-14T22:09:39: ::1 - - [14/Nov/2025:20:09:39 +0000] "GET /api/patients/1123943b-1f59-44ea-a0b1-98714567896e HTTP/1.1" 200 1296 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T22:09:39: [32minfo[39m: Fetching patient with ID: 1123943b-1f59-44ea-a0b1-98714567896e {"service":"nursing-home-backend","timestamp":"2025-11-14T20:09:39.766Z"}
+2025-11-14T22:09:39: [32minfo[39m: Retrieved patient: Liisa Heikkinen {"service":"nursing-home-backend","timestamp":"2025-11-14T20:09:39.770Z"}
+2025-11-14T22:09:39: ::1 - - [14/Nov/2025:20:09:39 +0000] "GET /api/patients/1123943b-1f59-44ea-a0b1-98714567896e HTTP/1.1" 200 1296 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T22:11:37: [32minfo[39m: Fetching patient with ID: 1123943b-1f59-44ea-a0b1-98714567896e {"service":"nursing-home-backend","timestamp":"2025-11-14T20:11:37.945Z"}
+2025-11-14T22:11:37: [32minfo[39m: Retrieved patient: Liisa Heikkinen {"service":"nursing-home-backend","timestamp":"2025-11-14T20:11:37.952Z"}
+2025-11-14T22:11:37: ::1 - - [14/Nov/2025:20:11:37 +0000] "GET /api/patients/1123943b-1f59-44ea-a0b1-98714567896e HTTP/1.1" 200 1296 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T22:11:37: [32minfo[39m: Fetching patient with ID: 1123943b-1f59-44ea-a0b1-98714567896e {"service":"nursing-home-backend","timestamp":"2025-11-14T20:11:37.960Z"}
+2025-11-14T22:11:37: [32minfo[39m: Retrieved patient: Liisa Heikkinen {"service":"nursing-home-backend","timestamp":"2025-11-14T20:11:37.966Z"}
+2025-11-14T22:11:37: ::1 - - [14/Nov/2025:20:11:37 +0000] "GET /api/patients/1123943b-1f59-44ea-a0b1-98714567896e HTTP/1.1" 200 1296 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T22:11:43: [32minfo[39m: Fetching patient with ID: 1123943b-1f59-44ea-a0b1-98714567896e {"service":"nursing-home-backend","timestamp":"2025-11-14T20:11:43.521Z"}
+2025-11-14T22:11:43: [32minfo[39m: Retrieved patient: Liisa Heikkinen {"service":"nursing-home-backend","timestamp":"2025-11-14T20:11:43.526Z"}
+2025-11-14T22:11:43: ::1 - - [14/Nov/2025:20:11:43 +0000] "GET /api/patients/1123943b-1f59-44ea-a0b1-98714567896e HTTP/1.1" 200 1296 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T22:11:43: [32minfo[39m: Fetching patient with ID: 1123943b-1f59-44ea-a0b1-98714567896e {"service":"nursing-home-backend","timestamp":"2025-11-14T20:11:43.822Z"}
+2025-11-14T22:11:43: [32minfo[39m: Retrieved patient: Liisa Heikkinen {"service":"nursing-home-backend","timestamp":"2025-11-14T20:11:43.828Z"}
+2025-11-14T22:11:43: ::1 - - [14/Nov/2025:20:11:43 +0000] "GET /api/patients/1123943b-1f59-44ea-a0b1-98714567896e HTTP/1.1" 200 1296 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T22:11:46: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T20:11:46.546Z"}
+2025-11-14T22:11:46: [32minfo[39m: Retrieved 12 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T20:11:46.555Z"}
+2025-11-14T22:11:46: ::1 - - [14/Nov/2025:20:11:46 +0000] "GET /api/patients HTTP/1.1" 200 13326 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T22:11:46: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T20:11:46.570Z"}
+2025-11-14T22:11:46: [32minfo[39m: Retrieved 12 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T20:11:46.580Z"}
+2025-11-14T22:11:46: ::1 - - [14/Nov/2025:20:11:46 +0000] "GET /api/patients HTTP/1.1" 200 13326 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T22:11:49: [32minfo[39m: Fetching patient with ID: 1123943b-1f59-44ea-a0b1-98714567896e {"service":"nursing-home-backend","timestamp":"2025-11-14T20:11:49.870Z"}
+2025-11-14T22:11:49: [32minfo[39m: Retrieved patient: Liisa Heikkinen {"service":"nursing-home-backend","timestamp":"2025-11-14T20:11:49.880Z"}
+2025-11-14T22:11:49: ::1 - - [14/Nov/2025:20:11:49 +0000] "GET /api/patients/1123943b-1f59-44ea-a0b1-98714567896e HTTP/1.1" 200 1296 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T22:11:49: [32minfo[39m: Fetching patient with ID: 1123943b-1f59-44ea-a0b1-98714567896e {"service":"nursing-home-backend","timestamp":"2025-11-14T20:11:49.895Z"}
+2025-11-14T22:11:49: [32minfo[39m: Retrieved patient: Liisa Heikkinen {"service":"nursing-home-backend","timestamp":"2025-11-14T20:11:49.904Z"}
+2025-11-14T22:11:49: ::1 - - [14/Nov/2025:20:11:49 +0000] "GET /api/patients/1123943b-1f59-44ea-a0b1-98714567896e HTTP/1.1" 200 1296 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T22:11:56: [32minfo[39m: Fetching patient with ID: 1123943b-1f59-44ea-a0b1-98714567896e {"service":"nursing-home-backend","timestamp":"2025-11-14T20:11:56.145Z"}
+2025-11-14T22:11:56: [32minfo[39m: Retrieved patient: Liisa Heikkinen {"service":"nursing-home-backend","timestamp":"2025-11-14T20:11:56.151Z"}
+2025-11-14T22:11:56: ::1 - - [14/Nov/2025:20:11:56 +0000] "GET /api/patients/1123943b-1f59-44ea-a0b1-98714567896e HTTP/1.1" 200 1296 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T22:11:56: [32minfo[39m: Fetching patient with ID: 1123943b-1f59-44ea-a0b1-98714567896e {"service":"nursing-home-backend","timestamp":"2025-11-14T20:11:56.458Z"}
+2025-11-14T22:11:56: [32minfo[39m: Retrieved patient: Liisa Heikkinen {"service":"nursing-home-backend","timestamp":"2025-11-14T20:11:56.466Z"}
+2025-11-14T22:11:56: ::1 - - [14/Nov/2025:20:11:56 +0000] "GET /api/patients/1123943b-1f59-44ea-a0b1-98714567896e HTTP/1.1" 200 1296 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T22:36:46: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T20:36:46.779Z"}
+2025-11-14T22:36:46: [32minfo[39m: Retrieved 12 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T20:36:46.794Z"}
+2025-11-14T22:36:46: ::1 - - [14/Nov/2025:20:36:46 +0000] "GET /api/patients HTTP/1.1" 200 13326 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T22:36:46: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T20:36:46.802Z"}
+2025-11-14T22:36:46: [32minfo[39m: Retrieved 12 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T20:36:46.807Z"}
+2025-11-14T22:36:46: ::1 - - [14/Nov/2025:20:36:46 +0000] "GET /api/patients HTTP/1.1" 200 13326 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T22:36:50: [32minfo[39m: Fetching patient with ID: 1f70df73-a1af-475f-8a46-b89826d8d5fb {"service":"nursing-home-backend","timestamp":"2025-11-14T20:36:50.020Z"}
+2025-11-14T22:36:50: [32minfo[39m: Retrieved patient: Pentti Koskinen {"service":"nursing-home-backend","timestamp":"2025-11-14T20:36:50.032Z"}
+2025-11-14T22:36:50: ::1 - - [14/Nov/2025:20:36:50 +0000] "GET /api/patients/1f70df73-a1af-475f-8a46-b89826d8d5fb HTTP/1.1" 200 1392 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T22:36:50: [32minfo[39m: Fetching patient with ID: 1f70df73-a1af-475f-8a46-b89826d8d5fb {"service":"nursing-home-backend","timestamp":"2025-11-14T20:36:50.358Z"}
+2025-11-14T22:36:50: [32minfo[39m: Retrieved patient: Pentti Koskinen {"service":"nursing-home-backend","timestamp":"2025-11-14T20:36:50.362Z"}
+2025-11-14T22:36:50: ::1 - - [14/Nov/2025:20:36:50 +0000] "GET /api/patients/1f70df73-a1af-475f-8a46-b89826d8d5fb HTTP/1.1" 200 1392 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T22:45:36: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T20:45:36.557Z"}
+2025-11-14T22:45:36: [32minfo[39m: Retrieved 12 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T20:45:36.568Z"}
+2025-11-14T22:45:36: ::1 - - [14/Nov/2025:20:45:36 +0000] "GET /api/patients HTTP/1.1" 200 13326 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T22:45:36: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T20:45:36.867Z"}
+2025-11-14T22:45:36: [32minfo[39m: Retrieved 12 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T20:45:36.876Z"}
+2025-11-14T22:45:36: ::1 - - [14/Nov/2025:20:45:36 +0000] "GET /api/patients HTTP/1.1" 200 13326 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T22:45:38: [32minfo[39m: Fetching patient with ID: 1123943b-1f59-44ea-a0b1-98714567896e {"service":"nursing-home-backend","timestamp":"2025-11-14T20:45:38.775Z"}
+2025-11-14T22:45:38: [32minfo[39m: Retrieved patient: Liisa Heikkinen {"service":"nursing-home-backend","timestamp":"2025-11-14T20:45:38.780Z"}
+2025-11-14T22:45:38: ::1 - - [14/Nov/2025:20:45:38 +0000] "GET /api/patients/1123943b-1f59-44ea-a0b1-98714567896e HTTP/1.1" 200 1296 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T22:45:38: [32minfo[39m: Fetching patient with ID: 1123943b-1f59-44ea-a0b1-98714567896e {"service":"nursing-home-backend","timestamp":"2025-11-14T20:45:38.792Z"}
+2025-11-14T22:45:38: [32minfo[39m: Retrieved patient: Liisa Heikkinen {"service":"nursing-home-backend","timestamp":"2025-11-14T20:45:38.796Z"}
+2025-11-14T22:45:38: ::1 - - [14/Nov/2025:20:45:38 +0000] "GET /api/patients/1123943b-1f59-44ea-a0b1-98714567896e HTTP/1.1" 200 1296 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T22:46:09: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T20:46:09.322Z"}
+2025-11-14T22:46:09: [32minfo[39m: Retrieved 12 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T20:46:09.328Z"}
+2025-11-14T22:46:09: ::1 - - [14/Nov/2025:20:46:09 +0000] "GET /api/patients HTTP/1.1" 200 13326 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T22:46:09: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T20:46:09.623Z"}
+2025-11-14T22:46:09: [32minfo[39m: Retrieved 12 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T20:46:09.631Z"}
+2025-11-14T22:46:09: ::1 - - [14/Nov/2025:20:46:09 +0000] "GET /api/patients HTTP/1.1" 200 13326 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T22:57:55: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T20:57:55.591Z"}
+2025-11-14T22:57:55: [32minfo[39m: Retrieved 12 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T20:57:55.597Z"}
+2025-11-14T22:57:55: ::1 - - [14/Nov/2025:20:57:55 +0000] "GET /api/patients HTTP/1.1" 200 13326 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T22:57:55: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T20:57:55.607Z"}
+2025-11-14T22:57:55: [32minfo[39m: Retrieved 12 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T20:57:55.612Z"}
+2025-11-14T22:57:55: ::1 - - [14/Nov/2025:20:57:55 +0000] "GET /api/patients HTTP/1.1" 200 13326 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T22:57:59: [32minfo[39m: Fetching patient with ID: 40372778-7129-45bb-8798-b40aebeda5da {"service":"nursing-home-backend","timestamp":"2025-11-14T20:57:59.690Z"}
+2025-11-14T22:57:59: [32minfo[39m: Retrieved patient: Eino Mäkinen {"service":"nursing-home-backend","timestamp":"2025-11-14T20:57:59.699Z"}
+2025-11-14T22:57:59: ::1 - - [14/Nov/2025:20:57:59 +0000] "GET /api/patients/40372778-7129-45bb-8798-b40aebeda5da HTTP/1.1" 200 1111 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T22:57:59: [32minfo[39m: Fetching patient with ID: 40372778-7129-45bb-8798-b40aebeda5da {"service":"nursing-home-backend","timestamp":"2025-11-14T20:57:59.991Z"}
+2025-11-14T22:57:59: [32minfo[39m: Retrieved patient: Eino Mäkinen {"service":"nursing-home-backend","timestamp":"2025-11-14T20:57:59.996Z"}
+2025-11-14T22:57:59: ::1 - - [14/Nov/2025:20:57:59 +0000] "GET /api/patients/40372778-7129-45bb-8798-b40aebeda5da HTTP/1.1" 200 1111 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T23:16:56: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T21:16:56.717Z"}
+2025-11-14T23:16:56: [32minfo[39m: Retrieved 12 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T21:16:56.725Z"}
+2025-11-14T23:16:56: ::1 - - [14/Nov/2025:21:16:56 +0000] "GET /api/patients HTTP/1.1" 200 13326 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-14T23:16:56: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-14T21:16:56.734Z"}
+2025-11-14T23:16:56: [32minfo[39m: Retrieved 12 patients {"service":"nursing-home-backend","timestamp":"2025-11-14T21:16:56.740Z"}
+2025-11-14T23:16:56: ::1 - - [14/Nov/2025:21:16:56 +0000] "GET /api/patients HTTP/1.1" 200 13326 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-15T18:37:21: Server running on port 8080
+2025-11-15T18:37:22: Health check available at http://localhost:8080/health
+2025-11-15T18:37:22: FHIR API available at http://localhost:8080/api/fhir
+2025-11-15T18:37:22: Database API available at http://localhost:8080/api/db
+2025-11-16T13:19:43: Server running on port 8080
+2025-11-16T13:19:43: Health check available at http://localhost:8080/health
+2025-11-16T13:19:43: FHIR API available at http://localhost:8080/api/fhir
+2025-11-16T13:19:43: Database API available at http://localhost:8080/api/db
+2025-11-16T13:21:06: ::1 - - [16/Nov/2025:11:21:06 +0000] "GET /health HTTP/1.1" 200 77 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-16T13:21:09: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-11-16T11:21:09.811Z"}
+2025-11-16T13:21:09: [32minfo[39m: Database connection pool initialized for 'nursing_home_db' {"service":"nursing-home-backend","timestamp":"2025-11-16T11:21:09.814Z"}
+2025-11-16T13:21:09: [32minfo[39m: Retrieved 12 patients {"service":"nursing-home-backend","timestamp":"2025-11-16T11:21:09.914Z"}
+2025-11-16T13:21:09: ::1 - - [16/Nov/2025:11:21:09 +0000] "GET /api/patients HTTP/1.1" 200 13326 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-11-16T13:32:58: Server running on port 8080
+2025-11-16T13:32:58: Health check available at http://localhost:8080/health
+2025-11-16T13:32:58: FHIR API available at http://localhost:8080/api/fhir
+2025-11-16T13:32:58: Database API available at http://localhost:8080/api/db
+2025-11-16T13:37:04: Server running on port 8080
+2025-11-16T13:37:04: Health check available at http://localhost:8080/health
+2025-11-16T13:37:04: FHIR API available at http://localhost:8080/api/fhir
+2025-11-16T13:37:04: Database API available at http://localhost:8080/api/db

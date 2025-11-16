@@ -150,5 +150,37 @@ router.post('/reset', async (req, res) => {
   }
 });
 
+/**
+ * Cleanup old tables (drop visit_tasks and visit_photos)
+ * POST /api/db/cleanup
+ */
+router.post('/cleanup', async (req, res) => {
+  try {
+    logger.info('Database cleanup request received');
+    
+    const database = require('../config/database');
+    await database.initialize();
+    
+    // Drop old tables that are now in MongoDB
+    await database.query('DROP TABLE IF EXISTS visit_tasks');
+    await database.query('DROP TABLE IF EXISTS visit_photos');
+    
+    logger.info('Dropped visit_tasks and visit_photos tables');
+    
+    res.status(200).json({
+      success: true,
+      message: 'Database cleanup completed. Dropped visit_tasks and visit_photos tables.',
+      timestamp: new Date().toISOString()
+    });
+  } catch (error) {
+    logger.error('Database cleanup failed:', error.message || error);
+    res.status(500).json({
+      success: false,
+      error: error.message || 'Database cleanup failed',
+      timestamp: new Date().toISOString()
+    });
+  }
+});
+
 module.exports = router;
 

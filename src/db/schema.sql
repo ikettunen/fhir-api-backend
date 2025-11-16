@@ -157,35 +157,6 @@ CREATE TABLE IF NOT EXISTS vital_signs (
   INDEX idx_observed_at (observed_at)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Visit Tasks Table
-CREATE TABLE IF NOT EXISTS visit_tasks (
-  id INT AUTO_INCREMENT PRIMARY KEY,
-  visit_id VARCHAR(50) NOT NULL,
-  task_type VARCHAR(50) NOT NULL,
-  description TEXT,
-  completed BOOLEAN DEFAULT false,
-  completed_at TIMESTAMP,
-  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-  FOREIGN KEY (visit_id) REFERENCES visits(id) ON DELETE CASCADE,
-  INDEX idx_visit_id (visit_id),
-  INDEX idx_completed (completed)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
--- Visit Photos Table
-CREATE TABLE IF NOT EXISTS visit_photos (
-  id INT AUTO_INCREMENT PRIMARY KEY,
-  visit_id VARCHAR(50) NOT NULL,
-  patient_id VARCHAR(50) NOT NULL,
-  photo_url VARCHAR(500),
-  photo_description TEXT,
-  taken_at TIMESTAMP NOT NULL,
-  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-  FOREIGN KEY (visit_id) REFERENCES visits(id) ON DELETE CASCADE,
-  FOREIGN KEY (patient_id) REFERENCES patients(id) ON DELETE CASCADE,
-  INDEX idx_visit_id (visit_id),
-  INDEX idx_patient_id (patient_id)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
 -- FHIR Resources Table (for FHIR resource storage)
 CREATE TABLE IF NOT EXISTS fhir_resources (
   id INT AUTO_INCREMENT PRIMARY KEY,

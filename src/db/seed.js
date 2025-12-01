@@ -194,50 +194,153 @@ const sampleTaskTemplates = [
 
 const taskStatuses = ['pending', 'in-progress', 'completed', 'cancelled'];
 
+// Sample staff - matches Oracle HR employees (1001-1014)
+// These are staff members already registered in the nursing home system
 const sampleStaff = [
   {
-    id: 'S0001',
-    first_name: 'Anna',
-    last_name: 'Virtanen',
-    role: 'Nurse',
-    department: 'Nursing',
-    email: 'anna.virtanen@nursinghome.com',
-    phone: '+358-40-123-4567',
-    hire_date: '2020-01-15',
-    status: 'active'
-  },
-  {
-    id: 'S0002',
-    first_name: 'Mikko',
-    last_name: 'Korhonen',
+    id: 'S1003',
+    employee_id: 1003,
+    first_name: 'Jukka',
+    last_name: 'Mäkinen',
     role: 'Doctor',
     department: 'Medical',
-    email: 'mikko.korhonen@nursinghome.com',
-    phone: '+358-40-234-5678',
-    hire_date: '2019-03-10',
-    status: 'active'
+    email: 'jukka.makinen@hoitokoti.fi',
+    phone: '040-3456789',
+    hire_date: '2021-06-10',
+    status: 'active',
+    fhir_practitioner: {
+      resourceType: 'Practitioner',
+      id: 'S1003',
+      identifier: [
+        { system: 'http://hoitokoti.fi/employee-id', value: '1003' },
+        { system: 'http://valvira.fi/license', value: 'VL789012' }
+      ],
+      active: true,
+      name: [{ use: 'official', family: 'Mäkinen', given: ['Jukka'] }],
+      telecom: [
+        { system: 'phone', value: '040-3456789', use: 'work' },
+        { system: 'email', value: 'jukka.makinen@hoitokoti.fi', use: 'work' }
+      ],
+      qualification: [
+        {
+          identifier: [{ value: 'MD123' }],
+          code: {
+            coding: [{ system: 'http://terminology.hl7.org/CodeSystem/v2-0360', code: 'MD', display: 'Doctor of Medicine' }],
+            text: 'Doctor of Medicine'
+          },
+          issuer: { display: 'University of Helsinki' }
+        }
+      ]
+    }
   },
   {
-    id: 'S0003',
-    first_name: 'Liisa',
-    last_name: 'Mäkinen',
-    role: 'Physical Therapist',
-    department: 'Therapy',
-    email: 'liisa.makinen@nursinghome.com',
-    phone: '+358-40-345-6789',
-    hire_date: '2021-06-01',
-    status: 'active'
+    id: 'S1004',
+    employee_id: 1004,
+    first_name: 'Maria',
+    last_name: 'Nieminen',
+    role: 'Head Nurse',
+    department: 'Nursing',
+    email: 'maria.nieminen@hoitokoti.fi',
+    phone: '040-4567890',
+    hire_date: '2018-11-05',
+    status: 'active',
+    fhir_practitioner: {
+      resourceType: 'Practitioner',
+      id: 'S1004',
+      identifier: [
+        { system: 'http://hoitokoti.fi/employee-id', value: '1004' },
+        { system: 'http://valvira.fi/license', value: 'VL456789' },
+        { system: 'http://terhikki.fi/professional-id', value: 'TH123456' }
+      ],
+      active: true,
+      name: [{ use: 'official', family: 'Nieminen', given: ['Maria'] }],
+      telecom: [
+        { system: 'phone', value: '040-4567890', use: 'work' },
+        { system: 'email', value: 'maria.nieminen@hoitokoti.fi', use: 'work' }
+      ],
+      qualification: [
+        {
+          identifier: [{ value: 'RN456' }],
+          code: {
+            coding: [{ system: 'http://terminology.hl7.org/CodeSystem/v2-0360', code: 'RN', display: 'Registered Nurse' }],
+            text: 'Registered Nurse'
+          },
+          issuer: { display: 'Finnish Nurses Association' }
+        }
+      ]
+    }
   },
   {
-    id: 'S0098',
-    first_name: 'Zachariah',
-    last_name: 'Kiehn',
-    role: 'Administrator',
-    department: 'Administration',
-    email: 'zachariah.kiehn36@nursinghome.com',
-    phone: '872-220-3587',
-    hire_date: '2018-01-01',
-    status: 'active'
+    id: 'S1006',
+    employee_id: 1006,
+    first_name: 'Sari',
+    last_name: 'Koskinen',
+    role: 'Nurse',
+    department: 'Nursing',
+    email: 'sari.koskinen@hoitokoti.fi',
+    phone: '040-6789012',
+    hire_date: '2022-04-01',
+    status: 'active',
+    fhir_practitioner: {
+      resourceType: 'Practitioner',
+      id: 'S1006',
+      identifier: [
+        { system: 'http://hoitokoti.fi/employee-id', value: '1006' },
+        { system: 'http://valvira.fi/license', value: 'VL654321' }
+      ],
+      active: true,
+      name: [{ use: 'official', family: 'Koskinen', given: ['Sari'] }],
+      telecom: [
+        { system: 'phone', value: '040-6789012', use: 'work' },
+        { system: 'email', value: 'sari.koskinen@hoitokoti.fi', use: 'work' }
+      ],
+      qualification: [
+        {
+          identifier: [{ value: 'RN789' }],
+          code: {
+            coding: [{ system: 'http://terminology.hl7.org/CodeSystem/v2-0360', code: 'RN', display: 'Registered Nurse' }],
+            text: 'Registered Nurse'
+          },
+          issuer: { display: 'Finnish Nurses Association' }
+        }
+      ]
+    }
+  },
+  {
+    id: 'S1009',
+    employee_id: 1009,
+    first_name: 'Timo',
+    last_name: 'Lehtonen',
+    role: 'Doctor',
+    department: 'Medical',
+    email: 'timo.lehtonen@hoitokoti.fi',
+    phone: '040-9012345',
+    hire_date: '2015-05-18',
+    status: 'active',
+    fhir_practitioner: {
+      resourceType: 'Practitioner',
+      id: 'S1009',
+      identifier: [
+        { system: 'http://hoitokoti.fi/employee-id', value: '1009' },
+        { system: 'http://valvira.fi/license', value: 'VL111222' }
+      ],
+      active: true,
+      name: [{ use: 'official', family: 'Lehtonen', given: ['Timo'] }],
+      telecom: [
+        { system: 'phone', value: '040-9012345', use: 'work' },
+        { system: 'email', value: 'timo.lehtonen@hoitokoti.fi', use: 'work' }
+      ],
+      qualification: [
+        {
+          identifier: [{ value: 'MD789' }],
+          code: {
+            coding: [{ system: 'http://terminology.hl7.org/CodeSystem/v2-0360', code: 'MD', display: 'Doctor of Medicine' }],
+            text: 'Doctor of Medicine'
+          },
+          issuer: { display: 'University of Turku' }
+        }
+      ]
+    }
   }
 ];
 
@@ -438,12 +541,13 @@ async function seedDatabase() {
     // Insert sample staff
     for (const staff of sampleStaff) {
       await database.query(`
-        INSERT INTO staff (id, first_name, last_name, role, department, email, phone, hire_date, status, password_hash)
-        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        INSERT INTO staff (id, employee_id, first_name, last_name, role, department, email, phone, hire_date, status, fhir_practitioner, password_hash)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
       `, [
-        staff.id, staff.first_name, staff.last_name, staff.role,
+        staff.id, staff.employee_id, staff.first_name, staff.last_name, staff.role,
         staff.department, staff.email, staff.phone, staff.hire_date,
-        staff.status, await bcrypt.hash('nursing123', 10)
+        staff.status, staff.fhir_practitioner ? JSON.stringify(staff.fhir_practitioner) : null,
+        await bcrypt.hash('nursing123', 10)
       ]);
     }
 

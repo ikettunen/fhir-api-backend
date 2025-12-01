@@ -14,13 +14,6 @@ module.exports = {
   testTimeout: 10000,
   coverageReporters: ['text', 'lcov', 'html'],
   reporters: [
-    'default',
-    ['jest-html-reporter', {
-      pageTitle: 'FHIR API Backend Test Report',
-      outputPath: 'reports/test-report.html',
-      includeFailureMsg: true,
-      includeConsoleLog: true,
-      dateFormat: 'yyyy-mm-dd HH:MM:ss'
-    }]
+    'default'
   ]
 };

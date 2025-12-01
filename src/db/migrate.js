@@ -58,12 +58,14 @@ async function runMigrations() {
     const statements = cleanedSchema
       .split(';')
       .map(stmt => stmt.trim().replace(/\n\s+/g, ' ')) // Normalize whitespace
-      .filter(stmt => stmt.length > 10 && !stmt.match(/^\s*(USE|SET)\s+/i)); // Filter out short statements and USE/SET commands
+      .filter(stmt => stmt.length > 5); // Keep all statements longer than 5 chars
     
-    // Filter out any statements that are just whitespace or comments
+    // Filter valid statements - include DROP, SET, CREATE, ALTER
     const validStatements = statements.filter(stmt => {
       const upper = stmt.toUpperCase();
-      return stmt.length > 10 && (
+      return stmt.length > 5 && (
+        upper.includes('DROP TABLE') ||
+        upper.includes('SET FOREIGN_KEY_CHECKS') ||
         upper.includes('CREATE TABLE') ||
         upper.includes('CREATE INDEX') ||
         upper.includes('ALTER TABLE')
@@ -88,8 +90,16 @@ async function runMigrations() {
       if (statement && statement.length > 10) {
         try {
           const result = await database.query(statement);
-          // Log result for CREATE TABLE statements
-          if (validStatements[i].toUpperCase().includes('CREATE TABLE')) {
+          const upper = validStatements[i].toUpperCase();
+          
+          // Log result based on statement type
+          if (upper.includes('DROP TABLE')) {
+            const tableNameMatch = validStatements[i].match(/DROP TABLE (?:IF EXISTS )?[`"]?(\w+)[`"]?/i);
+            const tableName = tableNameMatch ? tableNameMatch[1] : 'unknown';
+            logger.info(`✓ Statement ${i + 1}/${validStatements.length}: Dropped table '${tableName}'`);
+          } else if (upper.includes('SET FOREIGN_KEY_CHECKS')) {
+            logger.info(`✓ Statement ${i + 1}/${validStatements.length}: Set foreign key checks`);
+          } else if (upper.includes('CREATE TABLE')) {
             const tableNameMatch = validStatements[i].match(/CREATE TABLE (?:IF NOT EXISTS )?[`"]?(\w+)[`"]?/i);
             const tableName = tableNameMatch ? tableNameMatch[1] : 'unknown';
             logger.info(`✓ Statement ${i + 1}/${validStatements.length}: Created table '${tableName}'`);

@@ -9,6 +9,7 @@ require('dotenv').config();
 const fhirRoutes = require('./routes/fhir');
 const dbRoutes = require('./routes/db');
 const patientsRoutes = require('./routes/patients');
+const staffController = require('./controllers/staffController');
 
 // Import middleware
 const errorHandler = require('./middleware/errorHandler');
@@ -52,6 +53,15 @@ app.get('/health', (req, res) => {
 app.use('/api/fhir', fhirRoutes);
 app.use('/api/db', dbRoutes);
 app.use('/api/patients', patientsRoutes);
+
+// Staff routes (direct access for REST API)
+// Note: More specific routes must come before generic :id routes
+app.get('/api/staff', staffController.getAllStaff);
+app.post('/api/staff', staffController.createStaff);
+app.get('/api/staff/by-employee/:employeeId', staffController.getStaffByEmployeeId);
+app.get('/api/staff/:id', staffController.getStaffById);
+app.put('/api/staff/:id', staffController.updateStaff);
+app.patch('/api/staff/:id/status', staffController.updateStaffStatus);
 
 // Error handling middleware (must be last)
 app.use(errorHandler);

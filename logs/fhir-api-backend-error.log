@@ -881,3 +881,1147 @@
 2025-11-07T17:34:27:   address: '::',
 2025-11-07T17:34:27:   port: 8080
 2025-11-07T17:34:27: }
+2025-11-29T11:30:36: Error: Cannot find module 'axios'
+2025-11-29T11:30:36: Require stack:
+2025-11-29T11:30:36: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js
+2025-11-29T11:30:36: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\routes\fhir.js
+2025-11-29T11:30:36: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\server.js
+2025-11-29T11:30:36:     at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+2025-11-29T11:30:36:     at Hook._require.Module.require (C:\Users\ikett\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-11-29T11:30:36:     at require (node:internal/modules/helpers:147:16)
+2025-11-29T11:30:36:     at Object.<anonymous> (C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js:3:15)
+2025-11-29T11:30:36:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-11-29T11:30:36:     at Object..js (node:internal/modules/cjs/loader:1839:10)
+2025-11-29T11:30:36:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-11-29T11:30:36:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-11-29T11:30:36:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-11-29T11:30:36:     at wrapModuleLoad (node:internal/modules/cjs/loader:237:24) {
+2025-11-29T11:30:36:   code: 'MODULE_NOT_FOUND',
+2025-11-29T11:30:36:   requireStack: [
+2025-11-29T11:30:36:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\controllers\\staffController.js',
+2025-11-29T11:30:36:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\routes\\fhir.js',
+2025-11-29T11:30:36:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\server.js'
+2025-11-29T11:30:36:   ]
+2025-11-29T11:30:36: }
+2025-11-29T11:30:37: Error: Cannot find module 'axios'
+2025-11-29T11:30:37: Require stack:
+2025-11-29T11:30:37: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js
+2025-11-29T11:30:37: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\routes\fhir.js
+2025-11-29T11:30:37: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\server.js
+2025-11-29T11:30:37:     at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+2025-11-29T11:30:37:     at Hook._require.Module.require (C:\Users\ikett\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-11-29T11:30:37:     at require (node:internal/modules/helpers:147:16)
+2025-11-29T11:30:37:     at Object.<anonymous> (C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js:3:15)
+2025-11-29T11:30:37:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-11-29T11:30:37:     at Object..js (node:internal/modules/cjs/loader:1839:10)
+2025-11-29T11:30:37:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-11-29T11:30:37:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-11-29T11:30:37:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-11-29T11:30:37:     at wrapModuleLoad (node:internal/modules/cjs/loader:237:24) {
+2025-11-29T11:30:37:   code: 'MODULE_NOT_FOUND',
+2025-11-29T11:30:37:   requireStack: [
+2025-11-29T11:30:37:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\controllers\\staffController.js',
+2025-11-29T11:30:37:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\routes\\fhir.js',
+2025-11-29T11:30:37:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\server.js'
+2025-11-29T11:30:37:   ]
+2025-11-29T11:30:37: }
+2025-11-29T11:30:37: Error: Cannot find module 'axios'
+2025-11-29T11:30:37: Require stack:
+2025-11-29T11:30:37: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js
+2025-11-29T11:30:37: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\routes\fhir.js
+2025-11-29T11:30:37: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\server.js
+2025-11-29T11:30:37:     at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+2025-11-29T11:30:37:     at Hook._require.Module.require (C:\Users\ikett\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-11-29T11:30:37:     at require (node:internal/modules/helpers:147:16)
+2025-11-29T11:30:37:     at Object.<anonymous> (C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js:3:15)
+2025-11-29T11:30:37:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-11-29T11:30:37:     at Object..js (node:internal/modules/cjs/loader:1839:10)
+2025-11-29T11:30:37:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-11-29T11:30:37:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-11-29T11:30:37:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-11-29T11:30:37:     at wrapModuleLoad (node:internal/modules/cjs/loader:237:24) {
+2025-11-29T11:30:37:   code: 'MODULE_NOT_FOUND',
+2025-11-29T11:30:37:   requireStack: [
+2025-11-29T11:30:37:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\controllers\\staffController.js',
+2025-11-29T11:30:37:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\routes\\fhir.js',
+2025-11-29T11:30:37:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\server.js'
+2025-11-29T11:30:37:   ]
+2025-11-29T11:30:37: }
+2025-11-29T11:30:38: Error: Cannot find module 'axios'
+2025-11-29T11:30:38: Require stack:
+2025-11-29T11:30:38: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js
+2025-11-29T11:30:38: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\routes\fhir.js
+2025-11-29T11:30:38: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\server.js
+2025-11-29T11:30:38:     at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+2025-11-29T11:30:38:     at Hook._require.Module.require (C:\Users\ikett\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-11-29T11:30:38:     at require (node:internal/modules/helpers:147:16)
+2025-11-29T11:30:38:     at Object.<anonymous> (C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js:3:15)
+2025-11-29T11:30:38:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-11-29T11:30:38:     at Object..js (node:internal/modules/cjs/loader:1839:10)
+2025-11-29T11:30:38:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-11-29T11:30:38:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-11-29T11:30:38:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-11-29T11:30:38:     at wrapModuleLoad (node:internal/modules/cjs/loader:237:24) {
+2025-11-29T11:30:38:   code: 'MODULE_NOT_FOUND',
+2025-11-29T11:30:38:   requireStack: [
+2025-11-29T11:30:38:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\controllers\\staffController.js',
+2025-11-29T11:30:38:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\routes\\fhir.js',
+2025-11-29T11:30:38:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\server.js'
+2025-11-29T11:30:38:   ]
+2025-11-29T11:30:38: }
+2025-11-29T11:30:39: Error: Cannot find module 'axios'
+2025-11-29T11:30:39: Require stack:
+2025-11-29T11:30:39: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js
+2025-11-29T11:30:39: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\routes\fhir.js
+2025-11-29T11:30:39: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\server.js
+2025-11-29T11:30:39:     at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+2025-11-29T11:30:39:     at Hook._require.Module.require (C:\Users\ikett\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-11-29T11:30:39:     at require (node:internal/modules/helpers:147:16)
+2025-11-29T11:30:39:     at Object.<anonymous> (C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js:3:15)
+2025-11-29T11:30:39:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-11-29T11:30:39:     at Object..js (node:internal/modules/cjs/loader:1839:10)
+2025-11-29T11:30:39:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-11-29T11:30:39:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-11-29T11:30:39:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-11-29T11:30:39:     at wrapModuleLoad (node:internal/modules/cjs/loader:237:24) {
+2025-11-29T11:30:39:   code: 'MODULE_NOT_FOUND',
+2025-11-29T11:30:39:   requireStack: [
+2025-11-29T11:30:39:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\controllers\\staffController.js',
+2025-11-29T11:30:39:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\routes\\fhir.js',
+2025-11-29T11:30:39:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\server.js'
+2025-11-29T11:30:39:   ]
+2025-11-29T11:30:39: }
+2025-11-29T11:30:39: Error: Cannot find module 'axios'
+2025-11-29T11:30:39: Require stack:
+2025-11-29T11:30:39: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js
+2025-11-29T11:30:39: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\routes\fhir.js
+2025-11-29T11:30:39: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\server.js
+2025-11-29T11:30:39:     at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+2025-11-29T11:30:39:     at Hook._require.Module.require (C:\Users\ikett\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-11-29T11:30:39:     at require (node:internal/modules/helpers:147:16)
+2025-11-29T11:30:39:     at Object.<anonymous> (C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js:3:15)
+2025-11-29T11:30:39:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-11-29T11:30:39:     at Object..js (node:internal/modules/cjs/loader:1839:10)
+2025-11-29T11:30:39:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-11-29T11:30:39:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-11-29T11:30:39:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-11-29T11:30:39:     at wrapModuleLoad (node:internal/modules/cjs/loader:237:24) {
+2025-11-29T11:30:39:   code: 'MODULE_NOT_FOUND',
+2025-11-29T11:30:39:   requireStack: [
+2025-11-29T11:30:39:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\controllers\\staffController.js',
+2025-11-29T11:30:39:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\routes\\fhir.js',
+2025-11-29T11:30:39:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\server.js'
+2025-11-29T11:30:39:   ]
+2025-11-29T11:30:39: }
+2025-11-29T11:30:40: Error: Cannot find module 'axios'
+2025-11-29T11:30:40: Require stack:
+2025-11-29T11:30:40: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js
+2025-11-29T11:30:40: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\routes\fhir.js
+2025-11-29T11:30:40: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\server.js
+2025-11-29T11:30:40:     at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+2025-11-29T11:30:40:     at Hook._require.Module.require (C:\Users\ikett\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-11-29T11:30:40:     at require (node:internal/modules/helpers:147:16)
+2025-11-29T11:30:40:     at Object.<anonymous> (C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js:3:15)
+2025-11-29T11:30:40:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-11-29T11:30:40:     at Object..js (node:internal/modules/cjs/loader:1839:10)
+2025-11-29T11:30:40:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-11-29T11:30:40:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-11-29T11:30:40:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-11-29T11:30:40:     at wrapModuleLoad (node:internal/modules/cjs/loader:237:24) {
+2025-11-29T11:30:40:   code: 'MODULE_NOT_FOUND',
+2025-11-29T11:30:40:   requireStack: [
+2025-11-29T11:30:40:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\controllers\\staffController.js',
+2025-11-29T11:30:40:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\routes\\fhir.js',
+2025-11-29T11:30:40:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\server.js'
+2025-11-29T11:30:40:   ]
+2025-11-29T11:30:40: }
+2025-11-29T11:30:40: Error: Cannot find module 'axios'
+2025-11-29T11:30:40: Require stack:
+2025-11-29T11:30:40: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js
+2025-11-29T11:30:40: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\routes\fhir.js
+2025-11-29T11:30:40: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\server.js
+2025-11-29T11:30:40:     at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+2025-11-29T11:30:40:     at Hook._require.Module.require (C:\Users\ikett\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-11-29T11:30:40:     at require (node:internal/modules/helpers:147:16)
+2025-11-29T11:30:40:     at Object.<anonymous> (C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js:3:15)
+2025-11-29T11:30:40:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-11-29T11:30:40:     at Object..js (node:internal/modules/cjs/loader:1839:10)
+2025-11-29T11:30:40:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-11-29T11:30:40:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-11-29T11:30:40:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-11-29T11:30:40:     at wrapModuleLoad (node:internal/modules/cjs/loader:237:24) {
+2025-11-29T11:30:40:   code: 'MODULE_NOT_FOUND',
+2025-11-29T11:30:40:   requireStack: [
+2025-11-29T11:30:40:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\controllers\\staffController.js',
+2025-11-29T11:30:40:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\routes\\fhir.js',
+2025-11-29T11:30:40:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\server.js'
+2025-11-29T11:30:40:   ]
+2025-11-29T11:30:40: }
+2025-11-29T11:30:41: Error: Cannot find module 'axios'
+2025-11-29T11:30:41: Require stack:
+2025-11-29T11:30:41: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js
+2025-11-29T11:30:41: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\routes\fhir.js
+2025-11-29T11:30:41: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\server.js
+2025-11-29T11:30:41:     at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+2025-11-29T11:30:41:     at Hook._require.Module.require (C:\Users\ikett\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-11-29T11:30:41:     at require (node:internal/modules/helpers:147:16)
+2025-11-29T11:30:41:     at Object.<anonymous> (C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js:3:15)
+2025-11-29T11:30:41:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-11-29T11:30:41:     at Object..js (node:internal/modules/cjs/loader:1839:10)
+2025-11-29T11:30:41:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-11-29T11:30:41:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-11-29T11:30:41:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-11-29T11:30:41:     at wrapModuleLoad (node:internal/modules/cjs/loader:237:24) {
+2025-11-29T11:30:41:   code: 'MODULE_NOT_FOUND',
+2025-11-29T11:30:41:   requireStack: [
+2025-11-29T11:30:41:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\controllers\\staffController.js',
+2025-11-29T11:30:41:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\routes\\fhir.js',
+2025-11-29T11:30:41:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\server.js'
+2025-11-29T11:30:41:   ]
+2025-11-29T11:30:41: }
+2025-11-29T11:30:42: Error: Cannot find module 'axios'
+2025-11-29T11:30:42: Require stack:
+2025-11-29T11:30:42: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js
+2025-11-29T11:30:42: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\routes\fhir.js
+2025-11-29T11:30:42: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\server.js
+2025-11-29T11:30:42:     at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+2025-11-29T11:30:42:     at Hook._require.Module.require (C:\Users\ikett\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-11-29T11:30:42:     at require (node:internal/modules/helpers:147:16)
+2025-11-29T11:30:42:     at Object.<anonymous> (C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js:3:15)
+2025-11-29T11:30:42:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-11-29T11:30:42:     at Object..js (node:internal/modules/cjs/loader:1839:10)
+2025-11-29T11:30:42:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-11-29T11:30:42:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-11-29T11:30:42:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-11-29T11:30:42:     at wrapModuleLoad (node:internal/modules/cjs/loader:237:24) {
+2025-11-29T11:30:42:   code: 'MODULE_NOT_FOUND',
+2025-11-29T11:30:42:   requireStack: [
+2025-11-29T11:30:42:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\controllers\\staffController.js',
+2025-11-29T11:30:42:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\routes\\fhir.js',
+2025-11-29T11:30:42:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\server.js'
+2025-11-29T11:30:42:   ]
+2025-11-29T11:30:42: }
+2025-11-29T11:30:43: Error: Cannot find module 'axios'
+2025-11-29T11:30:43: Require stack:
+2025-11-29T11:30:43: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js
+2025-11-29T11:30:43: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\routes\fhir.js
+2025-11-29T11:30:43: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\server.js
+2025-11-29T11:30:43:     at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+2025-11-29T11:30:43:     at Hook._require.Module.require (C:\Users\ikett\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-11-29T11:30:43:     at require (node:internal/modules/helpers:147:16)
+2025-11-29T11:30:43:     at Object.<anonymous> (C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js:3:15)
+2025-11-29T11:30:43:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-11-29T11:30:43:     at Object..js (node:internal/modules/cjs/loader:1839:10)
+2025-11-29T11:30:43:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-11-29T11:30:43:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-11-29T11:30:43:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-11-29T11:30:43:     at wrapModuleLoad (node:internal/modules/cjs/loader:237:24) {
+2025-11-29T11:30:43:   code: 'MODULE_NOT_FOUND',
+2025-11-29T11:30:43:   requireStack: [
+2025-11-29T11:30:43:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\controllers\\staffController.js',
+2025-11-29T11:30:43:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\routes\\fhir.js',
+2025-11-29T11:30:43:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\server.js'
+2025-11-29T11:30:43:   ]
+2025-11-29T11:30:43: }
+2025-11-29T11:30:43: Error: Cannot find module 'axios'
+2025-11-29T11:30:43: Require stack:
+2025-11-29T11:30:43: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js
+2025-11-29T11:30:43: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\routes\fhir.js
+2025-11-29T11:30:43: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\server.js
+2025-11-29T11:30:43:     at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+2025-11-29T11:30:43:     at Hook._require.Module.require (C:\Users\ikett\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-11-29T11:30:43:     at require (node:internal/modules/helpers:147:16)
+2025-11-29T11:30:43:     at Object.<anonymous> (C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js:3:15)
+2025-11-29T11:30:43:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-11-29T11:30:43:     at Object..js (node:internal/modules/cjs/loader:1839:10)
+2025-11-29T11:30:43:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-11-29T11:30:43:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-11-29T11:30:43:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-11-29T11:30:43:     at wrapModuleLoad (node:internal/modules/cjs/loader:237:24) {
+2025-11-29T11:30:43:   code: 'MODULE_NOT_FOUND',
+2025-11-29T11:30:43:   requireStack: [
+2025-11-29T11:30:43:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\controllers\\staffController.js',
+2025-11-29T11:30:43:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\routes\\fhir.js',
+2025-11-29T11:30:43:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\server.js'
+2025-11-29T11:30:43:   ]
+2025-11-29T11:30:43: }
+2025-11-29T11:30:44: Error: Cannot find module 'axios'
+2025-11-29T11:30:44: Require stack:
+2025-11-29T11:30:44: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js
+2025-11-29T11:30:44: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\routes\fhir.js
+2025-11-29T11:30:44: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\server.js
+2025-11-29T11:30:44:     at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+2025-11-29T11:30:44:     at Hook._require.Module.require (C:\Users\ikett\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-11-29T11:30:44:     at require (node:internal/modules/helpers:147:16)
+2025-11-29T11:30:44:     at Object.<anonymous> (C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js:3:15)
+2025-11-29T11:30:44:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-11-29T11:30:44:     at Object..js (node:internal/modules/cjs/loader:1839:10)
+2025-11-29T11:30:44:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-11-29T11:30:44:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-11-29T11:30:44:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-11-29T11:30:44:     at wrapModuleLoad (node:internal/modules/cjs/loader:237:24) {
+2025-11-29T11:30:44:   code: 'MODULE_NOT_FOUND',
+2025-11-29T11:30:44:   requireStack: [
+2025-11-29T11:30:44:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\controllers\\staffController.js',
+2025-11-29T11:30:44:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\routes\\fhir.js',
+2025-11-29T11:30:44:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\server.js'
+2025-11-29T11:30:44:   ]
+2025-11-29T11:30:44: }
+2025-11-29T11:30:44: Error: Cannot find module 'axios'
+2025-11-29T11:30:44: Require stack:
+2025-11-29T11:30:44: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js
+2025-11-29T11:30:44: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\routes\fhir.js
+2025-11-29T11:30:44: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\server.js
+2025-11-29T11:30:44:     at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+2025-11-29T11:30:44:     at Hook._require.Module.require (C:\Users\ikett\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-11-29T11:30:44:     at require (node:internal/modules/helpers:147:16)
+2025-11-29T11:30:44:     at Object.<anonymous> (C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js:3:15)
+2025-11-29T11:30:44:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-11-29T11:30:44:     at Object..js (node:internal/modules/cjs/loader:1839:10)
+2025-11-29T11:30:44:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-11-29T11:30:44:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-11-29T11:30:44:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-11-29T11:30:44:     at wrapModuleLoad (node:internal/modules/cjs/loader:237:24) {
+2025-11-29T11:30:44:   code: 'MODULE_NOT_FOUND',
+2025-11-29T11:30:44:   requireStack: [
+2025-11-29T11:30:44:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\controllers\\staffController.js',
+2025-11-29T11:30:44:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\routes\\fhir.js',
+2025-11-29T11:30:44:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\server.js'
+2025-11-29T11:30:44:   ]
+2025-11-29T11:30:44: }
+2025-11-29T11:30:45: Error: Cannot find module 'axios'
+2025-11-29T11:30:45: Require stack:
+2025-11-29T11:30:45: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js
+2025-11-29T11:30:45: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\routes\fhir.js
+2025-11-29T11:30:45: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\server.js
+2025-11-29T11:30:45:     at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+2025-11-29T11:30:45:     at Hook._require.Module.require (C:\Users\ikett\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-11-29T11:30:45:     at require (node:internal/modules/helpers:147:16)
+2025-11-29T11:30:45:     at Object.<anonymous> (C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js:3:15)
+2025-11-29T11:30:45:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-11-29T11:30:45:     at Object..js (node:internal/modules/cjs/loader:1839:10)
+2025-11-29T11:30:45:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-11-29T11:30:45:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-11-29T11:30:45:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-11-29T11:30:45:     at wrapModuleLoad (node:internal/modules/cjs/loader:237:24) {
+2025-11-29T11:30:45:   code: 'MODULE_NOT_FOUND',
+2025-11-29T11:30:45:   requireStack: [
+2025-11-29T11:30:45:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\controllers\\staffController.js',
+2025-11-29T11:30:45:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\routes\\fhir.js',
+2025-11-29T11:30:45:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\server.js'
+2025-11-29T11:30:45:   ]
+2025-11-29T11:30:45: }
+2025-11-29T11:30:46: Error: Cannot find module 'axios'
+2025-11-29T11:30:46: Require stack:
+2025-11-29T11:30:46: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js
+2025-11-29T11:30:46: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\routes\fhir.js
+2025-11-29T11:30:46: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\server.js
+2025-11-29T11:30:46:     at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+2025-11-29T11:30:46:     at Hook._require.Module.require (C:\Users\ikett\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-11-29T11:30:46:     at require (node:internal/modules/helpers:147:16)
+2025-11-29T11:30:46:     at Object.<anonymous> (C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js:3:15)
+2025-11-29T11:30:46:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-11-29T11:30:46:     at Object..js (node:internal/modules/cjs/loader:1839:10)
+2025-11-29T11:30:46:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-11-29T11:30:46:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-11-29T11:30:46:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-11-29T11:30:46:     at wrapModuleLoad (node:internal/modules/cjs/loader:237:24) {
+2025-11-29T11:30:46:   code: 'MODULE_NOT_FOUND',
+2025-11-29T11:30:46:   requireStack: [
+2025-11-29T11:30:46:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\controllers\\staffController.js',
+2025-11-29T11:30:46:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\routes\\fhir.js',
+2025-11-29T11:30:46:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\server.js'
+2025-11-29T11:30:46:   ]
+2025-11-29T11:30:46: }
+2025-11-29T11:30:47: Error: Cannot find module 'axios'
+2025-11-29T11:30:47: Require stack:
+2025-11-29T11:30:47: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js
+2025-11-29T11:30:47: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\routes\fhir.js
+2025-11-29T11:30:47: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\server.js
+2025-11-29T11:30:47:     at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+2025-11-29T11:30:47:     at Hook._require.Module.require (C:\Users\ikett\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-11-29T11:30:47:     at require (node:internal/modules/helpers:147:16)
+2025-11-29T11:30:47:     at Object.<anonymous> (C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js:3:15)
+2025-11-29T11:30:47:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-11-29T11:30:47:     at Object..js (node:internal/modules/cjs/loader:1839:10)
+2025-11-29T11:30:47:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-11-29T11:30:47:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-11-29T11:30:47:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-11-29T11:30:47:     at wrapModuleLoad (node:internal/modules/cjs/loader:237:24) {
+2025-11-29T11:30:47:   code: 'MODULE_NOT_FOUND',
+2025-11-29T11:30:47:   requireStack: [
+2025-11-29T11:30:47:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\controllers\\staffController.js',
+2025-11-29T11:30:47:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\routes\\fhir.js',
+2025-11-29T11:30:47:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\server.js'
+2025-11-29T11:30:47:   ]
+2025-11-29T11:30:47: }
+2025-11-29T11:31:10: Error: Cannot find module 'axios'
+2025-11-29T11:31:10: Require stack:
+2025-11-29T11:31:10: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js
+2025-11-29T11:31:10: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\routes\fhir.js
+2025-11-29T11:31:10: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\server.js
+2025-11-29T11:31:10:     at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+2025-11-29T11:31:10:     at Hook._require.Module.require (C:\Users\ikett\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-11-29T11:31:10:     at require (node:internal/modules/helpers:147:16)
+2025-11-29T11:31:10:     at Object.<anonymous> (C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js:3:15)
+2025-11-29T11:31:10:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-11-29T11:31:10:     at Object..js (node:internal/modules/cjs/loader:1839:10)
+2025-11-29T11:31:10:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-11-29T11:31:10:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-11-29T11:31:10:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-11-29T11:31:10:     at wrapModuleLoad (node:internal/modules/cjs/loader:237:24) {
+2025-11-29T11:31:10:   code: 'MODULE_NOT_FOUND',
+2025-11-29T11:31:10:   requireStack: [
+2025-11-29T11:31:10:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\controllers\\staffController.js',
+2025-11-29T11:31:10:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\routes\\fhir.js',
+2025-11-29T11:31:10:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\server.js'
+2025-11-29T11:31:10:   ]
+2025-11-29T11:31:10: }
+2025-11-29T11:31:10: Error: Cannot find module 'axios'
+2025-11-29T11:31:10: Require stack:
+2025-11-29T11:31:10: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js
+2025-11-29T11:31:10: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\routes\fhir.js
+2025-11-29T11:31:10: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\server.js
+2025-11-29T11:31:10:     at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+2025-11-29T11:31:10:     at Hook._require.Module.require (C:\Users\ikett\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-11-29T11:31:10:     at require (node:internal/modules/helpers:147:16)
+2025-11-29T11:31:10:     at Object.<anonymous> (C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js:3:15)
+2025-11-29T11:31:10:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-11-29T11:31:10:     at Object..js (node:internal/modules/cjs/loader:1839:10)
+2025-11-29T11:31:10:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-11-29T11:31:10:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-11-29T11:31:10:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-11-29T11:31:10:     at wrapModuleLoad (node:internal/modules/cjs/loader:237:24) {
+2025-11-29T11:31:10:   code: 'MODULE_NOT_FOUND',
+2025-11-29T11:31:10:   requireStack: [
+2025-11-29T11:31:10:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\controllers\\staffController.js',
+2025-11-29T11:31:10:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\routes\\fhir.js',
+2025-11-29T11:31:10:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\server.js'
+2025-11-29T11:31:10:   ]
+2025-11-29T11:31:10: }
+2025-11-29T11:31:11: Error: Cannot find module 'axios'
+2025-11-29T11:31:11: Require stack:
+2025-11-29T11:31:11: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js
+2025-11-29T11:31:11: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\routes\fhir.js
+2025-11-29T11:31:11: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\server.js
+2025-11-29T11:31:11:     at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+2025-11-29T11:31:11:     at Hook._require.Module.require (C:\Users\ikett\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-11-29T11:31:11:     at require (node:internal/modules/helpers:147:16)
+2025-11-29T11:31:11:     at Object.<anonymous> (C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js:3:15)
+2025-11-29T11:31:11:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-11-29T11:31:11:     at Object..js (node:internal/modules/cjs/loader:1839:10)
+2025-11-29T11:31:11:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-11-29T11:31:11:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-11-29T11:31:11:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-11-29T11:31:11:     at wrapModuleLoad (node:internal/modules/cjs/loader:237:24) {
+2025-11-29T11:31:11:   code: 'MODULE_NOT_FOUND',
+2025-11-29T11:31:11:   requireStack: [
+2025-11-29T11:31:11:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\controllers\\staffController.js',
+2025-11-29T11:31:11:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\routes\\fhir.js',
+2025-11-29T11:31:11:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\server.js'
+2025-11-29T11:31:11:   ]
+2025-11-29T11:31:11: }
+2025-11-29T11:31:12: Error: Cannot find module 'axios'
+2025-11-29T11:31:12: Require stack:
+2025-11-29T11:31:12: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js
+2025-11-29T11:31:12: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\routes\fhir.js
+2025-11-29T11:31:12: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\server.js
+2025-11-29T11:31:12:     at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+2025-11-29T11:31:12:     at Hook._require.Module.require (C:\Users\ikett\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-11-29T11:31:12:     at require (node:internal/modules/helpers:147:16)
+2025-11-29T11:31:12:     at Object.<anonymous> (C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js:3:15)
+2025-11-29T11:31:12:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-11-29T11:31:12:     at Object..js (node:internal/modules/cjs/loader:1839:10)
+2025-11-29T11:31:12:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-11-29T11:31:12:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-11-29T11:31:12:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-11-29T11:31:12:     at wrapModuleLoad (node:internal/modules/cjs/loader:237:24) {
+2025-11-29T11:31:12:   code: 'MODULE_NOT_FOUND',
+2025-11-29T11:31:12:   requireStack: [
+2025-11-29T11:31:12:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\controllers\\staffController.js',
+2025-11-29T11:31:12:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\routes\\fhir.js',
+2025-11-29T11:31:12:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\server.js'
+2025-11-29T11:31:12:   ]
+2025-11-29T11:31:12: }
+2025-11-29T11:31:12: Error: Cannot find module 'axios'
+2025-11-29T11:31:12: Require stack:
+2025-11-29T11:31:12: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js
+2025-11-29T11:31:12: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\routes\fhir.js
+2025-11-29T11:31:12: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\server.js
+2025-11-29T11:31:12:     at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+2025-11-29T11:31:12:     at Hook._require.Module.require (C:\Users\ikett\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-11-29T11:31:12:     at require (node:internal/modules/helpers:147:16)
+2025-11-29T11:31:12:     at Object.<anonymous> (C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js:3:15)
+2025-11-29T11:31:12:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-11-29T11:31:12:     at Object..js (node:internal/modules/cjs/loader:1839:10)
+2025-11-29T11:31:12:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-11-29T11:31:12:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-11-29T11:31:12:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-11-29T11:31:12:     at wrapModuleLoad (node:internal/modules/cjs/loader:237:24) {
+2025-11-29T11:31:12:   code: 'MODULE_NOT_FOUND',
+2025-11-29T11:31:12:   requireStack: [
+2025-11-29T11:31:12:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\controllers\\staffController.js',
+2025-11-29T11:31:12:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\routes\\fhir.js',
+2025-11-29T11:31:12:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\server.js'
+2025-11-29T11:31:12:   ]
+2025-11-29T11:31:12: }
+2025-11-29T11:31:13: Error: Cannot find module 'axios'
+2025-11-29T11:31:13: Require stack:
+2025-11-29T11:31:13: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js
+2025-11-29T11:31:13: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\routes\fhir.js
+2025-11-29T11:31:13: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\server.js
+2025-11-29T11:31:13:     at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+2025-11-29T11:31:13:     at Hook._require.Module.require (C:\Users\ikett\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-11-29T11:31:13:     at require (node:internal/modules/helpers:147:16)
+2025-11-29T11:31:13:     at Object.<anonymous> (C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js:3:15)
+2025-11-29T11:31:13:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-11-29T11:31:13:     at Object..js (node:internal/modules/cjs/loader:1839:10)
+2025-11-29T11:31:13:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-11-29T11:31:13:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-11-29T11:31:13:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-11-29T11:31:13:     at wrapModuleLoad (node:internal/modules/cjs/loader:237:24) {
+2025-11-29T11:31:13:   code: 'MODULE_NOT_FOUND',
+2025-11-29T11:31:13:   requireStack: [
+2025-11-29T11:31:13:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\controllers\\staffController.js',
+2025-11-29T11:31:13:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\routes\\fhir.js',
+2025-11-29T11:31:13:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\server.js'
+2025-11-29T11:31:13:   ]
+2025-11-29T11:31:13: }
+2025-11-29T11:31:13: Error: Cannot find module 'axios'
+2025-11-29T11:31:13: Require stack:
+2025-11-29T11:31:13: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js
+2025-11-29T11:31:13: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\routes\fhir.js
+2025-11-29T11:31:13: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\server.js
+2025-11-29T11:31:13:     at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+2025-11-29T11:31:13:     at Hook._require.Module.require (C:\Users\ikett\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-11-29T11:31:13:     at require (node:internal/modules/helpers:147:16)
+2025-11-29T11:31:13:     at Object.<anonymous> (C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js:3:15)
+2025-11-29T11:31:13:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-11-29T11:31:13:     at Object..js (node:internal/modules/cjs/loader:1839:10)
+2025-11-29T11:31:13:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-11-29T11:31:13:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-11-29T11:31:13:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-11-29T11:31:13:     at wrapModuleLoad (node:internal/modules/cjs/loader:237:24) {
+2025-11-29T11:31:13:   code: 'MODULE_NOT_FOUND',
+2025-11-29T11:31:13:   requireStack: [
+2025-11-29T11:31:13:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\controllers\\staffController.js',
+2025-11-29T11:31:13:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\routes\\fhir.js',
+2025-11-29T11:31:13:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\server.js'
+2025-11-29T11:31:13:   ]
+2025-11-29T11:31:13: }
+2025-11-29T11:31:14: Error: Cannot find module 'axios'
+2025-11-29T11:31:14: Require stack:
+2025-11-29T11:31:14: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js
+2025-11-29T11:31:14: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\routes\fhir.js
+2025-11-29T11:31:14: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\server.js
+2025-11-29T11:31:14:     at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+2025-11-29T11:31:14:     at Hook._require.Module.require (C:\Users\ikett\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-11-29T11:31:14:     at require (node:internal/modules/helpers:147:16)
+2025-11-29T11:31:14:     at Object.<anonymous> (C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js:3:15)
+2025-11-29T11:31:14:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-11-29T11:31:14:     at Object..js (node:internal/modules/cjs/loader:1839:10)
+2025-11-29T11:31:14:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-11-29T11:31:14:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-11-29T11:31:14:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-11-29T11:31:14:     at wrapModuleLoad (node:internal/modules/cjs/loader:237:24) {
+2025-11-29T11:31:14:   code: 'MODULE_NOT_FOUND',
+2025-11-29T11:31:14:   requireStack: [
+2025-11-29T11:31:14:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\controllers\\staffController.js',
+2025-11-29T11:31:14:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\routes\\fhir.js',
+2025-11-29T11:31:14:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\server.js'
+2025-11-29T11:31:14:   ]
+2025-11-29T11:31:14: }
+2025-11-29T11:31:15: Error: Cannot find module 'axios'
+2025-11-29T11:31:15: Require stack:
+2025-11-29T11:31:15: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js
+2025-11-29T11:31:15: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\routes\fhir.js
+2025-11-29T11:31:15: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\server.js
+2025-11-29T11:31:15:     at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+2025-11-29T11:31:15:     at Hook._require.Module.require (C:\Users\ikett\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-11-29T11:31:15:     at require (node:internal/modules/helpers:147:16)
+2025-11-29T11:31:15:     at Object.<anonymous> (C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js:3:15)
+2025-11-29T11:31:15:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-11-29T11:31:15:     at Object..js (node:internal/modules/cjs/loader:1839:10)
+2025-11-29T11:31:15:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-11-29T11:31:15:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-11-29T11:31:15:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-11-29T11:31:15:     at wrapModuleLoad (node:internal/modules/cjs/loader:237:24) {
+2025-11-29T11:31:15:   code: 'MODULE_NOT_FOUND',
+2025-11-29T11:31:15:   requireStack: [
+2025-11-29T11:31:15:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\controllers\\staffController.js',
+2025-11-29T11:31:15:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\routes\\fhir.js',
+2025-11-29T11:31:15:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\server.js'
+2025-11-29T11:31:15:   ]
+2025-11-29T11:31:15: }
+2025-11-29T11:31:16: Error: Cannot find module 'axios'
+2025-11-29T11:31:16: Require stack:
+2025-11-29T11:31:16: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js
+2025-11-29T11:31:16: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\routes\fhir.js
+2025-11-29T11:31:16: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\server.js
+2025-11-29T11:31:16:     at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+2025-11-29T11:31:16:     at Hook._require.Module.require (C:\Users\ikett\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-11-29T11:31:16:     at require (node:internal/modules/helpers:147:16)
+2025-11-29T11:31:16:     at Object.<anonymous> (C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js:3:15)
+2025-11-29T11:31:16:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-11-29T11:31:16:     at Object..js (node:internal/modules/cjs/loader:1839:10)
+2025-11-29T11:31:16:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-11-29T11:31:16:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-11-29T11:31:16:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-11-29T11:31:16:     at wrapModuleLoad (node:internal/modules/cjs/loader:237:24) {
+2025-11-29T11:31:16:   code: 'MODULE_NOT_FOUND',
+2025-11-29T11:31:16:   requireStack: [
+2025-11-29T11:31:16:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\controllers\\staffController.js',
+2025-11-29T11:31:16:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\routes\\fhir.js',
+2025-11-29T11:31:16:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\server.js'
+2025-11-29T11:31:16:   ]
+2025-11-29T11:31:16: }
+2025-11-29T11:31:17: Error: Cannot find module 'axios'
+2025-11-29T11:31:17: Require stack:
+2025-11-29T11:31:17: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js
+2025-11-29T11:31:17: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\routes\fhir.js
+2025-11-29T11:31:17: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\server.js
+2025-11-29T11:31:17:     at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+2025-11-29T11:31:17:     at Hook._require.Module.require (C:\Users\ikett\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-11-29T11:31:17:     at require (node:internal/modules/helpers:147:16)
+2025-11-29T11:31:17:     at Object.<anonymous> (C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js:3:15)
+2025-11-29T11:31:17:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-11-29T11:31:17:     at Object..js (node:internal/modules/cjs/loader:1839:10)
+2025-11-29T11:31:17:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-11-29T11:31:17:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-11-29T11:31:17:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-11-29T11:31:17:     at wrapModuleLoad (node:internal/modules/cjs/loader:237:24) {
+2025-11-29T11:31:17:   code: 'MODULE_NOT_FOUND',
+2025-11-29T11:31:17:   requireStack: [
+2025-11-29T11:31:17:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\controllers\\staffController.js',
+2025-11-29T11:31:17:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\routes\\fhir.js',
+2025-11-29T11:31:17:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\server.js'
+2025-11-29T11:31:17:   ]
+2025-11-29T11:31:17: }
+2025-11-29T11:31:18: Error: Cannot find module 'axios'
+2025-11-29T11:31:18: Require stack:
+2025-11-29T11:31:18: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js
+2025-11-29T11:31:18: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\routes\fhir.js
+2025-11-29T11:31:18: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\server.js
+2025-11-29T11:31:18:     at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+2025-11-29T11:31:18:     at Hook._require.Module.require (C:\Users\ikett\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-11-29T11:31:18:     at require (node:internal/modules/helpers:147:16)
+2025-11-29T11:31:18:     at Object.<anonymous> (C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js:3:15)
+2025-11-29T11:31:18:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-11-29T11:31:18:     at Object..js (node:internal/modules/cjs/loader:1839:10)
+2025-11-29T11:31:18:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-11-29T11:31:18:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-11-29T11:31:18:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-11-29T11:31:18:     at wrapModuleLoad (node:internal/modules/cjs/loader:237:24) {
+2025-11-29T11:31:18:   code: 'MODULE_NOT_FOUND',
+2025-11-29T11:31:18:   requireStack: [
+2025-11-29T11:31:18:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\controllers\\staffController.js',
+2025-11-29T11:31:18:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\routes\\fhir.js',
+2025-11-29T11:31:18:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\server.js'
+2025-11-29T11:31:18:   ]
+2025-11-29T11:31:18: }
+2025-11-29T11:31:18: Error: Cannot find module 'axios'
+2025-11-29T11:31:18: Require stack:
+2025-11-29T11:31:18: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js
+2025-11-29T11:31:18: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\routes\fhir.js
+2025-11-29T11:31:18: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\server.js
+2025-11-29T11:31:18:     at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+2025-11-29T11:31:18:     at Hook._require.Module.require (C:\Users\ikett\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-11-29T11:31:18:     at require (node:internal/modules/helpers:147:16)
+2025-11-29T11:31:18:     at Object.<anonymous> (C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js:3:15)
+2025-11-29T11:31:18:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-11-29T11:31:18:     at Object..js (node:internal/modules/cjs/loader:1839:10)
+2025-11-29T11:31:18:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-11-29T11:31:18:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-11-29T11:31:18:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-11-29T11:31:18:     at wrapModuleLoad (node:internal/modules/cjs/loader:237:24) {
+2025-11-29T11:31:18:   code: 'MODULE_NOT_FOUND',
+2025-11-29T11:31:18:   requireStack: [
+2025-11-29T11:31:18:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\controllers\\staffController.js',
+2025-11-29T11:31:18:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\routes\\fhir.js',
+2025-11-29T11:31:18:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\server.js'
+2025-11-29T11:31:18:   ]
+2025-11-29T11:31:18: }
+2025-11-29T11:31:19: Error: Cannot find module 'axios'
+2025-11-29T11:31:19: Require stack:
+2025-11-29T11:31:19: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js
+2025-11-29T11:31:19: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\routes\fhir.js
+2025-11-29T11:31:19: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\server.js
+2025-11-29T11:31:19:     at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+2025-11-29T11:31:19:     at Hook._require.Module.require (C:\Users\ikett\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-11-29T11:31:19:     at require (node:internal/modules/helpers:147:16)
+2025-11-29T11:31:19:     at Object.<anonymous> (C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js:3:15)
+2025-11-29T11:31:19:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-11-29T11:31:19:     at Object..js (node:internal/modules/cjs/loader:1839:10)
+2025-11-29T11:31:19:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-11-29T11:31:19:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-11-29T11:31:19:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-11-29T11:31:19:     at wrapModuleLoad (node:internal/modules/cjs/loader:237:24) {
+2025-11-29T11:31:19:   code: 'MODULE_NOT_FOUND',
+2025-11-29T11:31:19:   requireStack: [
+2025-11-29T11:31:19:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\controllers\\staffController.js',
+2025-11-29T11:31:19:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\routes\\fhir.js',
+2025-11-29T11:31:19:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\server.js'
+2025-11-29T11:31:19:   ]
+2025-11-29T11:31:19: }
+2025-11-29T11:31:19: Error: Cannot find module 'axios'
+2025-11-29T11:31:19: Require stack:
+2025-11-29T11:31:19: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js
+2025-11-29T11:31:19: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\routes\fhir.js
+2025-11-29T11:31:19: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\server.js
+2025-11-29T11:31:19:     at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+2025-11-29T11:31:19:     at Hook._require.Module.require (C:\Users\ikett\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-11-29T11:31:19:     at require (node:internal/modules/helpers:147:16)
+2025-11-29T11:31:19:     at Object.<anonymous> (C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js:3:15)
+2025-11-29T11:31:19:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-11-29T11:31:19:     at Object..js (node:internal/modules/cjs/loader:1839:10)
+2025-11-29T11:31:19:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-11-29T11:31:19:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-11-29T11:31:19:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-11-29T11:31:19:     at wrapModuleLoad (node:internal/modules/cjs/loader:237:24) {
+2025-11-29T11:31:19:   code: 'MODULE_NOT_FOUND',
+2025-11-29T11:31:19:   requireStack: [
+2025-11-29T11:31:19:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\controllers\\staffController.js',
+2025-11-29T11:31:19:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\routes\\fhir.js',
+2025-11-29T11:31:19:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\server.js'
+2025-11-29T11:31:19:   ]
+2025-11-29T11:31:19: }
+2025-11-29T11:31:20: Error: Cannot find module 'axios'
+2025-11-29T11:31:20: Require stack:
+2025-11-29T11:31:20: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js
+2025-11-29T11:31:20: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\routes\fhir.js
+2025-11-29T11:31:20: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\server.js
+2025-11-29T11:31:20:     at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+2025-11-29T11:31:20:     at Hook._require.Module.require (C:\Users\ikett\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-11-29T11:31:20:     at require (node:internal/modules/helpers:147:16)
+2025-11-29T11:31:20:     at Object.<anonymous> (C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js:3:15)
+2025-11-29T11:31:20:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-11-29T11:31:20:     at Object..js (node:internal/modules/cjs/loader:1839:10)
+2025-11-29T11:31:20:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-11-29T11:31:20:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-11-29T11:31:20:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-11-29T11:31:20:     at wrapModuleLoad (node:internal/modules/cjs/loader:237:24) {
+2025-11-29T11:31:20:   code: 'MODULE_NOT_FOUND',
+2025-11-29T11:31:20:   requireStack: [
+2025-11-29T11:31:20:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\controllers\\staffController.js',
+2025-11-29T11:31:20:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\routes\\fhir.js',
+2025-11-29T11:31:20:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\server.js'
+2025-11-29T11:31:20:   ]
+2025-11-29T11:31:20: }
+2025-11-29T11:31:21: Error: Cannot find module 'axios'
+2025-11-29T11:31:21: Require stack:
+2025-11-29T11:31:21: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js
+2025-11-29T11:31:21: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\routes\fhir.js
+2025-11-29T11:31:21: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\server.js
+2025-11-29T11:31:21:     at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+2025-11-29T11:31:21:     at Hook._require.Module.require (C:\Users\ikett\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-11-29T11:31:21:     at require (node:internal/modules/helpers:147:16)
+2025-11-29T11:31:21:     at Object.<anonymous> (C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js:3:15)
+2025-11-29T11:31:21:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-11-29T11:31:21:     at Object..js (node:internal/modules/cjs/loader:1839:10)
+2025-11-29T11:31:21:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-11-29T11:31:21:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-11-29T11:31:21:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-11-29T11:31:21:     at wrapModuleLoad (node:internal/modules/cjs/loader:237:24) {
+2025-11-29T11:31:21:   code: 'MODULE_NOT_FOUND',
+2025-11-29T11:31:21:   requireStack: [
+2025-11-29T11:31:21:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\controllers\\staffController.js',
+2025-11-29T11:31:21:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\routes\\fhir.js',
+2025-11-29T11:31:21:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\server.js'
+2025-11-29T11:31:21:   ]
+2025-11-29T11:31:21: }
+2025-11-29T11:31:21: Error: Cannot find module 'axios'
+2025-11-29T11:31:21: Require stack:
+2025-11-29T11:31:21: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js
+2025-11-29T11:31:21: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\routes\fhir.js
+2025-11-29T11:31:21: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\server.js
+2025-11-29T11:31:21:     at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+2025-11-29T11:31:21:     at Hook._require.Module.require (C:\Users\ikett\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-11-29T11:31:21:     at require (node:internal/modules/helpers:147:16)
+2025-11-29T11:31:21:     at Object.<anonymous> (C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js:3:15)
+2025-11-29T11:31:21:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-11-29T11:31:21:     at Object..js (node:internal/modules/cjs/loader:1839:10)
+2025-11-29T11:31:21:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-11-29T11:31:21:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-11-29T11:31:21:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-11-29T11:31:21:     at wrapModuleLoad (node:internal/modules/cjs/loader:237:24) {
+2025-11-29T11:31:21:   code: 'MODULE_NOT_FOUND',
+2025-11-29T11:31:21:   requireStack: [
+2025-11-29T11:31:21:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\controllers\\staffController.js',
+2025-11-29T11:31:21:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\routes\\fhir.js',
+2025-11-29T11:31:21:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\server.js'
+2025-11-29T11:31:21:   ]
+2025-11-29T11:31:21: }
+2025-11-29T11:31:22: Error: Cannot find module 'axios'
+2025-11-29T11:31:22: Require stack:
+2025-11-29T11:31:22: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js
+2025-11-29T11:31:22: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\routes\fhir.js
+2025-11-29T11:31:22: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\server.js
+2025-11-29T11:31:22:     at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+2025-11-29T11:31:22:     at Hook._require.Module.require (C:\Users\ikett\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-11-29T11:31:22:     at require (node:internal/modules/helpers:147:16)
+2025-11-29T11:31:22:     at Object.<anonymous> (C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js:3:15)
+2025-11-29T11:31:22:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-11-29T11:31:22:     at Object..js (node:internal/modules/cjs/loader:1839:10)
+2025-11-29T11:31:22:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-11-29T11:31:22:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-11-29T11:31:22:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-11-29T11:31:22:     at wrapModuleLoad (node:internal/modules/cjs/loader:237:24) {
+2025-11-29T11:31:22:   code: 'MODULE_NOT_FOUND',
+2025-11-29T11:31:22:   requireStack: [
+2025-11-29T11:31:22:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\controllers\\staffController.js',
+2025-11-29T11:31:22:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\routes\\fhir.js',
+2025-11-29T11:31:22:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\server.js'
+2025-11-29T11:31:22:   ]
+2025-11-29T11:31:22: }
+2025-11-29T11:31:29: Error: Cannot find module 'axios'
+2025-11-29T11:31:29: Require stack:
+2025-11-29T11:31:29: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js
+2025-11-29T11:31:29: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\routes\fhir.js
+2025-11-29T11:31:29: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\server.js
+2025-11-29T11:31:29:     at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+2025-11-29T11:31:29:     at Hook._require.Module.require (C:\Users\ikett\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-11-29T11:31:29:     at require (node:internal/modules/helpers:147:16)
+2025-11-29T11:31:29:     at Object.<anonymous> (C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js:3:15)
+2025-11-29T11:31:29:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-11-29T11:31:29:     at Object..js (node:internal/modules/cjs/loader:1839:10)
+2025-11-29T11:31:29:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-11-29T11:31:29:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-11-29T11:31:29:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-11-29T11:31:29:     at wrapModuleLoad (node:internal/modules/cjs/loader:237:24) {
+2025-11-29T11:31:29:   code: 'MODULE_NOT_FOUND',
+2025-11-29T11:31:29:   requireStack: [
+2025-11-29T11:31:29:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\controllers\\staffController.js',
+2025-11-29T11:31:29:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\routes\\fhir.js',
+2025-11-29T11:31:29:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\server.js'
+2025-11-29T11:31:29:   ]
+2025-11-29T11:31:29: }
+2025-11-29T11:31:30: Error: Cannot find module 'axios'
+2025-11-29T11:31:30: Require stack:
+2025-11-29T11:31:30: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js
+2025-11-29T11:31:30: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\routes\fhir.js
+2025-11-29T11:31:30: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\server.js
+2025-11-29T11:31:30:     at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+2025-11-29T11:31:30:     at Hook._require.Module.require (C:\Users\ikett\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-11-29T11:31:30:     at require (node:internal/modules/helpers:147:16)
+2025-11-29T11:31:30:     at Object.<anonymous> (C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js:3:15)
+2025-11-29T11:31:30:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-11-29T11:31:30:     at Object..js (node:internal/modules/cjs/loader:1839:10)
+2025-11-29T11:31:30:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-11-29T11:31:30:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-11-29T11:31:30:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-11-29T11:31:30:     at wrapModuleLoad (node:internal/modules/cjs/loader:237:24) {
+2025-11-29T11:31:30:   code: 'MODULE_NOT_FOUND',
+2025-11-29T11:31:30:   requireStack: [
+2025-11-29T11:31:30:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\controllers\\staffController.js',
+2025-11-29T11:31:30:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\routes\\fhir.js',
+2025-11-29T11:31:30:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\server.js'
+2025-11-29T11:31:30:   ]
+2025-11-29T11:31:30: }
+2025-11-29T11:31:30: Error: Cannot find module 'axios'
+2025-11-29T11:31:30: Require stack:
+2025-11-29T11:31:30: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js
+2025-11-29T11:31:30: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\routes\fhir.js
+2025-11-29T11:31:30: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\server.js
+2025-11-29T11:31:30:     at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+2025-11-29T11:31:30:     at Hook._require.Module.require (C:\Users\ikett\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-11-29T11:31:30:     at require (node:internal/modules/helpers:147:16)
+2025-11-29T11:31:30:     at Object.<anonymous> (C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js:3:15)
+2025-11-29T11:31:30:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-11-29T11:31:30:     at Object..js (node:internal/modules/cjs/loader:1839:10)
+2025-11-29T11:31:30:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-11-29T11:31:30:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-11-29T11:31:30:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-11-29T11:31:30:     at wrapModuleLoad (node:internal/modules/cjs/loader:237:24) {
+2025-11-29T11:31:30:   code: 'MODULE_NOT_FOUND',
+2025-11-29T11:31:30:   requireStack: [
+2025-11-29T11:31:30:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\controllers\\staffController.js',
+2025-11-29T11:31:30:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\routes\\fhir.js',
+2025-11-29T11:31:30:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\server.js'
+2025-11-29T11:31:30:   ]
+2025-11-29T11:31:30: }
+2025-11-29T11:31:31: Error: Cannot find module 'axios'
+2025-11-29T11:31:31: Require stack:
+2025-11-29T11:31:31: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js
+2025-11-29T11:31:31: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\routes\fhir.js
+2025-11-29T11:31:31: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\server.js
+2025-11-29T11:31:31:     at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+2025-11-29T11:31:31:     at Hook._require.Module.require (C:\Users\ikett\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-11-29T11:31:31:     at require (node:internal/modules/helpers:147:16)
+2025-11-29T11:31:31:     at Object.<anonymous> (C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js:3:15)
+2025-11-29T11:31:31:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-11-29T11:31:31:     at Object..js (node:internal/modules/cjs/loader:1839:10)
+2025-11-29T11:31:31:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-11-29T11:31:31:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-11-29T11:31:31:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-11-29T11:31:31:     at wrapModuleLoad (node:internal/modules/cjs/loader:237:24) {
+2025-11-29T11:31:31:   code: 'MODULE_NOT_FOUND',
+2025-11-29T11:31:31:   requireStack: [
+2025-11-29T11:31:31:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\controllers\\staffController.js',
+2025-11-29T11:31:31:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\routes\\fhir.js',
+2025-11-29T11:31:31:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\server.js'
+2025-11-29T11:31:31:   ]
+2025-11-29T11:31:31: }
+2025-11-29T11:31:31: Error: Cannot find module 'axios'
+2025-11-29T11:31:31: Require stack:
+2025-11-29T11:31:31: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js
+2025-11-29T11:31:31: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\routes\fhir.js
+2025-11-29T11:31:31: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\server.js
+2025-11-29T11:31:31:     at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+2025-11-29T11:31:31:     at Hook._require.Module.require (C:\Users\ikett\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-11-29T11:31:31:     at require (node:internal/modules/helpers:147:16)
+2025-11-29T11:31:31:     at Object.<anonymous> (C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js:3:15)
+2025-11-29T11:31:31:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-11-29T11:31:31:     at Object..js (node:internal/modules/cjs/loader:1839:10)
+2025-11-29T11:31:31:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-11-29T11:31:31:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-11-29T11:31:31:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-11-29T11:31:31:     at wrapModuleLoad (node:internal/modules/cjs/loader:237:24) {
+2025-11-29T11:31:31:   code: 'MODULE_NOT_FOUND',
+2025-11-29T11:31:31:   requireStack: [
+2025-11-29T11:31:31:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\controllers\\staffController.js',
+2025-11-29T11:31:31:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\routes\\fhir.js',
+2025-11-29T11:31:31:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\server.js'
+2025-11-29T11:31:31:   ]
+2025-11-29T11:31:31: }
+2025-11-29T11:31:32: Error: Cannot find module 'axios'
+2025-11-29T11:31:32: Require stack:
+2025-11-29T11:31:32: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js
+2025-11-29T11:31:32: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\routes\fhir.js
+2025-11-29T11:31:32: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\server.js
+2025-11-29T11:31:32:     at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+2025-11-29T11:31:32:     at Hook._require.Module.require (C:\Users\ikett\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-11-29T11:31:32:     at require (node:internal/modules/helpers:147:16)
+2025-11-29T11:31:32:     at Object.<anonymous> (C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js:3:15)
+2025-11-29T11:31:32:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-11-29T11:31:32:     at Object..js (node:internal/modules/cjs/loader:1839:10)
+2025-11-29T11:31:32:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-11-29T11:31:32:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-11-29T11:31:32:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-11-29T11:31:32:     at wrapModuleLoad (node:internal/modules/cjs/loader:237:24) {
+2025-11-29T11:31:32:   code: 'MODULE_NOT_FOUND',
+2025-11-29T11:31:32:   requireStack: [
+2025-11-29T11:31:32:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\controllers\\staffController.js',
+2025-11-29T11:31:32:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\routes\\fhir.js',
+2025-11-29T11:31:32:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\server.js'
+2025-11-29T11:31:32:   ]
+2025-11-29T11:31:32: }
+2025-11-29T11:31:32: Error: Cannot find module 'axios'
+2025-11-29T11:31:32: Require stack:
+2025-11-29T11:31:32: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js
+2025-11-29T11:31:32: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\routes\fhir.js
+2025-11-29T11:31:32: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\server.js
+2025-11-29T11:31:32:     at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+2025-11-29T11:31:32:     at Hook._require.Module.require (C:\Users\ikett\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-11-29T11:31:32:     at require (node:internal/modules/helpers:147:16)
+2025-11-29T11:31:32:     at Object.<anonymous> (C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js:3:15)
+2025-11-29T11:31:32:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-11-29T11:31:32:     at Object..js (node:internal/modules/cjs/loader:1839:10)
+2025-11-29T11:31:32:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-11-29T11:31:32:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-11-29T11:31:32:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-11-29T11:31:32:     at wrapModuleLoad (node:internal/modules/cjs/loader:237:24) {
+2025-11-29T11:31:32:   code: 'MODULE_NOT_FOUND',
+2025-11-29T11:31:32:   requireStack: [
+2025-11-29T11:31:32:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\controllers\\staffController.js',
+2025-11-29T11:31:32:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\routes\\fhir.js',
+2025-11-29T11:31:32:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\server.js'
+2025-11-29T11:31:32:   ]
+2025-11-29T11:31:32: }
+2025-11-29T11:31:33: Error: Cannot find module 'axios'
+2025-11-29T11:31:33: Require stack:
+2025-11-29T11:31:33: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js
+2025-11-29T11:31:33: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\routes\fhir.js
+2025-11-29T11:31:33: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\server.js
+2025-11-29T11:31:33:     at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+2025-11-29T11:31:33:     at Hook._require.Module.require (C:\Users\ikett\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-11-29T11:31:33:     at require (node:internal/modules/helpers:147:16)
+2025-11-29T11:31:33:     at Object.<anonymous> (C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js:3:15)
+2025-11-29T11:31:33:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-11-29T11:31:33:     at Object..js (node:internal/modules/cjs/loader:1839:10)
+2025-11-29T11:31:33:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-11-29T11:31:33:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-11-29T11:31:33:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-11-29T11:31:33:     at wrapModuleLoad (node:internal/modules/cjs/loader:237:24) {
+2025-11-29T11:31:33:   code: 'MODULE_NOT_FOUND',
+2025-11-29T11:31:33:   requireStack: [
+2025-11-29T11:31:33:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\controllers\\staffController.js',
+2025-11-29T11:31:33:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\routes\\fhir.js',
+2025-11-29T11:31:33:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\server.js'
+2025-11-29T11:31:33:   ]
+2025-11-29T11:31:33: }
+2025-11-29T11:31:34: Error: Cannot find module 'axios'
+2025-11-29T11:31:34: Require stack:
+2025-11-29T11:31:34: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js
+2025-11-29T11:31:34: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\routes\fhir.js
+2025-11-29T11:31:34: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\server.js
+2025-11-29T11:31:34:     at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+2025-11-29T11:31:34:     at Hook._require.Module.require (C:\Users\ikett\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-11-29T11:31:34:     at require (node:internal/modules/helpers:147:16)
+2025-11-29T11:31:34:     at Object.<anonymous> (C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js:3:15)
+2025-11-29T11:31:34:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-11-29T11:31:34:     at Object..js (node:internal/modules/cjs/loader:1839:10)
+2025-11-29T11:31:34:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-11-29T11:31:34:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-11-29T11:31:34:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-11-29T11:31:34:     at wrapModuleLoad (node:internal/modules/cjs/loader:237:24) {
+2025-11-29T11:31:34:   code: 'MODULE_NOT_FOUND',
+2025-11-29T11:31:34:   requireStack: [
+2025-11-29T11:31:34:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\controllers\\staffController.js',
+2025-11-29T11:31:34:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\routes\\fhir.js',
+2025-11-29T11:31:34:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\server.js'
+2025-11-29T11:31:34:   ]
+2025-11-29T11:31:34: }
+2025-11-29T11:31:34: Error: Cannot find module 'axios'
+2025-11-29T11:31:34: Require stack:
+2025-11-29T11:31:34: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js
+2025-11-29T11:31:34: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\routes\fhir.js
+2025-11-29T11:31:34: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\server.js
+2025-11-29T11:31:34:     at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+2025-11-29T11:31:34:     at Hook._require.Module.require (C:\Users\ikett\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-11-29T11:31:34:     at require (node:internal/modules/helpers:147:16)
+2025-11-29T11:31:34:     at Object.<anonymous> (C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js:3:15)
+2025-11-29T11:31:34:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-11-29T11:31:34:     at Object..js (node:internal/modules/cjs/loader:1839:10)
+2025-11-29T11:31:34:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-11-29T11:31:34:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-11-29T11:31:34:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-11-29T11:31:34:     at wrapModuleLoad (node:internal/modules/cjs/loader:237:24) {
+2025-11-29T11:31:34:   code: 'MODULE_NOT_FOUND',
+2025-11-29T11:31:34:   requireStack: [
+2025-11-29T11:31:34:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\controllers\\staffController.js',
+2025-11-29T11:31:34:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\routes\\fhir.js',
+2025-11-29T11:31:34:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\server.js'
+2025-11-29T11:31:34:   ]
+2025-11-29T11:31:34: }
+2025-11-29T11:31:35: Error: Cannot find module 'axios'
+2025-11-29T11:31:35: Require stack:
+2025-11-29T11:31:35: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js
+2025-11-29T11:31:35: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\routes\fhir.js
+2025-11-29T11:31:35: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\server.js
+2025-11-29T11:31:35:     at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+2025-11-29T11:31:35:     at Hook._require.Module.require (C:\Users\ikett\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-11-29T11:31:35:     at require (node:internal/modules/helpers:147:16)
+2025-11-29T11:31:35:     at Object.<anonymous> (C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js:3:15)
+2025-11-29T11:31:35:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-11-29T11:31:35:     at Object..js (node:internal/modules/cjs/loader:1839:10)
+2025-11-29T11:31:35:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-11-29T11:31:35:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-11-29T11:31:35:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-11-29T11:31:35:     at wrapModuleLoad (node:internal/modules/cjs/loader:237:24) {
+2025-11-29T11:31:35:   code: 'MODULE_NOT_FOUND',
+2025-11-29T11:31:35:   requireStack: [
+2025-11-29T11:31:35:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\controllers\\staffController.js',
+2025-11-29T11:31:35:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\routes\\fhir.js',
+2025-11-29T11:31:35:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\server.js'
+2025-11-29T11:31:35:   ]
+2025-11-29T11:31:35: }
+2025-11-29T11:31:36: Error: Cannot find module 'axios'
+2025-11-29T11:31:36: Require stack:
+2025-11-29T11:31:36: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js
+2025-11-29T11:31:36: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\routes\fhir.js
+2025-11-29T11:31:36: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\server.js
+2025-11-29T11:31:36:     at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+2025-11-29T11:31:36:     at Hook._require.Module.require (C:\Users\ikett\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-11-29T11:31:36:     at require (node:internal/modules/helpers:147:16)
+2025-11-29T11:31:36:     at Object.<anonymous> (C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js:3:15)
+2025-11-29T11:31:36:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-11-29T11:31:36:     at Object..js (node:internal/modules/cjs/loader:1839:10)
+2025-11-29T11:31:36:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-11-29T11:31:36:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-11-29T11:31:36:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-11-29T11:31:36:     at wrapModuleLoad (node:internal/modules/cjs/loader:237:24) {
+2025-11-29T11:31:36:   code: 'MODULE_NOT_FOUND',
+2025-11-29T11:31:36:   requireStack: [
+2025-11-29T11:31:36:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\controllers\\staffController.js',
+2025-11-29T11:31:36:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\routes\\fhir.js',
+2025-11-29T11:31:36:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\server.js'
+2025-11-29T11:31:36:   ]
+2025-11-29T11:31:36: }
+2025-11-29T11:31:36: Error: Cannot find module 'axios'
+2025-11-29T11:31:36: Require stack:
+2025-11-29T11:31:36: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js
+2025-11-29T11:31:36: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\routes\fhir.js
+2025-11-29T11:31:36: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\server.js
+2025-11-29T11:31:36:     at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+2025-11-29T11:31:36:     at Hook._require.Module.require (C:\Users\ikett\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-11-29T11:31:36:     at require (node:internal/modules/helpers:147:16)
+2025-11-29T11:31:36:     at Object.<anonymous> (C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js:3:15)
+2025-11-29T11:31:36:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-11-29T11:31:36:     at Object..js (node:internal/modules/cjs/loader:1839:10)
+2025-11-29T11:31:36:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-11-29T11:31:36:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-11-29T11:31:36:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-11-29T11:31:36:     at wrapModuleLoad (node:internal/modules/cjs/loader:237:24) {
+2025-11-29T11:31:36:   code: 'MODULE_NOT_FOUND',
+2025-11-29T11:31:36:   requireStack: [
+2025-11-29T11:31:36:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\controllers\\staffController.js',
+2025-11-29T11:31:36:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\routes\\fhir.js',
+2025-11-29T11:31:36:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\server.js'
+2025-11-29T11:31:36:   ]
+2025-11-29T11:31:36: }
+2025-11-29T11:31:37: Error: Cannot find module 'axios'
+2025-11-29T11:31:37: Require stack:
+2025-11-29T11:31:37: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js
+2025-11-29T11:31:37: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\routes\fhir.js
+2025-11-29T11:31:37: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\server.js
+2025-11-29T11:31:37:     at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+2025-11-29T11:31:37:     at Hook._require.Module.require (C:\Users\ikett\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-11-29T11:31:37:     at require (node:internal/modules/helpers:147:16)
+2025-11-29T11:31:37:     at Object.<anonymous> (C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js:3:15)
+2025-11-29T11:31:37:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-11-29T11:31:37:     at Object..js (node:internal/modules/cjs/loader:1839:10)
+2025-11-29T11:31:37:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-11-29T11:31:37:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-11-29T11:31:37:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-11-29T11:31:37:     at wrapModuleLoad (node:internal/modules/cjs/loader:237:24) {
+2025-11-29T11:31:37:   code: 'MODULE_NOT_FOUND',
+2025-11-29T11:31:37:   requireStack: [
+2025-11-29T11:31:37:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\controllers\\staffController.js',
+2025-11-29T11:31:37:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\routes\\fhir.js',
+2025-11-29T11:31:37:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\server.js'
+2025-11-29T11:31:37:   ]
+2025-11-29T11:31:37: }
+2025-11-29T11:31:37: Error: Cannot find module 'axios'
+2025-11-29T11:31:37: Require stack:
+2025-11-29T11:31:37: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js
+2025-11-29T11:31:37: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\routes\fhir.js
+2025-11-29T11:31:37: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\server.js
+2025-11-29T11:31:37:     at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+2025-11-29T11:31:37:     at Hook._require.Module.require (C:\Users\ikett\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-11-29T11:31:37:     at require (node:internal/modules/helpers:147:16)
+2025-11-29T11:31:37:     at Object.<anonymous> (C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js:3:15)
+2025-11-29T11:31:37:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-11-29T11:31:37:     at Object..js (node:internal/modules/cjs/loader:1839:10)
+2025-11-29T11:31:37:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-11-29T11:31:37:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-11-29T11:31:37:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-11-29T11:31:37:     at wrapModuleLoad (node:internal/modules/cjs/loader:237:24) {
+2025-11-29T11:31:37:   code: 'MODULE_NOT_FOUND',
+2025-11-29T11:31:37:   requireStack: [
+2025-11-29T11:31:37:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\controllers\\staffController.js',
+2025-11-29T11:31:37:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\routes\\fhir.js',
+2025-11-29T11:31:37:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\server.js'
+2025-11-29T11:31:37:   ]
+2025-11-29T11:31:37: }
+2025-11-29T11:31:38: Error: Cannot find module 'axios'
+2025-11-29T11:31:38: Require stack:
+2025-11-29T11:31:38: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js
+2025-11-29T11:31:38: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\routes\fhir.js
+2025-11-29T11:31:38: - C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\server.js
+2025-11-29T11:31:38:     at Function._resolveFilename (node:internal/modules/cjs/loader:1383:15)
+2025-11-29T11:31:38:     at Hook._require.Module.require (C:\Users\ikett\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:81:25)
+2025-11-29T11:31:38:     at require (node:internal/modules/helpers:147:16)
+2025-11-29T11:31:38:     at Object.<anonymous> (C:\Users\ikett\Kouluprojekti\fhir-api-backend\src\controllers\staffController.js:3:15)
+2025-11-29T11:31:38:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-11-29T11:31:38:     at Object..js (node:internal/modules/cjs/loader:1839:10)
+2025-11-29T11:31:38:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-11-29T11:31:38:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-11-29T11:31:38:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-11-29T11:31:38:     at wrapModuleLoad (node:internal/modules/cjs/loader:237:24) {
+2025-11-29T11:31:38:   code: 'MODULE_NOT_FOUND',
+2025-11-29T11:31:38:   requireStack: [
+2025-11-29T11:31:38:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\controllers\\staffController.js',
+2025-11-29T11:31:38:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\routes\\fhir.js',
+2025-11-29T11:31:38:     'C:\\Users\\ikett\\Kouluprojekti\\fhir-api-backend\\src\\server.js'
+2025-11-29T11:31:38:   ]
+2025-11-29T11:31:38: }

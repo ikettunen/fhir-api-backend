@@ -1,8 +1,23 @@
 -- MySQL Schema for Nursing Home Dashboard
 -- This schema matches the structure expected by the seed.js file
 
+-- Drop all tables in reverse order (to handle foreign key constraints)
+SET FOREIGN_KEY_CHECKS = 0;
+DROP TABLE IF EXISTS fhir_audit_log;
+DROP TABLE IF EXISTS fhir_resources;
+DROP TABLE IF EXISTS vital_signs;
+DROP TABLE IF EXISTS visits;
+DROP TABLE IF EXISTS staff;
+DROP TABLE IF EXISTS emergency_contacts;
+DROP TABLE IF EXISTS patient_allergies;
+DROP TABLE IF EXISTS medications;
+DROP TABLE IF EXISTS medical_conditions;
+DROP TABLE IF EXISTS patient_identifiers;
+DROP TABLE IF EXISTS patients;
+SET FOREIGN_KEY_CHECKS = 1;
+
 -- Patients Table
-CREATE TABLE IF NOT EXISTS patients (
+CREATE TABLE patients (
   id VARCHAR(50) PRIMARY KEY,
   hetu VARCHAR(20) UNIQUE,
   first_name VARCHAR(100) NOT NULL,
@@ -23,7 +38,7 @@ CREATE TABLE IF NOT EXISTS patients (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- Patient Identifiers Table (for FHIR support)
-CREATE TABLE IF NOT EXISTS patient_identifiers (
+CREATE TABLE patient_identifiers (
   id INT AUTO_INCREMENT PRIMARY KEY,
   patient_id VARCHAR(50) NOT NULL,
   `system` VARCHAR(255) NOT NULL,
@@ -36,7 +51,7 @@ CREATE TABLE IF NOT EXISTS patient_identifiers (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- Medical Conditions Table
-CREATE TABLE IF NOT EXISTS medical_conditions (
+CREATE TABLE medical_conditions (
   id INT AUTO_INCREMENT PRIMARY KEY,
   patient_id VARCHAR(50) NOT NULL,
   name VARCHAR(100) NOT NULL,
@@ -52,7 +67,7 @@ CREATE TABLE IF NOT EXISTS medical_conditions (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- Medications Table
-CREATE TABLE IF NOT EXISTS medications (
+CREATE TABLE medications (
   id VARCHAR(50) PRIMARY KEY,
   patient_id VARCHAR(50) NOT NULL,
   name VARCHAR(100) NOT NULL,
@@ -70,7 +85,7 @@ CREATE TABLE IF NOT EXISTS medications (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- Patient Allergies Table
-CREATE TABLE IF NOT EXISTS patient_allergies (
+CREATE TABLE patient_allergies (
   id INT AUTO_INCREMENT PRIMARY KEY,
   patient_id VARCHAR(50) NOT NULL,
   allergen VARCHAR(100) NOT NULL,
@@ -83,7 +98,7 @@ CREATE TABLE IF NOT EXISTS patient_allergies (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- Emergency Contacts Table
-CREATE TABLE IF NOT EXISTS emergency_contacts (
+CREATE TABLE emergency_contacts (
   id INT AUTO_INCREMENT PRIMARY KEY,
   patient_id VARCHAR(50) NOT NULL,
   name VARCHAR(100) NOT NULL,
@@ -100,8 +115,9 @@ CREATE TABLE IF NOT EXISTS emergency_contacts (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- Staff Table
-CREATE TABLE IF NOT EXISTS staff (
+CREATE TABLE staff (
   id VARCHAR(50) PRIMARY KEY,
+  employee_id INT,
   first_name VARCHAR(100) NOT NULL,
   last_name VARCHAR(100) NOT NULL,
   role VARCHAR(50) NOT NULL,
@@ -111,14 +127,16 @@ CREATE TABLE IF NOT EXISTS staff (
   password_hash VARCHAR(255),
   hire_date DATE NOT NULL,
   status VARCHAR(20) NOT NULL DEFAULT 'active',
+  fhir_practitioner JSON COMMENT 'FHIR Practitioner resource with valvira_id, terhikki_id, qualifications, etc.',
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
   updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   INDEX idx_email (email),
-  INDEX idx_status (status)
+  INDEX idx_status (status),
+  INDEX idx_employee_id (employee_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- Visits Table
-CREATE TABLE IF NOT EXISTS visits (
+CREATE TABLE visits (
   id VARCHAR(50) PRIMARY KEY,
   patient_id VARCHAR(50) NOT NULL,
   patient_name VARCHAR(200),
@@ -139,7 +157,7 @@ CREATE TABLE IF NOT EXISTS visits (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- Vital Signs Table
-CREATE TABLE IF NOT EXISTS vital_signs (
+CREATE TABLE vital_signs (
   id INT AUTO_INCREMENT PRIMARY KEY,
   visit_id VARCHAR(50),
   patient_id VARCHAR(50) NOT NULL,
@@ -158,7 +176,7 @@ CREATE TABLE IF NOT EXISTS vital_signs (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- FHIR Resources Table (for FHIR resource storage)
-CREATE TABLE IF NOT EXISTS fhir_resources (
+CREATE TABLE fhir_resources (
   id INT AUTO_INCREMENT PRIMARY KEY,
   resource_type VARCHAR(50) NOT NULL,
   resource_id VARCHAR(50) NOT NULL,
@@ -174,7 +192,7 @@ CREATE TABLE IF NOT EXISTS fhir_resources (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- FHIR Audit Log Table
-CREATE TABLE IF NOT EXISTS fhir_audit_log (
+CREATE TABLE fhir_audit_log (
   id INT AUTO_INCREMENT PRIMARY KEY,
   resource_type VARCHAR(50) NOT NULL,
   resource_id VARCHAR(50) NOT NULL,

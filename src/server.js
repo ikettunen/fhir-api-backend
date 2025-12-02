@@ -9,10 +9,14 @@ require('dotenv').config();
 const fhirRoutes = require('./routes/fhir');
 const dbRoutes = require('./routes/db');
 const patientsRoutes = require('./routes/patients');
+const medicationsRoutes = require('./routes/medications');
 const staffController = require('./controllers/staffController');
 
 // Import middleware
 const errorHandler = require('./middleware/errorHandler');
+
+// Import database
+const database = require('./config/database');
 
 const app = express();
 const PORT = process.env.PORT || 8080;
@@ -53,6 +57,7 @@ app.get('/health', (req, res) => {
 app.use('/api/fhir', fhirRoutes);
 app.use('/api/db', dbRoutes);
 app.use('/api/patients', patientsRoutes);
+app.use('/api/medications', medicationsRoutes);
 
 // Staff routes (direct access for REST API)
 // Note: More specific routes must come before generic :id routes
@@ -75,12 +80,28 @@ app.use('*', (req, res) => {
   });
 });
 
-// Start server
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
-  console.log(`Health check available at http://localhost:${PORT}/health`);
-  console.log(`FHIR API available at http://localhost:${PORT}/api/fhir`);
-  console.log(`Database API available at http://localhost:${PORT}/api/db`);
-});
+// Initialize database and start server
+async function startServer() {
+  try {
+    // Initialize database connection
+    await database.createDatabase();
+    await database.initialize();
+    console.log('Database initialized successfully');
+    
+    // Start server
+    app.listen(PORT, () => {
+      console.log(`Server running on port ${PORT}`);
+      console.log(`Health check available at http://localhost:${PORT}/health`);
+      console.log(`FHIR API available at http://localhost:${PORT}/api/fhir`);
+      console.log(`Database API available at http://localhost:${PORT}/api/db`);
+    });
+  } catch (error) {
+    console.error('Failed to start server:', error);
+    process.exit(1);
+  }
+}
+
+// Start the server
+startServer();
 
 module.exports = app;

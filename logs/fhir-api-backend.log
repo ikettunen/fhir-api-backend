@@ -5311,3 +5311,58 @@
 2025-12-03T19:09:12: Health check available at http://localhost:8080/health
 2025-12-03T19:09:12: FHIR API available at http://localhost:8080/api/fhir
 2025-12-03T19:09:12: Database API available at http://localhost:8080/api/db
+2025-12-03T19:12:05: [32minfo[39m: Database 'nursing_home_db' created or already exists {"service":"nursing-home-backend","timestamp":"2025-12-03T17:12:05.416Z"}
+2025-12-03T19:12:05: [32minfo[39m: Database connection pool initialized for 'nursing_home_db' {"service":"nursing-home-backend","timestamp":"2025-12-03T17:12:05.425Z"}
+2025-12-03T19:12:05: Database initialized successfully
+2025-12-03T19:12:05: Server running on port 8080
+2025-12-03T19:12:05: Health check available at http://localhost:8080/health
+2025-12-03T19:12:05: FHIR API available at http://localhost:8080/api/fhir
+2025-12-03T19:12:05: Database API available at http://localhost:8080/api/db
+2025-12-03T19:12:37: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-12-03T17:12:37.685Z"}
+2025-12-03T19:12:37: [32minfo[39m: Retrieved 12 patients {"service":"nursing-home-backend","timestamp":"2025-12-03T17:12:37.742Z"}
+2025-12-03T19:12:37: ::1 - - [03/Dec/2025:17:12:37 +0000] "GET /api/patients HTTP/1.1" 200 13051 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-12-03T19:12:37: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-12-03T17:12:37.776Z"}
+2025-12-03T19:12:37: [32minfo[39m: Retrieved 12 patients {"service":"nursing-home-backend","timestamp":"2025-12-03T17:12:37.793Z"}
+2025-12-03T19:12:37: ::1 - - [03/Dec/2025:17:12:37 +0000] "GET /api/patients HTTP/1.1" 200 13051 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-12-03T19:12:40: [32minfo[39m: Fetching patient with ID: bae8235c-4670-4b01-bf2f-e87accd712dc {"service":"nursing-home-backend","timestamp":"2025-12-03T17:12:40.562Z"}
+2025-12-03T19:12:40: [32minfo[39m: Retrieved patient: Matti Virtanen {"service":"nursing-home-backend","timestamp":"2025-12-03T17:12:40.573Z"}
+2025-12-03T19:12:40: ::1 - - [03/Dec/2025:17:12:40 +0000] "GET /api/patients/bae8235c-4670-4b01-bf2f-e87accd712dc HTTP/1.1" 200 1202 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-12-03T19:12:40: [32minfo[39m: Fetching patient with ID: bae8235c-4670-4b01-bf2f-e87accd712dc {"service":"nursing-home-backend","timestamp":"2025-12-03T17:12:40.588Z"}
+2025-12-03T19:12:40: [32minfo[39m: Retrieved patient: Matti Virtanen {"service":"nursing-home-backend","timestamp":"2025-12-03T17:12:40.597Z"}
+2025-12-03T19:12:40: ::1 - - [03/Dec/2025:17:12:40 +0000] "GET /api/patients/bae8235c-4670-4b01-bf2f-e87accd712dc HTTP/1.1" 200 1202 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-12-03T19:22:04: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-12-03T17:22:04.016Z"}
+2025-12-03T19:22:04: [32minfo[39m: Retrieved 12 patients {"service":"nursing-home-backend","timestamp":"2025-12-03T17:22:04.026Z"}
+2025-12-03T19:22:04: ::1 - - [03/Dec/2025:17:22:04 +0000] "GET /api/patients HTTP/1.1" 200 13051 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-12-03T19:22:04: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-12-03T17:22:04.038Z"}
+2025-12-03T19:22:04: [32minfo[39m: Retrieved 12 patients {"service":"nursing-home-backend","timestamp":"2025-12-03T17:22:04.047Z"}
+2025-12-03T19:22:04: ::1 - - [03/Dec/2025:17:22:04 +0000] "GET /api/patients HTTP/1.1" 200 13051 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-12-03T19:22:07: [32minfo[39m: Fetching patient with ID: bae8235c-4670-4b01-bf2f-e87accd712dc {"service":"nursing-home-backend","timestamp":"2025-12-03T17:22:07.673Z"}
+2025-12-03T19:22:07: [32minfo[39m: Retrieved patient: Matti Virtanen {"service":"nursing-home-backend","timestamp":"2025-12-03T17:22:07.681Z"}
+2025-12-03T19:22:07: ::1 - - [03/Dec/2025:17:22:07 +0000] "GET /api/patients/bae8235c-4670-4b01-bf2f-e87accd712dc HTTP/1.1" 200 1202 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-12-03T19:22:08: [32minfo[39m: Fetching patient with ID: bae8235c-4670-4b01-bf2f-e87accd712dc {"service":"nursing-home-backend","timestamp":"2025-12-03T17:22:08.009Z"}
+2025-12-03T19:22:08: [32minfo[39m: Retrieved patient: Matti Virtanen {"service":"nursing-home-backend","timestamp":"2025-12-03T17:22:08.020Z"}
+2025-12-03T19:22:08: ::1 - - [03/Dec/2025:17:22:08 +0000] "GET /api/patients/bae8235c-4670-4b01-bf2f-e87accd712dc HTTP/1.1" 200 1202 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-12-03T19:26:09: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-12-03T17:26:09.182Z"}
+2025-12-03T19:26:09: [32minfo[39m: Retrieved 12 patients {"service":"nursing-home-backend","timestamp":"2025-12-03T17:26:09.195Z"}
+2025-12-03T19:26:09: ::1 - - [03/Dec/2025:17:26:09 +0000] "GET /api/patients HTTP/1.1" 200 12463 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-12-03T19:26:09: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-12-03T17:26:09.209Z"}
+2025-12-03T19:26:09: [32minfo[39m: Retrieved 12 patients {"service":"nursing-home-backend","timestamp":"2025-12-03T17:26:09.217Z"}
+2025-12-03T19:26:09: ::1 - - [03/Dec/2025:17:26:09 +0000] "GET /api/patients HTTP/1.1" 200 12463 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-12-03T19:26:12: [32minfo[39m: Fetching patient with ID: d19bb8a9-14db-4544-870a-61e45f2bd1f7 {"service":"nursing-home-backend","timestamp":"2025-12-03T17:26:12.162Z"}
+2025-12-03T19:26:12: [32minfo[39m: Retrieved patient: Matti Virtanen {"service":"nursing-home-backend","timestamp":"2025-12-03T17:26:12.169Z"}
+2025-12-03T19:26:12: ::1 - - [03/Dec/2025:17:26:12 +0000] "GET /api/patients/d19bb8a9-14db-4544-870a-61e45f2bd1f7 HTTP/1.1" 200 1128 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-12-03T19:26:12: [32minfo[39m: Fetching patient with ID: d19bb8a9-14db-4544-870a-61e45f2bd1f7 {"service":"nursing-home-backend","timestamp":"2025-12-03T17:26:12.471Z"}
+2025-12-03T19:26:12: [32minfo[39m: Retrieved patient: Matti Virtanen {"service":"nursing-home-backend","timestamp":"2025-12-03T17:26:12.482Z"}
+2025-12-03T19:26:12: ::1 - - [03/Dec/2025:17:26:12 +0000] "GET /api/patients/d19bb8a9-14db-4544-870a-61e45f2bd1f7 HTTP/1.1" 200 1128 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-12-03T19:43:29: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-12-03T17:43:29.575Z"}
+2025-12-03T19:43:29: [32minfo[39m: Retrieved 12 patients {"service":"nursing-home-backend","timestamp":"2025-12-03T17:43:29.587Z"}
+2025-12-03T19:43:29: ::1 - - [03/Dec/2025:17:43:29 +0000] "GET /api/patients HTTP/1.1" 200 12463 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-12-03T19:43:29: [32minfo[39m: Fetching all patients {"service":"nursing-home-backend","timestamp":"2025-12-03T17:43:29.598Z"}
+2025-12-03T19:43:29: [32minfo[39m: Retrieved 12 patients {"service":"nursing-home-backend","timestamp":"2025-12-03T17:43:29.606Z"}
+2025-12-03T19:43:29: ::1 - - [03/Dec/2025:17:43:29 +0000] "GET /api/patients HTTP/1.1" 200 12463 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-12-03T19:43:32: [32minfo[39m: Fetching patient with ID: d19bb8a9-14db-4544-870a-61e45f2bd1f7 {"service":"nursing-home-backend","timestamp":"2025-12-03T17:43:32.602Z"}
+2025-12-03T19:43:32: [32minfo[39m: Retrieved patient: Matti Virtanen {"service":"nursing-home-backend","timestamp":"2025-12-03T17:43:32.606Z"}
+2025-12-03T19:43:32: ::1 - - [03/Dec/2025:17:43:32 +0000] "GET /api/patients/d19bb8a9-14db-4544-870a-61e45f2bd1f7 HTTP/1.1" 200 1128 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+2025-12-03T19:43:32: [32minfo[39m: Fetching patient with ID: d19bb8a9-14db-4544-870a-61e45f2bd1f7 {"service":"nursing-home-backend","timestamp":"2025-12-03T17:43:32.615Z"}
+2025-12-03T19:43:32: [32minfo[39m: Retrieved patient: Matti Virtanen {"service":"nursing-home-backend","timestamp":"2025-12-03T17:43:32.621Z"}
+2025-12-03T19:43:32: ::1 - - [03/Dec/2025:17:43:32 +0000] "GET /api/patients/d19bb8a9-14db-4544-870a-61e45f2bd1f7 HTTP/1.1" 200 1128 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
